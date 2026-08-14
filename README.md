@@ -27,3 +27,9 @@
 
 ```bash
 suraj@dev-zero:~$ neofetch
+
+Role: Software Developer & Builder
+Focus: Web Applications, Scalable Tools & Open Source
+Project: Dev-Zer0 & Zero Ecosystem
+Website: [https://zero.skillissue.gg](https://zero.skillissue.gg)
+Status: ⚡ Building cool stuff every day
