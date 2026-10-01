@@ -40,9 +40,9 @@
   </p>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dist/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="dist/pacman-contribution-graph.svg">
-    <img alt="Pac-Man eating Suraj's GitHub contribution grid" src="dist/pacman-contribution-graph-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Suraj-Mavuleti/Suraj-Mavuleti/master/dist/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Suraj-Mavuleti/Suraj-Mavuleti/master/dist/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating Suraj's GitHub contribution grid" src="https://raw.githubusercontent.com/Suraj-Mavuleti/Suraj-Mavuleti/master/dist/pacman-contribution-graph-dark.svg" width="100%" />
   </picture>
 
   <p><sub><em>🎮 Watch Pac-Man gobble up my 30,000+ GitHub contributions in real-time! Auto-updated daily via GitHub Actions.</em></sub></p>
