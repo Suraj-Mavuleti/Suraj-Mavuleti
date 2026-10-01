@@ -349,12 +349,17 @@ def generate_svg(theme_name="dark"):
     return output_str
 
 if __name__ == "__main__":
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    dist_dir = os.path.join(script_dir, "dist")
+    os.makedirs(dist_dir, exist_ok=True)
+    
     dark_svg = generate_svg("dark")
-    with open("/home/suraj/antigravity-projects/Suraj-Mavuleti/dist/pacman-contribution-graph-dark.svg", "w") as f:
+    with open(os.path.join(dist_dir, "pacman-contribution-graph-dark.svg"), "w") as f:
         f.write(dark_svg)
         
     light_svg = generate_svg("light")
-    with open("/home/suraj/antigravity-projects/Suraj-Mavuleti/dist/pacman-contribution-graph.svg", "w") as f:
+    with open(os.path.join(dist_dir, "pacman-contribution-graph.svg"), "w") as f:
         f.write(light_svg)
         
     print("Successfully saved both SVGs into dist/!")
