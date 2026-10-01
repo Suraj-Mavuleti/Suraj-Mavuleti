@@ -23,7 +23,7 @@
 
   <img src="dist/pacman-matrix.svg" width="100%" alt="Pac-Man eating Suraj's GitHub contribution grid with 2-second regeneration" />
 
-  <p><sub><em>🎮 Watch Pac-Man navigate the authentic arcade maze corridors and gobble up my 62,000+ GitHub contributions across an unbroken 369+ day streak with 150–200+ daily commits! When eaten, each block regenerates back to life in 2 seconds. Auto-updated daily via GitHub Actions.</em></sub></p>
+  <p><sub><em>🎮 Watch Pac-Man navigate the authentic arcade maze corridors and gobble up my GitHub contributions across an unbroken streak with daily commits! When eaten, each block regenerates back to life in 2 seconds. Auto-updated daily via GitHub Actions.</em></sub></p>
 </div>
 
 ---
@@ -31,14 +31,13 @@
 ### 👾 PLAYER TERMINAL & CREDENTIALS
 
 ```bash
-┌──[ DEV//ZERO ARCADE TERMINAL ]────────────────────────────────────────────────┐
-│ PLAYER:      Suraj Mavuleti (alias: Dev Zero)                                 │
-│ EDUCATION:   BS in Electronic Systems — Indian Institute of Technology, Madras│
+┌──[ DEV//ZERO SYSTEMS TERMINAL ]───────────────────────────────────────────────┐
+│ OPERATOR:    Suraj Mavuleti (alias: Dev Zero)                                 │
+│ EDUCATION:   BS in Electronic Systems — Indian Institute of Technology Madras │
 │ INSTITUTION: IIT Madras (IITM)                                                │
-│ STREAK:      🔥 369+ Days Continuous Unbroken Activity (150–200+ Commits/Day) │
-│ HIGH SCORE:  62,000+ Public Commits & Continuous System Pushes                │
+│ STREAK:      🔥 Active Daily Unbroken Activity (Auto-synced via CI/CD)        │
 │ ROLE:        Software Developer & Systems Architect                           │
-│ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine    │
+│ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engines   │
 │ PORTAL:      https://zero.skillissue.gg                                       │
 │ STATUS:      ⚡ Building high-impact autonomous architectures                 │
 └───────────────────────────────────────────────────────────────────────────────┘
