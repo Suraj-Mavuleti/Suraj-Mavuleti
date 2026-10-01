@@ -1,0 +1,46 @@
+<svg width="850" height="150" viewBox="0 0 850 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D13" />
+    </linearGradient>
+    <style>
+      .card-box { fill: url(#cardBg); stroke: #1E293B; stroke-width: 1.5; rx: 8; }
+      .p-title { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 600; fill: #64748B; letter-spacing: 1px; }
+      .p-num { font-family: 'Fira Code', monospace; font-size: 26px; font-weight: 800; fill: #10B981; }
+      .p-sub { font-family: -apple-system, sans-serif; font-size: 11px; fill: #94A3B8; }
+      .pulse-dot { fill: #10B981; animation: pulseDot 2s infinite; }
+      @keyframes pulseDot { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Panel 1: Current Streak -->
+  <g transform="translate(10, 10)">
+    <rect width="265" height="130" class="card-box" />
+    <circle cx="28" cy="28" r="5" class="pulse-dot" />
+    <text x="42" y="32" class="p-title">CURRENT STREAK</text>
+    <text x="28" y="74" class="p-num" fill="#F59E0B">🔥 369 DAYS</text>
+    <text x="28" y="100" class="p-sub">Sep 28, 2025 – Present</text>
+    <text x="28" y="116" class="p-sub" fill="#10B981">100% Unbroken Calendar</text>
+  </g>
+
+  <!-- Panel 2: Total Contributions -->
+  <g transform="translate(290, 10)">
+    <rect width="270" height="130" class="card-box" />
+    <circle cx="28" cy="28" r="5" class="pulse-dot" />
+    <text x="42" y="32" class="p-title">TOTAL CONTRIBUTIONS</text>
+    <text x="28" y="74" class="p-num">⚡ 62,000+</text>
+    <text x="28" y="100" class="p-sub">Rank: God Tier S+</text>
+    <text x="28" y="116" class="p-sub" fill="#38BDF8">Daily Velocity: 150–200+ Pushes</text>
+  </g>
+
+  <!-- Panel 3: Longest Streak & Reliability -->
+  <g transform="translate(575, 10)">
+    <rect width="265" height="130" class="card-box" />
+    <circle cx="28" cy="28" r="5" class="pulse-dot" />
+    <text x="42" y="32" class="p-title">STREAK HEALTH</text>
+    <text x="28" y="74" class="p-num" fill="#38BDF8">🛡️ ZERO GAPS</text>
+    <text x="28" y="100" class="p-sub">Longest Streak: 369 Days</text>
+    <text x="28" y="116" class="p-sub" fill="#10B981">System Uptime: 100.0%</text>
+  </g>
+</svg>

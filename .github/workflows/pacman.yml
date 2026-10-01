@@ -26,7 +26,7 @@ jobs:
       - name: Fetch Live GitHub Contributions & Generate Pac-Man Graph
         run: |
           curl -sL https://zero.skillissue.gg/api/github-contributions -o /tmp/contributions.json
-          python3 generate_pacman_svg.py
+          python3 build_native_assets.py
 
       - name: Commit and Push Updated SVGs
         run: |

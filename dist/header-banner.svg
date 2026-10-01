@@ -1,0 +1,108 @@
+<svg width="850" height="220" viewBox="0 0 850 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d13" />
+      <stop offset="40%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <style>
+      .title { font-family: 'Fira Code', -apple-system, monospace, sans-serif; font-size: 38px; font-weight: 800; fill: #FFFFFF; letter-spacing: 4px; }
+      .sub { font-family: 'Fira Code', -apple-system, monospace, sans-serif; font-size: 13px; font-weight: 600; fill: #10B981; letter-spacing: 2px; }
+      .typewriter { font-family: 'Fira Code', -apple-system, monospace, sans-serif; font-size: 14px; font-weight: 500; fill: #E2E8F0; }
+      .grid-line { stroke: #1e293b; stroke-width: 0.8; opacity: 0.4; }
+      .wave { fill: none; stroke: url(#glowGrad); stroke-width: 2.5; opacity: 0.7; }
+      
+      @keyframes waveAnim {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-40px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes pulseText {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #10B981); }
+      }
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      
+      .wave-path { animation: waveAnim 8s ease-in-out infinite; }
+      .title-glow { animation: pulseText 4s ease-in-out infinite; }
+      .cursor { animation: blinkCursor 0.8s infinite; }
+      
+      /* Typewriter line rotations */
+      @keyframes type1 {
+        0%, 20% { opacity: 1; }
+        25%, 100% { opacity: 0; }
+      }
+      @keyframes type2 {
+        0%, 20% { opacity: 0; }
+        25%, 45% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes type3 {
+        0%, 45% { opacity: 0; }
+        50%, 70% { opacity: 1; }
+        75%, 100% { opacity: 0; }
+      }
+      @keyframes type4 {
+        0%, 70% { opacity: 0; }
+        75%, 95% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      .t1 { animation: type1 16s infinite; }
+      .t2 { animation: type2 16s infinite; }
+      .t3 { animation: type3 16s infinite; }
+      .t4 { animation: type4 16s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="850" height="220" rx="12" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Subtle Cyber Grid -->
+  <line x1="0" y1="44" x2="850" y2="44" class="grid-line" />
+  <line x1="0" y1="88" x2="850" y2="88" class="grid-line" />
+  <line x1="0" y1="132" x2="850" y2="132" class="grid-line" />
+  <line x1="0" y1="176" x2="850" y2="176" class="grid-line" />
+  
+  <!-- Cyber Glow Wave Bottom -->
+  <g class="wave-path">
+    <path d="M -50 200 Q 150 160 350 200 T 750 200 T 950 200" class="wave" />
+  </g>
+
+  <!-- Corner Status Badges -->
+  <g transform="translate(30, 28)">
+    <circle cx="0" cy="0" r="4.5" fill="#10B981" />
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.5" />
+    <text x="14" y="4" font-family="'Fira Code', monospace" font-size="11" fill="#10B981" font-weight="600">SYS_STATUS: ONLINE // LEVEL 99</text>
+  </g>
+  <text x="820" y="32" text-anchor="end" font-family="'Fira Code', monospace" font-size="11" fill="#64748B">zero.skillissue.gg</text>
+
+  <!-- Main Hero Title -->
+  <text x="425.0" y="95" text-anchor="middle" class="title title-glow">SURAJ MAVULETI</text>
+  
+  <!-- Subtitle -->
+  <text x="425.0" y="125" text-anchor="middle" class="sub">DEV // ZERO • SYSTEMS ARCHITECT • BS IN ELECTRONIC SYSTEMS @ IIT MADRAS</text>
+
+  <!-- Typewriter Carousel Area -->
+  <g transform="translate(425.0, 168)" text-anchor="middle" class="typewriter">
+    <g class="t1">
+      <text x="0" y="0">🎓 BS in Electronic Systems — Indian Institute of Technology, Madras (IITM)</text>
+    </g>
+    <g class="t2">
+      <text x="0" y="0">🔥 62,000+ Production Commits • 369+ Days Unbroken Activity</text>
+    </g>
+    <g class="t3">
+      <text x="0" y="0">⚡ 150–200+ Daily Pushes Across Full 369-Day Calendar</text>
+    </g>
+    <g class="t4">
+      <text x="0" y="0">🚀 Creator of ZeroMusic, Zero Control &amp; High On Therapy AI</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="850" height="42" viewBox="0 0 850 42" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; }
+      .badge-icon { font-size: 12px; }
+    </style>
+  </defs>
+
+  <!-- 1. Education Badge (NO external link!) -->
+  <g transform="translate(10, 4)">
+    <rect width="265" height="34" rx="6" fill="#0052cc" />
+    <rect width="36" height="34" rx="6" fill="#003e99" />
+    <text x="18" y="22" text-anchor="middle" class="badge-icon">🎓</text>
+    <text x="46" y="21" class="badge-text">IIT Madras (IITM) • BS Electronic Systems</text>
+  </g>
+
+  <!-- 2. Streak Badge -->
+  <a href="https://github.com/Suraj-Mavuleti">
+    <g transform="translate(285, 4)">
+      <rect width="170" height="34" rx="6" fill="#dc2626" />
+      <rect width="34" height="34" rx="6" fill="#991b1b" />
+      <text x="17" y="22" text-anchor="middle" class="badge-icon">🔥</text>
+      <text x="44" y="21" class="badge-text">Streak: 369+ Days</text>
+    </g>
+  </a>
+
+  <!-- 3. Commits Badge -->
+  <a href="https://github.com/Suraj-Mavuleti">
+    <g transform="translate(465, 4)">
+      <rect width="180" height="34" rx="6" fill="#059669" />
+      <rect width="34" height="34" rx="6" fill="#047857" />
+      <text x="17" y="22" text-anchor="middle" class="badge-icon">⚡</text>
+      <text x="44" y="21" class="badge-text">62,000+ Commits</text>
+    </g>
+  </a>
+
+  <!-- 4. Portfolio Wiki Badge -->
+  <a href="https://zero.skillissue.gg" target="_blank">
+    <g transform="translate(655, 4)">
+      <rect width="185" height="34" rx="6" fill="#0284c7" />
+      <rect width="34" height="34" rx="6" fill="#0369a1" />
+      <text x="17" y="22" text-anchor="middle" class="badge-icon">🌐</text>
+      <text x="44" y="21" class="badge-text">zero.skillissue.gg</text>
+    </g>
+  </a>
+</svg>

@@ -1,0 +1,77 @@
+<svg width="850" height="130" viewBox="0 0 850 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .box { rx: 6; stroke: #334155; stroke-width: 1; }
+      .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace, sans-serif; font-size: 11px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="850" height="130" rx="8" fill="#0D1117" stroke="#1E293B" stroke-width="1.2"/>
+  
+  <g transform="translate(18, 16)">
+    <g transform="translate(0, 8)">
+      <rect width="104" height="32" rx="6" fill="#3178C6" class="box" />
+      <text x="52.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">TypeScript</text>
+    </g>
+    <g transform="translate(114, 8)">
+      <rect width="104" height="32" rx="6" fill="#F7DF1E" class="box" />
+      <text x="52.0" y="20" text-anchor="middle" fill="#000000" class="pill-text">JavaScript</text>
+    </g>
+    <g transform="translate(228, 8)">
+      <rect width="80" height="32" rx="6" fill="#339933" class="box" />
+      <text x="40.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">Node.js</text>
+    </g>
+    <g transform="translate(318, 8)">
+      <rect width="72" height="32" rx="6" fill="#3776AB" class="box" />
+      <text x="36.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">Python</text>
+    </g>
+    <g transform="translate(400, 8)">
+      <rect width="56" height="32" rx="6" fill="#DEA584" class="box" />
+      <text x="28.0" y="20" text-anchor="middle" fill="#000000" class="pill-text">Rust</text>
+    </g>
+    <g transform="translate(466, 8)">
+      <rect width="80" height="32" rx="6" fill="#00599C" class="box" />
+      <text x="40.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">C / C++</text>
+    </g>
+    <g transform="translate(556, 8)">
+      <rect width="120" height="32" rx="6" fill="#1793D1" class="box" />
+      <text x="60.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">Linux / Arch</text>
+    </g>
+    <g transform="translate(686, 8)">
+      <rect width="152" height="32" rx="6" fill="#3DDC84" class="box" />
+      <text x="76.0" y="20" text-anchor="middle" fill="#000000" class="pill-text">Android / Kotlin</text>
+    </g>
+    <g transform="translate(0, 52)">
+      <rect width="144" height="32" rx="6" fill="#FF6B6B" class="box" />
+      <text x="72.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">WebRTC / Media3</text>
+    </g>
+    <g transform="translate(154, 52)">
+      <rect width="96" height="32" rx="6" fill="#E65100" class="box" />
+      <text x="48.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">GStreamer</text>
+    </g>
+    <g transform="translate(260, 52)">
+      <rect width="80" height="32" rx="6" fill="#EE4C2C" class="box" />
+      <text x="40.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">PyTorch</text>
+    </g>
+    <g transform="translate(350, 52)">
+      <rect width="80" height="32" rx="6" fill="#009688" class="box" />
+      <text x="40.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">FastAPI</text>
+    </g>
+    <g transform="translate(440, 52)">
+      <rect width="152" height="32" rx="6" fill="#E34F26" class="box" />
+      <text x="76.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">HTML5 &amp; CSS3</text>
+    </g>
+    <g transform="translate(602, 52)">
+      <rect width="112" height="32" rx="6" fill="#06B6D4" class="box" />
+      <text x="56.0" y="20" text-anchor="middle" fill="#000000" class="pill-text">TailwindCSS</text>
+    </g>
+    <g transform="translate(724, 52)">
+      <rect width="152" height="32" rx="6" fill="#F05032" class="box" />
+      <text x="76.0" y="20" text-anchor="middle" fill="#FFFFFF" class="pill-text">Git &amp; GitHub</text>
+    </g>
+    <g transform="translate(886, 52)">
+      <rect width="88" height="32" rx="6" fill="#FFFFFF" class="box" />
+      <text x="44.0" y="20" text-anchor="middle" fill="#000000" class="pill-text">Three.js</text>
+    </g>
+  </g>
+</svg>

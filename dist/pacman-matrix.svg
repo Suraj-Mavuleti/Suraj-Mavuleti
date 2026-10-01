@@ -1,0 +1,3256 @@
+<svg width="816" height="185" viewBox="0 0 816 185" xmlns="http://www.w3.org/2000/svg">
+<defs><style>
+      .bg { fill: #0D1117; stroke: #30363D; stroke-width: 1; rx: 8; }
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10px; fill: #8B949E; }
+      .title { font-family: 'Fira Code', -apple-system, monospace; font-size: 12px; font-weight: 600; fill: #E6EDF3; }
+      .sub { font-family: 'Fira Code', -apple-system, monospace; font-size: 10px; fill: #10B981; }
+      .cell { rx: 2px; ry: 2px; transform-box: fill-box; transform-origin: center; }
+    
+@keyframes pac-move {
+  0.00% { transform: translate(47.5px, 71.5px) rotate(0deg); }
+  0.46% { transform: translate(61.5px, 71.5px) rotate(0deg); }
+  0.92% { transform: translate(75.5px, 71.5px) rotate(0deg); }
+  1.38% { transform: translate(89.5px, 71.5px) rotate(0deg); }
+  1.84% { transform: translate(103.5px, 71.5px) rotate(0deg); }
+  2.30% { transform: translate(117.5px, 71.5px) rotate(0deg); }
+  2.76% { transform: translate(131.5px, 71.5px) rotate(0deg); }
+  3.23% { transform: translate(145.5px, 71.5px) rotate(0deg); }
+  3.69% { transform: translate(159.5px, 71.5px) rotate(0deg); }
+  4.15% { transform: translate(173.5px, 71.5px) rotate(0deg); }
+  4.61% { transform: translate(187.5px, 71.5px) rotate(0deg); }
+  5.07% { transform: translate(201.5px, 71.5px) rotate(0deg); }
+  5.53% { transform: translate(215.5px, 71.5px) rotate(0deg); }
+  5.99% { transform: translate(229.5px, 71.5px) rotate(0deg); }
+  6.45% { transform: translate(243.5px, 71.5px) rotate(0deg); }
+  6.91% { transform: translate(257.5px, 71.5px) rotate(0deg); }
+  7.37% { transform: translate(271.5px, 71.5px) rotate(0deg); }
+  7.83% { transform: translate(285.5px, 71.5px) rotate(0deg); }
+  8.29% { transform: translate(299.5px, 71.5px) rotate(0deg); }
+  8.76% { transform: translate(313.5px, 71.5px) rotate(0deg); }
+  9.22% { transform: translate(327.5px, 71.5px) rotate(0deg); }
+  9.68% { transform: translate(341.5px, 71.5px) rotate(0deg); }
+  10.14% { transform: translate(355.5px, 71.5px) rotate(0deg); }
+  10.60% { transform: translate(369.5px, 71.5px) rotate(0deg); }
+  11.06% { transform: translate(383.5px, 71.5px) rotate(0deg); }
+  11.52% { transform: translate(397.5px, 71.5px) rotate(0deg); }
+  11.98% { transform: translate(411.5px, 71.5px) rotate(0deg); }
+  12.44% { transform: translate(425.5px, 71.5px) rotate(0deg); }
+  12.90% { transform: translate(439.5px, 71.5px) rotate(0deg); }
+  13.36% { transform: translate(453.5px, 71.5px) rotate(0deg); }
+  13.82% { transform: translate(467.5px, 71.5px) rotate(0deg); }
+  14.29% { transform: translate(481.5px, 71.5px) rotate(0deg); }
+  14.75% { transform: translate(495.5px, 71.5px) rotate(0deg); }
+  15.21% { transform: translate(509.5px, 71.5px) rotate(0deg); }
+  15.67% { transform: translate(523.5px, 71.5px) rotate(0deg); }
+  16.13% { transform: translate(537.5px, 71.5px) rotate(0deg); }
+  16.59% { transform: translate(551.5px, 71.5px) rotate(0deg); }
+  17.05% { transform: translate(565.5px, 71.5px) rotate(0deg); }
+  17.51% { transform: translate(579.5px, 71.5px) rotate(0deg); }
+  17.97% { transform: translate(593.5px, 71.5px) rotate(0deg); }
+  18.43% { transform: translate(607.5px, 71.5px) rotate(0deg); }
+  18.89% { transform: translate(621.5px, 71.5px) rotate(0deg); }
+  19.35% { transform: translate(635.5px, 71.5px) rotate(0deg); }
+  19.82% { transform: translate(649.5px, 71.5px) rotate(0deg); }
+  20.28% { transform: translate(663.5px, 71.5px) rotate(0deg); }
+  20.74% { transform: translate(677.5px, 71.5px) rotate(0deg); }
+  21.20% { transform: translate(691.5px, 71.5px) rotate(0deg); }
+  21.66% { transform: translate(705.5px, 71.5px) rotate(0deg); }
+  22.12% { transform: translate(719.5px, 71.5px) rotate(0deg); }
+  22.58% { transform: translate(733.5px, 71.5px) rotate(0deg); }
+  23.04% { transform: translate(747.5px, 71.5px) rotate(0deg); }
+  23.50% { transform: translate(761.5px, 71.5px) rotate(0deg); }
+  23.96% { transform: translate(775.5px, 71.5px) rotate(0deg); }
+  24.42% { transform: translate(775.5px, 85.5px) rotate(90deg); }
+  24.88% { transform: translate(775.5px, 99.5px) rotate(180deg); }
+  25.35% { transform: translate(761.5px, 99.5px) rotate(180deg); }
+  25.81% { transform: translate(747.5px, 99.5px) rotate(180deg); }
+  26.27% { transform: translate(733.5px, 99.5px) rotate(180deg); }
+  26.73% { transform: translate(719.5px, 99.5px) rotate(180deg); }
+  27.19% { transform: translate(705.5px, 99.5px) rotate(180deg); }
+  27.65% { transform: translate(691.5px, 99.5px) rotate(180deg); }
+  28.11% { transform: translate(677.5px, 99.5px) rotate(180deg); }
+  28.57% { transform: translate(663.5px, 99.5px) rotate(180deg); }
+  29.03% { transform: translate(649.5px, 99.5px) rotate(180deg); }
+  29.49% { transform: translate(635.5px, 99.5px) rotate(180deg); }
+  29.95% { transform: translate(621.5px, 99.5px) rotate(180deg); }
+  30.41% { transform: translate(607.5px, 99.5px) rotate(180deg); }
+  30.88% { transform: translate(593.5px, 99.5px) rotate(180deg); }
+  31.34% { transform: translate(579.5px, 99.5px) rotate(180deg); }
+  31.80% { transform: translate(565.5px, 99.5px) rotate(180deg); }
+  32.26% { transform: translate(551.5px, 99.5px) rotate(180deg); }
+  32.72% { transform: translate(537.5px, 99.5px) rotate(180deg); }
+  33.18% { transform: translate(523.5px, 99.5px) rotate(180deg); }
+  33.64% { transform: translate(509.5px, 99.5px) rotate(180deg); }
+  34.10% { transform: translate(495.5px, 99.5px) rotate(180deg); }
+  34.56% { transform: translate(481.5px, 99.5px) rotate(180deg); }
+  35.02% { transform: translate(467.5px, 99.5px) rotate(180deg); }
+  35.48% { transform: translate(453.5px, 99.5px) rotate(180deg); }
+  35.94% { transform: translate(439.5px, 99.5px) rotate(180deg); }
+  36.41% { transform: translate(425.5px, 99.5px) rotate(180deg); }
+  36.87% { transform: translate(411.5px, 99.5px) rotate(180deg); }
+  37.33% { transform: translate(397.5px, 99.5px) rotate(180deg); }
+  37.79% { transform: translate(383.5px, 99.5px) rotate(180deg); }
+  38.25% { transform: translate(369.5px, 99.5px) rotate(180deg); }
+  38.71% { transform: translate(355.5px, 99.5px) rotate(180deg); }
+  39.17% { transform: translate(341.5px, 99.5px) rotate(180deg); }
+  39.63% { transform: translate(327.5px, 99.5px) rotate(180deg); }
+  40.09% { transform: translate(313.5px, 99.5px) rotate(180deg); }
+  40.55% { transform: translate(299.5px, 99.5px) rotate(180deg); }
+  41.01% { transform: translate(285.5px, 99.5px) rotate(180deg); }
+  41.47% { transform: translate(271.5px, 99.5px) rotate(180deg); }
+  41.94% { transform: translate(257.5px, 99.5px) rotate(180deg); }
+  42.40% { transform: translate(243.5px, 99.5px) rotate(180deg); }
+  42.86% { transform: translate(229.5px, 99.5px) rotate(180deg); }
+  43.32% { transform: translate(215.5px, 99.5px) rotate(180deg); }
+  43.78% { transform: translate(201.5px, 99.5px) rotate(180deg); }
+  44.24% { transform: translate(187.5px, 99.5px) rotate(180deg); }
+  44.70% { transform: translate(173.5px, 99.5px) rotate(180deg); }
+  45.16% { transform: translate(159.5px, 99.5px) rotate(180deg); }
+  45.62% { transform: translate(145.5px, 99.5px) rotate(180deg); }
+  46.08% { transform: translate(131.5px, 99.5px) rotate(180deg); }
+  46.54% { transform: translate(117.5px, 99.5px) rotate(180deg); }
+  47.00% { transform: translate(103.5px, 99.5px) rotate(180deg); }
+  47.47% { transform: translate(89.5px, 99.5px) rotate(180deg); }
+  47.93% { transform: translate(75.5px, 99.5px) rotate(180deg); }
+  48.39% { transform: translate(61.5px, 99.5px) rotate(180deg); }
+  48.85% { transform: translate(47.5px, 99.5px) rotate(180deg); }
+  49.31% { transform: translate(47.5px, 113.5px) rotate(90deg); }
+  49.77% { transform: translate(47.5px, 127.5px) rotate(0deg); }
+  50.23% { transform: translate(61.5px, 127.5px) rotate(0deg); }
+  50.69% { transform: translate(75.5px, 127.5px) rotate(0deg); }
+  51.15% { transform: translate(89.5px, 127.5px) rotate(0deg); }
+  51.61% { transform: translate(103.5px, 127.5px) rotate(0deg); }
+  52.07% { transform: translate(117.5px, 127.5px) rotate(0deg); }
+  52.53% { transform: translate(131.5px, 127.5px) rotate(0deg); }
+  53.00% { transform: translate(145.5px, 127.5px) rotate(0deg); }
+  53.46% { transform: translate(159.5px, 127.5px) rotate(0deg); }
+  53.92% { transform: translate(173.5px, 127.5px) rotate(0deg); }
+  54.38% { transform: translate(187.5px, 127.5px) rotate(0deg); }
+  54.84% { transform: translate(201.5px, 127.5px) rotate(0deg); }
+  55.30% { transform: translate(215.5px, 127.5px) rotate(0deg); }
+  55.76% { transform: translate(229.5px, 127.5px) rotate(0deg); }
+  56.22% { transform: translate(243.5px, 127.5px) rotate(0deg); }
+  56.68% { transform: translate(257.5px, 127.5px) rotate(0deg); }
+  57.14% { transform: translate(271.5px, 127.5px) rotate(0deg); }
+  57.60% { transform: translate(285.5px, 127.5px) rotate(0deg); }
+  58.06% { transform: translate(299.5px, 127.5px) rotate(0deg); }
+  58.53% { transform: translate(313.5px, 127.5px) rotate(0deg); }
+  58.99% { transform: translate(327.5px, 127.5px) rotate(0deg); }
+  59.45% { transform: translate(341.5px, 127.5px) rotate(0deg); }
+  59.91% { transform: translate(355.5px, 127.5px) rotate(0deg); }
+  60.37% { transform: translate(369.5px, 127.5px) rotate(0deg); }
+  60.83% { transform: translate(383.5px, 127.5px) rotate(0deg); }
+  61.29% { transform: translate(397.5px, 127.5px) rotate(0deg); }
+  61.75% { transform: translate(411.5px, 127.5px) rotate(0deg); }
+  62.21% { transform: translate(425.5px, 127.5px) rotate(0deg); }
+  62.67% { transform: translate(439.5px, 127.5px) rotate(0deg); }
+  63.13% { transform: translate(453.5px, 127.5px) rotate(0deg); }
+  63.59% { transform: translate(467.5px, 127.5px) rotate(0deg); }
+  64.06% { transform: translate(481.5px, 127.5px) rotate(0deg); }
+  64.52% { transform: translate(495.5px, 127.5px) rotate(0deg); }
+  64.98% { transform: translate(509.5px, 127.5px) rotate(0deg); }
+  65.44% { transform: translate(523.5px, 127.5px) rotate(0deg); }
+  65.90% { transform: translate(537.5px, 127.5px) rotate(0deg); }
+  66.36% { transform: translate(551.5px, 127.5px) rotate(0deg); }
+  66.82% { transform: translate(565.5px, 127.5px) rotate(0deg); }
+  67.28% { transform: translate(579.5px, 127.5px) rotate(0deg); }
+  67.74% { transform: translate(593.5px, 127.5px) rotate(0deg); }
+  68.20% { transform: translate(607.5px, 127.5px) rotate(0deg); }
+  68.66% { transform: translate(621.5px, 127.5px) rotate(0deg); }
+  69.12% { transform: translate(635.5px, 127.5px) rotate(0deg); }
+  69.59% { transform: translate(649.5px, 127.5px) rotate(0deg); }
+  70.05% { transform: translate(663.5px, 127.5px) rotate(0deg); }
+  70.51% { transform: translate(677.5px, 127.5px) rotate(0deg); }
+  70.97% { transform: translate(691.5px, 127.5px) rotate(0deg); }
+  71.43% { transform: translate(705.5px, 127.5px) rotate(0deg); }
+  71.89% { transform: translate(719.5px, 127.5px) rotate(0deg); }
+  72.35% { transform: translate(733.5px, 127.5px) rotate(0deg); }
+  72.81% { transform: translate(747.5px, 127.5px) rotate(0deg); }
+  73.27% { transform: translate(761.5px, 127.5px) rotate(0deg); }
+  73.73% { transform: translate(775.5px, 127.5px) rotate(0deg); }
+  74.19% { transform: translate(775.5px, 113.5px) rotate(270deg); }
+  74.65% { transform: translate(775.5px, 85.5px) rotate(270deg); }
+  75.12% { transform: translate(775.5px, 57.5px) rotate(180deg); }
+  75.58% { transform: translate(761.5px, 57.5px) rotate(180deg); }
+  76.04% { transform: translate(747.5px, 57.5px) rotate(180deg); }
+  76.50% { transform: translate(733.5px, 57.5px) rotate(180deg); }
+  76.96% { transform: translate(719.5px, 57.5px) rotate(180deg); }
+  77.42% { transform: translate(705.5px, 57.5px) rotate(180deg); }
+  77.88% { transform: translate(691.5px, 57.5px) rotate(180deg); }
+  78.34% { transform: translate(677.5px, 57.5px) rotate(180deg); }
+  78.80% { transform: translate(663.5px, 57.5px) rotate(180deg); }
+  79.26% { transform: translate(649.5px, 57.5px) rotate(180deg); }
+  79.72% { transform: translate(635.5px, 57.5px) rotate(180deg); }
+  80.18% { transform: translate(621.5px, 57.5px) rotate(180deg); }
+  80.65% { transform: translate(607.5px, 57.5px) rotate(180deg); }
+  81.11% { transform: translate(593.5px, 57.5px) rotate(180deg); }
+  81.57% { transform: translate(579.5px, 57.5px) rotate(180deg); }
+  82.03% { transform: translate(565.5px, 57.5px) rotate(180deg); }
+  82.49% { transform: translate(551.5px, 57.5px) rotate(180deg); }
+  82.95% { transform: translate(537.5px, 57.5px) rotate(180deg); }
+  83.41% { transform: translate(523.5px, 57.5px) rotate(180deg); }
+  83.87% { transform: translate(509.5px, 57.5px) rotate(180deg); }
+  84.33% { transform: translate(495.5px, 57.5px) rotate(180deg); }
+  84.79% { transform: translate(481.5px, 57.5px) rotate(180deg); }
+  85.25% { transform: translate(467.5px, 57.5px) rotate(180deg); }
+  85.71% { transform: translate(453.5px, 57.5px) rotate(180deg); }
+  86.18% { transform: translate(439.5px, 57.5px) rotate(180deg); }
+  86.64% { transform: translate(425.5px, 57.5px) rotate(180deg); }
+  87.10% { transform: translate(411.5px, 57.5px) rotate(180deg); }
+  87.56% { transform: translate(397.5px, 57.5px) rotate(180deg); }
+  88.02% { transform: translate(383.5px, 57.5px) rotate(180deg); }
+  88.48% { transform: translate(369.5px, 57.5px) rotate(180deg); }
+  88.94% { transform: translate(355.5px, 57.5px) rotate(180deg); }
+  89.40% { transform: translate(341.5px, 57.5px) rotate(180deg); }
+  89.86% { transform: translate(327.5px, 57.5px) rotate(180deg); }
+  90.32% { transform: translate(313.5px, 57.5px) rotate(180deg); }
+  90.78% { transform: translate(299.5px, 57.5px) rotate(180deg); }
+  91.24% { transform: translate(285.5px, 57.5px) rotate(180deg); }
+  91.71% { transform: translate(271.5px, 57.5px) rotate(180deg); }
+  92.17% { transform: translate(257.5px, 57.5px) rotate(180deg); }
+  92.63% { transform: translate(243.5px, 57.5px) rotate(180deg); }
+  93.09% { transform: translate(229.5px, 57.5px) rotate(180deg); }
+  93.55% { transform: translate(215.5px, 57.5px) rotate(180deg); }
+  94.01% { transform: translate(201.5px, 57.5px) rotate(180deg); }
+  94.47% { transform: translate(187.5px, 57.5px) rotate(180deg); }
+  94.93% { transform: translate(173.5px, 57.5px) rotate(180deg); }
+  95.39% { transform: translate(159.5px, 57.5px) rotate(180deg); }
+  95.85% { transform: translate(145.5px, 57.5px) rotate(180deg); }
+  96.31% { transform: translate(131.5px, 57.5px) rotate(180deg); }
+  96.77% { transform: translate(117.5px, 57.5px) rotate(180deg); }
+  97.24% { transform: translate(103.5px, 57.5px) rotate(180deg); }
+  97.70% { transform: translate(89.5px, 57.5px) rotate(180deg); }
+  98.16% { transform: translate(75.5px, 57.5px) rotate(180deg); }
+  98.62% { transform: translate(61.5px, 57.5px) rotate(180deg); }
+  99.08% { transform: translate(47.5px, 57.5px) rotate(180deg); }
+  99.54% { transform: translate(47.5px, 71.5px) rotate(90deg); }
+}
+@keyframes ghost-move {
+  0.00% { transform: translate(89.5px, 57.5px); }
+  0.46% { transform: translate(75.5px, 57.5px); }
+  0.92% { transform: translate(61.5px, 57.5px); }
+  1.38% { transform: translate(47.5px, 57.5px); }
+  1.84% { transform: translate(47.5px, 71.5px); }
+  2.30% { transform: translate(47.5px, 71.5px); }
+  2.76% { transform: translate(61.5px, 71.5px); }
+  3.23% { transform: translate(75.5px, 71.5px); }
+  3.69% { transform: translate(89.5px, 71.5px); }
+  4.15% { transform: translate(103.5px, 71.5px); }
+  4.61% { transform: translate(117.5px, 71.5px); }
+  5.07% { transform: translate(131.5px, 71.5px); }
+  5.53% { transform: translate(145.5px, 71.5px); }
+  5.99% { transform: translate(159.5px, 71.5px); }
+  6.45% { transform: translate(173.5px, 71.5px); }
+  6.91% { transform: translate(187.5px, 71.5px); }
+  7.37% { transform: translate(201.5px, 71.5px); }
+  7.83% { transform: translate(215.5px, 71.5px); }
+  8.29% { transform: translate(229.5px, 71.5px); }
+  8.76% { transform: translate(243.5px, 71.5px); }
+  9.22% { transform: translate(257.5px, 71.5px); }
+  9.68% { transform: translate(271.5px, 71.5px); }
+  10.14% { transform: translate(285.5px, 71.5px); }
+  10.60% { transform: translate(299.5px, 71.5px); }
+  11.06% { transform: translate(313.5px, 71.5px); }
+  11.52% { transform: translate(327.5px, 71.5px); }
+  11.98% { transform: translate(341.5px, 71.5px); }
+  12.44% { transform: translate(355.5px, 71.5px); }
+  12.90% { transform: translate(369.5px, 71.5px); }
+  13.36% { transform: translate(383.5px, 71.5px); }
+  13.82% { transform: translate(397.5px, 71.5px); }
+  14.29% { transform: translate(411.5px, 71.5px); }
+  14.75% { transform: translate(425.5px, 71.5px); }
+  15.21% { transform: translate(439.5px, 71.5px); }
+  15.67% { transform: translate(453.5px, 71.5px); }
+  16.13% { transform: translate(467.5px, 71.5px); }
+  16.59% { transform: translate(481.5px, 71.5px); }
+  17.05% { transform: translate(495.5px, 71.5px); }
+  17.51% { transform: translate(509.5px, 71.5px); }
+  17.97% { transform: translate(523.5px, 71.5px); }
+  18.43% { transform: translate(537.5px, 71.5px); }
+  18.89% { transform: translate(551.5px, 71.5px); }
+  19.35% { transform: translate(565.5px, 71.5px); }
+  19.82% { transform: translate(579.5px, 71.5px); }
+  20.28% { transform: translate(593.5px, 71.5px); }
+  20.74% { transform: translate(607.5px, 71.5px); }
+  21.20% { transform: translate(621.5px, 71.5px); }
+  21.66% { transform: translate(635.5px, 71.5px); }
+  22.12% { transform: translate(649.5px, 71.5px); }
+  22.58% { transform: translate(663.5px, 71.5px); }
+  23.04% { transform: translate(677.5px, 71.5px); }
+  23.50% { transform: translate(691.5px, 71.5px); }
+  23.96% { transform: translate(705.5px, 71.5px); }
+  24.42% { transform: translate(719.5px, 71.5px); }
+  24.88% { transform: translate(733.5px, 71.5px); }
+  25.35% { transform: translate(747.5px, 71.5px); }
+  25.81% { transform: translate(761.5px, 71.5px); }
+  26.27% { transform: translate(775.5px, 71.5px); }
+  26.73% { transform: translate(775.5px, 85.5px); }
+  27.19% { transform: translate(775.5px, 99.5px); }
+  27.65% { transform: translate(761.5px, 99.5px); }
+  28.11% { transform: translate(747.5px, 99.5px); }
+  28.57% { transform: translate(733.5px, 99.5px); }
+  29.03% { transform: translate(719.5px, 99.5px); }
+  29.49% { transform: translate(705.5px, 99.5px); }
+  29.95% { transform: translate(691.5px, 99.5px); }
+  30.41% { transform: translate(677.5px, 99.5px); }
+  30.88% { transform: translate(663.5px, 99.5px); }
+  31.34% { transform: translate(649.5px, 99.5px); }
+  31.80% { transform: translate(635.5px, 99.5px); }
+  32.26% { transform: translate(621.5px, 99.5px); }
+  32.72% { transform: translate(607.5px, 99.5px); }
+  33.18% { transform: translate(593.5px, 99.5px); }
+  33.64% { transform: translate(579.5px, 99.5px); }
+  34.10% { transform: translate(565.5px, 99.5px); }
+  34.56% { transform: translate(551.5px, 99.5px); }
+  35.02% { transform: translate(537.5px, 99.5px); }
+  35.48% { transform: translate(523.5px, 99.5px); }
+  35.94% { transform: translate(509.5px, 99.5px); }
+  36.41% { transform: translate(495.5px, 99.5px); }
+  36.87% { transform: translate(481.5px, 99.5px); }
+  37.33% { transform: translate(467.5px, 99.5px); }
+  37.79% { transform: translate(453.5px, 99.5px); }
+  38.25% { transform: translate(439.5px, 99.5px); }
+  38.71% { transform: translate(425.5px, 99.5px); }
+  39.17% { transform: translate(411.5px, 99.5px); }
+  39.63% { transform: translate(397.5px, 99.5px); }
+  40.09% { transform: translate(383.5px, 99.5px); }
+  40.55% { transform: translate(369.5px, 99.5px); }
+  41.01% { transform: translate(355.5px, 99.5px); }
+  41.47% { transform: translate(341.5px, 99.5px); }
+  41.94% { transform: translate(327.5px, 99.5px); }
+  42.40% { transform: translate(313.5px, 99.5px); }
+  42.86% { transform: translate(299.5px, 99.5px); }
+  43.32% { transform: translate(285.5px, 99.5px); }
+  43.78% { transform: translate(271.5px, 99.5px); }
+  44.24% { transform: translate(257.5px, 99.5px); }
+  44.70% { transform: translate(243.5px, 99.5px); }
+  45.16% { transform: translate(229.5px, 99.5px); }
+  45.62% { transform: translate(215.5px, 99.5px); }
+  46.08% { transform: translate(201.5px, 99.5px); }
+  46.54% { transform: translate(187.5px, 99.5px); }
+  47.00% { transform: translate(173.5px, 99.5px); }
+  47.47% { transform: translate(159.5px, 99.5px); }
+  47.93% { transform: translate(145.5px, 99.5px); }
+  48.39% { transform: translate(131.5px, 99.5px); }
+  48.85% { transform: translate(117.5px, 99.5px); }
+  49.31% { transform: translate(103.5px, 99.5px); }
+  49.77% { transform: translate(89.5px, 99.5px); }
+  50.23% { transform: translate(75.5px, 99.5px); }
+  50.69% { transform: translate(61.5px, 99.5px); }
+  51.15% { transform: translate(47.5px, 99.5px); }
+  51.61% { transform: translate(47.5px, 113.5px); }
+  52.07% { transform: translate(47.5px, 127.5px); }
+  52.53% { transform: translate(61.5px, 127.5px); }
+  53.00% { transform: translate(75.5px, 127.5px); }
+  53.46% { transform: translate(89.5px, 127.5px); }
+  53.92% { transform: translate(103.5px, 127.5px); }
+  54.38% { transform: translate(117.5px, 127.5px); }
+  54.84% { transform: translate(131.5px, 127.5px); }
+  55.30% { transform: translate(145.5px, 127.5px); }
+  55.76% { transform: translate(159.5px, 127.5px); }
+  56.22% { transform: translate(173.5px, 127.5px); }
+  56.68% { transform: translate(187.5px, 127.5px); }
+  57.14% { transform: translate(201.5px, 127.5px); }
+  57.60% { transform: translate(215.5px, 127.5px); }
+  58.06% { transform: translate(229.5px, 127.5px); }
+  58.53% { transform: translate(243.5px, 127.5px); }
+  58.99% { transform: translate(257.5px, 127.5px); }
+  59.45% { transform: translate(271.5px, 127.5px); }
+  59.91% { transform: translate(285.5px, 127.5px); }
+  60.37% { transform: translate(299.5px, 127.5px); }
+  60.83% { transform: translate(313.5px, 127.5px); }
+  61.29% { transform: translate(327.5px, 127.5px); }
+  61.75% { transform: translate(341.5px, 127.5px); }
+  62.21% { transform: translate(355.5px, 127.5px); }
+  62.67% { transform: translate(369.5px, 127.5px); }
+  63.13% { transform: translate(383.5px, 127.5px); }
+  63.59% { transform: translate(397.5px, 127.5px); }
+  64.06% { transform: translate(411.5px, 127.5px); }
+  64.52% { transform: translate(425.5px, 127.5px); }
+  64.98% { transform: translate(439.5px, 127.5px); }
+  65.44% { transform: translate(453.5px, 127.5px); }
+  65.90% { transform: translate(467.5px, 127.5px); }
+  66.36% { transform: translate(481.5px, 127.5px); }
+  66.82% { transform: translate(495.5px, 127.5px); }
+  67.28% { transform: translate(509.5px, 127.5px); }
+  67.74% { transform: translate(523.5px, 127.5px); }
+  68.20% { transform: translate(537.5px, 127.5px); }
+  68.66% { transform: translate(551.5px, 127.5px); }
+  69.12% { transform: translate(565.5px, 127.5px); }
+  69.59% { transform: translate(579.5px, 127.5px); }
+  70.05% { transform: translate(593.5px, 127.5px); }
+  70.51% { transform: translate(607.5px, 127.5px); }
+  70.97% { transform: translate(621.5px, 127.5px); }
+  71.43% { transform: translate(635.5px, 127.5px); }
+  71.89% { transform: translate(649.5px, 127.5px); }
+  72.35% { transform: translate(663.5px, 127.5px); }
+  72.81% { transform: translate(677.5px, 127.5px); }
+  73.27% { transform: translate(691.5px, 127.5px); }
+  73.73% { transform: translate(705.5px, 127.5px); }
+  74.19% { transform: translate(719.5px, 127.5px); }
+  74.65% { transform: translate(733.5px, 127.5px); }
+  75.12% { transform: translate(747.5px, 127.5px); }
+  75.58% { transform: translate(761.5px, 127.5px); }
+  76.04% { transform: translate(775.5px, 127.5px); }
+  76.50% { transform: translate(775.5px, 113.5px); }
+  76.96% { transform: translate(775.5px, 85.5px); }
+  77.42% { transform: translate(775.5px, 57.5px); }
+  77.88% { transform: translate(761.5px, 57.5px); }
+  78.34% { transform: translate(747.5px, 57.5px); }
+  78.80% { transform: translate(733.5px, 57.5px); }
+  79.26% { transform: translate(719.5px, 57.5px); }
+  79.72% { transform: translate(705.5px, 57.5px); }
+  80.18% { transform: translate(691.5px, 57.5px); }
+  80.65% { transform: translate(677.5px, 57.5px); }
+  81.11% { transform: translate(663.5px, 57.5px); }
+  81.57% { transform: translate(649.5px, 57.5px); }
+  82.03% { transform: translate(635.5px, 57.5px); }
+  82.49% { transform: translate(621.5px, 57.5px); }
+  82.95% { transform: translate(607.5px, 57.5px); }
+  83.41% { transform: translate(593.5px, 57.5px); }
+  83.87% { transform: translate(579.5px, 57.5px); }
+  84.33% { transform: translate(565.5px, 57.5px); }
+  84.79% { transform: translate(551.5px, 57.5px); }
+  85.25% { transform: translate(537.5px, 57.5px); }
+  85.71% { transform: translate(523.5px, 57.5px); }
+  86.18% { transform: translate(509.5px, 57.5px); }
+  86.64% { transform: translate(495.5px, 57.5px); }
+  87.10% { transform: translate(481.5px, 57.5px); }
+  87.56% { transform: translate(467.5px, 57.5px); }
+  88.02% { transform: translate(453.5px, 57.5px); }
+  88.48% { transform: translate(439.5px, 57.5px); }
+  88.94% { transform: translate(425.5px, 57.5px); }
+  89.40% { transform: translate(411.5px, 57.5px); }
+  89.86% { transform: translate(397.5px, 57.5px); }
+  90.32% { transform: translate(383.5px, 57.5px); }
+  90.78% { transform: translate(369.5px, 57.5px); }
+  91.24% { transform: translate(355.5px, 57.5px); }
+  91.71% { transform: translate(341.5px, 57.5px); }
+  92.17% { transform: translate(327.5px, 57.5px); }
+  92.63% { transform: translate(313.5px, 57.5px); }
+  93.09% { transform: translate(299.5px, 57.5px); }
+  93.55% { transform: translate(285.5px, 57.5px); }
+  94.01% { transform: translate(271.5px, 57.5px); }
+  94.47% { transform: translate(257.5px, 57.5px); }
+  94.93% { transform: translate(243.5px, 57.5px); }
+  95.39% { transform: translate(229.5px, 57.5px); }
+  95.85% { transform: translate(215.5px, 57.5px); }
+  96.31% { transform: translate(201.5px, 57.5px); }
+  96.77% { transform: translate(187.5px, 57.5px); }
+  97.24% { transform: translate(173.5px, 57.5px); }
+  97.70% { transform: translate(159.5px, 57.5px); }
+  98.16% { transform: translate(145.5px, 57.5px); }
+  98.62% { transform: translate(131.5px, 57.5px); }
+  99.08% { transform: translate(117.5px, 57.5px); }
+  99.54% { transform: translate(103.5px, 57.5px); }
+}
+
+      @keyframes chomp-top {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(-35deg); }
+      }
+      @keyframes chomp-bottom {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(35deg); }
+      }
+      @keyframes ghost-wiggle {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-1.5px); }
+      }
+      .pacman-sprite { animation: pac-move 17.36s linear infinite; }
+      .ghost-sprite { animation: ghost-move 17.36s linear infinite; }
+      .jaw-t { transform-origin: 0 0; animation: chomp-top 0.22s infinite alternate ease-in-out; }
+      .jaw-b { transform-origin: 0 0; animation: chomp-bottom 0.22s infinite alternate ease-in-out; }
+      .ghost-body { animation: ghost-wiggle 0.3s infinite ease-in-out; }
+    
+@keyframes kf_c_0_1 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  0.12% { opacity: 0.12; transform: scale(0.25); }
+  5.18% { opacity: 0.12; transform: scale(0.25); }
+  5.30% { opacity: 0.12; transform: scale(0.25); }
+  5.65% { opacity: 0.12; transform: scale(0.25); }
+  5.76% { opacity: 0.12; transform: scale(0.25); }
+  5.76% { opacity: 1; transform: scale(1.22); }
+  6.22% { opacity: 1; transform: scale(1.22); }
+  99.48% { opacity: 1; transform: scale(1); }
+  99.54% { opacity: 0.12; transform: scale(0.25); }
+  99.65% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_0_1 { animation: kf_c_0_1 17.36s linear infinite; }
+@keyframes kf_c_1_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  0.40% { opacity: 1; transform: scale(1); }
+  0.46% { opacity: 0.12; transform: scale(0.25); }
+  0.58% { opacity: 0.12; transform: scale(0.25); }
+  6.11% { opacity: 0.12; transform: scale(0.25); }
+  6.22% { opacity: 0.12; transform: scale(0.25); }
+  6.68% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_1_1 { animation: kf_c_1_1 17.36s linear infinite; }
+@keyframes kf_c_2_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  0.86% { opacity: 1; transform: scale(1); }
+  0.92% { opacity: 0.12; transform: scale(0.25); }
+  1.04% { opacity: 0.12; transform: scale(0.25); }
+  6.57% { opacity: 0.12; transform: scale(0.25); }
+  6.68% { opacity: 0.12; transform: scale(0.25); }
+  7.14% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_2_1 { animation: kf_c_2_1 17.36s linear infinite; }
+@keyframes kf_c_3_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  1.32% { opacity: 1; transform: scale(1); }
+  1.38% { opacity: 0.12; transform: scale(0.25); }
+  1.50% { opacity: 0.12; transform: scale(0.25); }
+  7.03% { opacity: 0.12; transform: scale(0.25); }
+  7.14% { opacity: 0.12; transform: scale(0.25); }
+  7.60% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_3_1 { animation: kf_c_3_1 17.36s linear infinite; }
+@keyframes kf_c_4_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  1.79% { opacity: 1; transform: scale(1); }
+  1.84% { opacity: 0.12; transform: scale(0.25); }
+  1.96% { opacity: 0.12; transform: scale(0.25); }
+  7.49% { opacity: 0.12; transform: scale(0.25); }
+  7.60% { opacity: 0.12; transform: scale(0.25); }
+  8.06% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_4_1 { animation: kf_c_4_1 17.36s linear infinite; }
+@keyframes kf_c_5_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  2.25% { opacity: 1; transform: scale(1); }
+  2.30% { opacity: 0.12; transform: scale(0.25); }
+  2.42% { opacity: 0.12; transform: scale(0.25); }
+  7.95% { opacity: 0.12; transform: scale(0.25); }
+  8.06% { opacity: 0.12; transform: scale(0.25); }
+  8.53% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_5_1 { animation: kf_c_5_1 17.36s linear infinite; }
+@keyframes kf_c_6_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  2.71% { opacity: 1; transform: scale(1); }
+  2.76% { opacity: 0.12; transform: scale(0.25); }
+  2.88% { opacity: 0.12; transform: scale(0.25); }
+  8.41% { opacity: 0.12; transform: scale(0.25); }
+  8.53% { opacity: 0.12; transform: scale(0.25); }
+  8.99% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_6_1 { animation: kf_c_6_1 17.36s linear infinite; }
+@keyframes kf_c_7_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  3.17% { opacity: 1; transform: scale(1); }
+  3.23% { opacity: 0.12; transform: scale(0.25); }
+  3.34% { opacity: 0.12; transform: scale(0.25); }
+  8.87% { opacity: 0.12; transform: scale(0.25); }
+  8.99% { opacity: 0.12; transform: scale(0.25); }
+  9.45% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_7_1 { animation: kf_c_7_1 17.36s linear infinite; }
+@keyframes kf_c_8_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  3.63% { opacity: 1; transform: scale(1); }
+  3.69% { opacity: 0.12; transform: scale(0.25); }
+  3.80% { opacity: 0.12; transform: scale(0.25); }
+  9.33% { opacity: 0.12; transform: scale(0.25); }
+  9.45% { opacity: 0.12; transform: scale(0.25); }
+  9.91% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_8_1 { animation: kf_c_8_1 17.36s linear infinite; }
+@keyframes kf_c_9_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  4.09% { opacity: 1; transform: scale(1); }
+  4.15% { opacity: 0.12; transform: scale(0.25); }
+  4.26% { opacity: 0.12; transform: scale(0.25); }
+  9.79% { opacity: 0.12; transform: scale(0.25); }
+  9.91% { opacity: 0.12; transform: scale(0.25); }
+  10.37% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_9_1 { animation: kf_c_9_1 17.36s linear infinite; }
+@keyframes kf_c_10_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  4.55% { opacity: 1; transform: scale(1); }
+  4.61% { opacity: 0.12; transform: scale(0.25); }
+  4.72% { opacity: 0.12; transform: scale(0.25); }
+  10.25% { opacity: 0.12; transform: scale(0.25); }
+  10.37% { opacity: 0.12; transform: scale(0.25); }
+  10.83% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_10_1 { animation: kf_c_10_1 17.36s linear infinite; }
+@keyframes kf_c_11_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  5.01% { opacity: 1; transform: scale(1); }
+  5.07% { opacity: 0.12; transform: scale(0.25); }
+  5.18% { opacity: 0.12; transform: scale(0.25); }
+  10.71% { opacity: 0.12; transform: scale(0.25); }
+  10.83% { opacity: 0.12; transform: scale(0.25); }
+  11.29% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_11_1 { animation: kf_c_11_1 17.36s linear infinite; }
+@keyframes kf_c_12_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  5.47% { opacity: 1; transform: scale(1); }
+  5.53% { opacity: 0.12; transform: scale(0.25); }
+  5.65% { opacity: 0.12; transform: scale(0.25); }
+  11.18% { opacity: 0.12; transform: scale(0.25); }
+  11.29% { opacity: 0.12; transform: scale(0.25); }
+  11.75% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_12_1 { animation: kf_c_12_1 17.36s linear infinite; }
+@keyframes kf_c_13_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  5.93% { opacity: 1; transform: scale(1); }
+  5.99% { opacity: 0.12; transform: scale(0.25); }
+  6.11% { opacity: 0.12; transform: scale(0.25); }
+  11.64% { opacity: 0.12; transform: scale(0.25); }
+  11.75% { opacity: 0.12; transform: scale(0.25); }
+  12.21% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_13_1 { animation: kf_c_13_1 17.36s linear infinite; }
+@keyframes kf_c_14_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  6.39% { opacity: 1; transform: scale(1); }
+  6.45% { opacity: 0.12; transform: scale(0.25); }
+  6.57% { opacity: 0.12; transform: scale(0.25); }
+  12.10% { opacity: 0.12; transform: scale(0.25); }
+  12.21% { opacity: 0.12; transform: scale(0.25); }
+  12.67% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_14_1 { animation: kf_c_14_1 17.36s linear infinite; }
+@keyframes kf_c_15_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  6.85% { opacity: 1; transform: scale(1); }
+  6.91% { opacity: 0.12; transform: scale(0.25); }
+  7.03% { opacity: 0.12; transform: scale(0.25); }
+  12.56% { opacity: 0.12; transform: scale(0.25); }
+  12.67% { opacity: 0.12; transform: scale(0.25); }
+  13.13% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_15_1 { animation: kf_c_15_1 17.36s linear infinite; }
+@keyframes kf_c_16_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  7.32% { opacity: 1; transform: scale(1); }
+  7.37% { opacity: 0.12; transform: scale(0.25); }
+  7.49% { opacity: 0.12; transform: scale(0.25); }
+  13.02% { opacity: 0.12; transform: scale(0.25); }
+  13.13% { opacity: 0.12; transform: scale(0.25); }
+  13.59% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_16_1 { animation: kf_c_16_1 17.36s linear infinite; }
+@keyframes kf_c_17_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  7.78% { opacity: 1; transform: scale(1); }
+  7.83% { opacity: 0.12; transform: scale(0.25); }
+  7.95% { opacity: 0.12; transform: scale(0.25); }
+  13.48% { opacity: 0.12; transform: scale(0.25); }
+  13.59% { opacity: 0.12; transform: scale(0.25); }
+  14.06% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_17_1 { animation: kf_c_17_1 17.36s linear infinite; }
+@keyframes kf_c_18_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  8.24% { opacity: 1; transform: scale(1); }
+  8.29% { opacity: 0.12; transform: scale(0.25); }
+  8.41% { opacity: 0.12; transform: scale(0.25); }
+  13.94% { opacity: 0.12; transform: scale(0.25); }
+  14.06% { opacity: 0.12; transform: scale(0.25); }
+  14.52% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_18_1 { animation: kf_c_18_1 17.36s linear infinite; }
+@keyframes kf_c_19_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  8.70% { opacity: 1; transform: scale(1); }
+  8.76% { opacity: 0.12; transform: scale(0.25); }
+  8.87% { opacity: 0.12; transform: scale(0.25); }
+  14.40% { opacity: 0.12; transform: scale(0.25); }
+  14.52% { opacity: 0.12; transform: scale(0.25); }
+  14.98% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_19_1 { animation: kf_c_19_1 17.36s linear infinite; }
+@keyframes kf_c_20_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  9.16% { opacity: 1; transform: scale(1); }
+  9.22% { opacity: 0.12; transform: scale(0.25); }
+  9.33% { opacity: 0.12; transform: scale(0.25); }
+  14.86% { opacity: 0.12; transform: scale(0.25); }
+  14.98% { opacity: 0.12; transform: scale(0.25); }
+  15.44% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_20_1 { animation: kf_c_20_1 17.36s linear infinite; }
+@keyframes kf_c_21_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  9.62% { opacity: 1; transform: scale(1); }
+  9.68% { opacity: 0.12; transform: scale(0.25); }
+  9.79% { opacity: 0.12; transform: scale(0.25); }
+  15.32% { opacity: 0.12; transform: scale(0.25); }
+  15.44% { opacity: 0.12; transform: scale(0.25); }
+  15.90% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_21_1 { animation: kf_c_21_1 17.36s linear infinite; }
+@keyframes kf_c_22_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  10.08% { opacity: 1; transform: scale(1); }
+  10.14% { opacity: 0.12; transform: scale(0.25); }
+  10.25% { opacity: 0.12; transform: scale(0.25); }
+  15.78% { opacity: 0.12; transform: scale(0.25); }
+  15.90% { opacity: 0.12; transform: scale(0.25); }
+  16.36% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_22_1 { animation: kf_c_22_1 17.36s linear infinite; }
+@keyframes kf_c_23_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  10.54% { opacity: 1; transform: scale(1); }
+  10.60% { opacity: 0.12; transform: scale(0.25); }
+  10.71% { opacity: 0.12; transform: scale(0.25); }
+  16.24% { opacity: 0.12; transform: scale(0.25); }
+  16.36% { opacity: 0.12; transform: scale(0.25); }
+  16.82% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_23_1 { animation: kf_c_23_1 17.36s linear infinite; }
+@keyframes kf_c_24_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  11.00% { opacity: 1; transform: scale(1); }
+  11.06% { opacity: 0.12; transform: scale(0.25); }
+  11.18% { opacity: 0.12; transform: scale(0.25); }
+  16.71% { opacity: 0.12; transform: scale(0.25); }
+  16.82% { opacity: 0.12; transform: scale(0.25); }
+  17.28% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_24_1 { animation: kf_c_24_1 17.36s linear infinite; }
+@keyframes kf_c_25_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  11.46% { opacity: 1; transform: scale(1); }
+  11.52% { opacity: 0.12; transform: scale(0.25); }
+  11.64% { opacity: 0.12; transform: scale(0.25); }
+  17.17% { opacity: 0.12; transform: scale(0.25); }
+  17.28% { opacity: 0.12; transform: scale(0.25); }
+  17.74% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_25_1 { animation: kf_c_25_1 17.36s linear infinite; }
+@keyframes kf_c_26_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  11.92% { opacity: 1; transform: scale(1); }
+  11.98% { opacity: 0.12; transform: scale(0.25); }
+  12.10% { opacity: 0.12; transform: scale(0.25); }
+  17.63% { opacity: 0.12; transform: scale(0.25); }
+  17.74% { opacity: 0.12; transform: scale(0.25); }
+  18.20% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_26_1 { animation: kf_c_26_1 17.36s linear infinite; }
+@keyframes kf_c_27_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  12.38% { opacity: 1; transform: scale(1); }
+  12.44% { opacity: 0.12; transform: scale(0.25); }
+  12.56% { opacity: 0.12; transform: scale(0.25); }
+  18.09% { opacity: 0.12; transform: scale(0.25); }
+  18.20% { opacity: 0.12; transform: scale(0.25); }
+  18.66% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_27_1 { animation: kf_c_27_1 17.36s linear infinite; }
+@keyframes kf_c_28_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  12.85% { opacity: 1; transform: scale(1); }
+  12.90% { opacity: 0.12; transform: scale(0.25); }
+  13.02% { opacity: 0.12; transform: scale(0.25); }
+  18.55% { opacity: 0.12; transform: scale(0.25); }
+  18.66% { opacity: 0.12; transform: scale(0.25); }
+  19.12% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_28_1 { animation: kf_c_28_1 17.36s linear infinite; }
+@keyframes kf_c_29_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  13.31% { opacity: 1; transform: scale(1); }
+  13.36% { opacity: 0.12; transform: scale(0.25); }
+  13.48% { opacity: 0.12; transform: scale(0.25); }
+  19.01% { opacity: 0.12; transform: scale(0.25); }
+  19.12% { opacity: 0.12; transform: scale(0.25); }
+  19.59% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_29_1 { animation: kf_c_29_1 17.36s linear infinite; }
+@keyframes kf_c_30_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  13.77% { opacity: 1; transform: scale(1); }
+  13.82% { opacity: 0.12; transform: scale(0.25); }
+  13.94% { opacity: 0.12; transform: scale(0.25); }
+  19.47% { opacity: 0.12; transform: scale(0.25); }
+  19.59% { opacity: 0.12; transform: scale(0.25); }
+  20.05% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_30_1 { animation: kf_c_30_1 17.36s linear infinite; }
+@keyframes kf_c_31_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  14.23% { opacity: 1; transform: scale(1); }
+  14.29% { opacity: 0.12; transform: scale(0.25); }
+  14.40% { opacity: 0.12; transform: scale(0.25); }
+  19.93% { opacity: 0.12; transform: scale(0.25); }
+  20.05% { opacity: 0.12; transform: scale(0.25); }
+  20.51% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_31_1 { animation: kf_c_31_1 17.36s linear infinite; }
+@keyframes kf_c_32_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  14.69% { opacity: 1; transform: scale(1); }
+  14.75% { opacity: 0.12; transform: scale(0.25); }
+  14.86% { opacity: 0.12; transform: scale(0.25); }
+  20.39% { opacity: 0.12; transform: scale(0.25); }
+  20.51% { opacity: 0.12; transform: scale(0.25); }
+  20.97% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_32_1 { animation: kf_c_32_1 17.36s linear infinite; }
+@keyframes kf_c_33_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  15.15% { opacity: 1; transform: scale(1); }
+  15.21% { opacity: 0.12; transform: scale(0.25); }
+  15.32% { opacity: 0.12; transform: scale(0.25); }
+  20.85% { opacity: 0.12; transform: scale(0.25); }
+  20.97% { opacity: 0.12; transform: scale(0.25); }
+  21.43% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_33_1 { animation: kf_c_33_1 17.36s linear infinite; }
+@keyframes kf_c_34_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  15.61% { opacity: 1; transform: scale(1); }
+  15.67% { opacity: 0.12; transform: scale(0.25); }
+  15.78% { opacity: 0.12; transform: scale(0.25); }
+  21.31% { opacity: 0.12; transform: scale(0.25); }
+  21.43% { opacity: 0.12; transform: scale(0.25); }
+  21.89% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_34_1 { animation: kf_c_34_1 17.36s linear infinite; }
+@keyframes kf_c_35_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  16.07% { opacity: 1; transform: scale(1); }
+  16.13% { opacity: 0.12; transform: scale(0.25); }
+  16.24% { opacity: 0.12; transform: scale(0.25); }
+  21.77% { opacity: 0.12; transform: scale(0.25); }
+  21.89% { opacity: 0.12; transform: scale(0.25); }
+  22.35% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_35_1 { animation: kf_c_35_1 17.36s linear infinite; }
+@keyframes kf_c_36_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  16.53% { opacity: 1; transform: scale(1); }
+  16.59% { opacity: 0.12; transform: scale(0.25); }
+  16.71% { opacity: 0.12; transform: scale(0.25); }
+  22.24% { opacity: 0.12; transform: scale(0.25); }
+  22.35% { opacity: 0.12; transform: scale(0.25); }
+  22.81% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_36_1 { animation: kf_c_36_1 17.36s linear infinite; }
+@keyframes kf_c_37_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  16.99% { opacity: 1; transform: scale(1); }
+  17.05% { opacity: 0.12; transform: scale(0.25); }
+  17.17% { opacity: 0.12; transform: scale(0.25); }
+  22.70% { opacity: 0.12; transform: scale(0.25); }
+  22.81% { opacity: 0.12; transform: scale(0.25); }
+  23.27% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_37_1 { animation: kf_c_37_1 17.36s linear infinite; }
+@keyframes kf_c_38_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  17.45% { opacity: 1; transform: scale(1); }
+  17.51% { opacity: 0.12; transform: scale(0.25); }
+  17.63% { opacity: 0.12; transform: scale(0.25); }
+  23.16% { opacity: 0.12; transform: scale(0.25); }
+  23.27% { opacity: 0.12; transform: scale(0.25); }
+  23.73% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_38_1 { animation: kf_c_38_1 17.36s linear infinite; }
+@keyframes kf_c_39_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  17.91% { opacity: 1; transform: scale(1); }
+  17.97% { opacity: 0.12; transform: scale(0.25); }
+  18.09% { opacity: 0.12; transform: scale(0.25); }
+  23.62% { opacity: 0.12; transform: scale(0.25); }
+  23.73% { opacity: 0.12; transform: scale(0.25); }
+  24.19% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_39_1 { animation: kf_c_39_1 17.36s linear infinite; }
+@keyframes kf_c_40_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  18.38% { opacity: 1; transform: scale(1); }
+  18.43% { opacity: 0.12; transform: scale(0.25); }
+  18.55% { opacity: 0.12; transform: scale(0.25); }
+  24.08% { opacity: 0.12; transform: scale(0.25); }
+  24.19% { opacity: 0.12; transform: scale(0.25); }
+  24.65% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_40_1 { animation: kf_c_40_1 17.36s linear infinite; }
+@keyframes kf_c_41_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  18.84% { opacity: 1; transform: scale(1); }
+  18.89% { opacity: 0.12; transform: scale(0.25); }
+  19.01% { opacity: 0.12; transform: scale(0.25); }
+  24.54% { opacity: 0.12; transform: scale(0.25); }
+  24.65% { opacity: 0.12; transform: scale(0.25); }
+  25.12% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_41_1 { animation: kf_c_41_1 17.36s linear infinite; }
+@keyframes kf_c_42_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  19.30% { opacity: 1; transform: scale(1); }
+  19.35% { opacity: 0.12; transform: scale(0.25); }
+  19.47% { opacity: 0.12; transform: scale(0.25); }
+  25.00% { opacity: 0.12; transform: scale(0.25); }
+  25.12% { opacity: 0.12; transform: scale(0.25); }
+  25.58% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_42_1 { animation: kf_c_42_1 17.36s linear infinite; }
+@keyframes kf_c_43_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  19.76% { opacity: 1; transform: scale(1); }
+  19.82% { opacity: 0.12; transform: scale(0.25); }
+  19.93% { opacity: 0.12; transform: scale(0.25); }
+  25.46% { opacity: 0.12; transform: scale(0.25); }
+  25.58% { opacity: 0.12; transform: scale(0.25); }
+  26.04% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_43_1 { animation: kf_c_43_1 17.36s linear infinite; }
+@keyframes kf_c_44_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  20.22% { opacity: 1; transform: scale(1); }
+  20.28% { opacity: 0.12; transform: scale(0.25); }
+  20.39% { opacity: 0.12; transform: scale(0.25); }
+  25.92% { opacity: 0.12; transform: scale(0.25); }
+  26.04% { opacity: 0.12; transform: scale(0.25); }
+  26.50% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_44_1 { animation: kf_c_44_1 17.36s linear infinite; }
+@keyframes kf_c_45_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  20.68% { opacity: 1; transform: scale(1); }
+  20.74% { opacity: 0.12; transform: scale(0.25); }
+  20.85% { opacity: 0.12; transform: scale(0.25); }
+  26.38% { opacity: 0.12; transform: scale(0.25); }
+  26.50% { opacity: 0.12; transform: scale(0.25); }
+  26.96% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_45_1 { animation: kf_c_45_1 17.36s linear infinite; }
+@keyframes kf_c_46_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  21.14% { opacity: 1; transform: scale(1); }
+  21.20% { opacity: 0.12; transform: scale(0.25); }
+  21.31% { opacity: 0.12; transform: scale(0.25); }
+  26.84% { opacity: 0.12; transform: scale(0.25); }
+  26.96% { opacity: 0.12; transform: scale(0.25); }
+  27.42% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_46_1 { animation: kf_c_46_1 17.36s linear infinite; }
+@keyframes kf_c_47_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  21.60% { opacity: 1; transform: scale(1); }
+  21.66% { opacity: 0.12; transform: scale(0.25); }
+  21.77% { opacity: 0.12; transform: scale(0.25); }
+  27.30% { opacity: 0.12; transform: scale(0.25); }
+  27.42% { opacity: 0.12; transform: scale(0.25); }
+  27.88% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_47_1 { animation: kf_c_47_1 17.36s linear infinite; }
+@keyframes kf_c_48_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  22.06% { opacity: 1; transform: scale(1); }
+  22.12% { opacity: 0.12; transform: scale(0.25); }
+  22.24% { opacity: 0.12; transform: scale(0.25); }
+  27.76% { opacity: 0.12; transform: scale(0.25); }
+  27.88% { opacity: 0.12; transform: scale(0.25); }
+  28.34% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_48_1 { animation: kf_c_48_1 17.36s linear infinite; }
+@keyframes kf_c_49_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  22.52% { opacity: 1; transform: scale(1); }
+  22.58% { opacity: 0.12; transform: scale(0.25); }
+  22.70% { opacity: 0.12; transform: scale(0.25); }
+  28.23% { opacity: 0.12; transform: scale(0.25); }
+  28.34% { opacity: 0.12; transform: scale(0.25); }
+  28.80% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_49_1 { animation: kf_c_49_1 17.36s linear infinite; }
+@keyframes kf_c_50_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  22.98% { opacity: 1; transform: scale(1); }
+  23.04% { opacity: 0.12; transform: scale(0.25); }
+  23.16% { opacity: 0.12; transform: scale(0.25); }
+  28.69% { opacity: 0.12; transform: scale(0.25); }
+  28.80% { opacity: 0.12; transform: scale(0.25); }
+  29.26% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_50_1 { animation: kf_c_50_1 17.36s linear infinite; }
+@keyframes kf_c_51_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  23.44% { opacity: 1; transform: scale(1); }
+  23.50% { opacity: 0.12; transform: scale(0.25); }
+  23.62% { opacity: 0.12; transform: scale(0.25); }
+  29.15% { opacity: 0.12; transform: scale(0.25); }
+  29.26% { opacity: 0.12; transform: scale(0.25); }
+  29.72% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_51_1 { animation: kf_c_51_1 17.36s linear infinite; }
+@keyframes kf_c_52_1 {
+  0.00% { opacity: 1; transform: scale(1); }
+  23.91% { opacity: 1; transform: scale(1); }
+  23.96% { opacity: 0.12; transform: scale(0.25); }
+  24.08% { opacity: 0.12; transform: scale(0.25); }
+  29.61% { opacity: 0.12; transform: scale(0.25); }
+  29.72% { opacity: 0.12; transform: scale(0.25); }
+  30.18% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_1 { animation: kf_c_52_1 17.36s linear infinite; }
+@keyframes kf_c_52_2 {
+  0.00% { opacity: 1; transform: scale(1); }
+  24.37% { opacity: 1; transform: scale(1); }
+  24.42% { opacity: 0.12; transform: scale(0.25); }
+  24.54% { opacity: 0.12; transform: scale(0.25); }
+  30.07% { opacity: 0.12; transform: scale(0.25); }
+  30.18% { opacity: 0.12; transform: scale(0.25); }
+  30.65% { opacity: 1; transform: scale(1.22); }
+  74.60% { opacity: 1; transform: scale(1); }
+  74.65% { opacity: 0.12; transform: scale(0.25); }
+  74.77% { opacity: 0.12; transform: scale(0.25); }
+  80.30% { opacity: 0.12; transform: scale(0.25); }
+  80.41% { opacity: 0.12; transform: scale(0.25); }
+  80.88% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_2 { animation: kf_c_52_2 17.36s linear infinite; }
+@keyframes kf_c_52_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  24.83% { opacity: 1; transform: scale(1); }
+  24.88% { opacity: 0.12; transform: scale(0.25); }
+  25.00% { opacity: 0.12; transform: scale(0.25); }
+  30.53% { opacity: 0.12; transform: scale(0.25); }
+  30.65% { opacity: 0.12; transform: scale(0.25); }
+  31.11% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_3 { animation: kf_c_52_3 17.36s linear infinite; }
+@keyframes kf_c_51_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  25.29% { opacity: 1; transform: scale(1); }
+  25.35% { opacity: 0.12; transform: scale(0.25); }
+  25.46% { opacity: 0.12; transform: scale(0.25); }
+  30.99% { opacity: 0.12; transform: scale(0.25); }
+  31.11% { opacity: 0.12; transform: scale(0.25); }
+  31.57% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_51_3 { animation: kf_c_51_3 17.36s linear infinite; }
+@keyframes kf_c_50_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  25.75% { opacity: 1; transform: scale(1); }
+  25.81% { opacity: 0.12; transform: scale(0.25); }
+  25.92% { opacity: 0.12; transform: scale(0.25); }
+  31.45% { opacity: 0.12; transform: scale(0.25); }
+  31.57% { opacity: 0.12; transform: scale(0.25); }
+  32.03% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_50_3 { animation: kf_c_50_3 17.36s linear infinite; }
+@keyframes kf_c_49_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  26.21% { opacity: 1; transform: scale(1); }
+  26.27% { opacity: 0.12; transform: scale(0.25); }
+  26.38% { opacity: 0.12; transform: scale(0.25); }
+  31.91% { opacity: 0.12; transform: scale(0.25); }
+  32.03% { opacity: 0.12; transform: scale(0.25); }
+  32.49% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_49_3 { animation: kf_c_49_3 17.36s linear infinite; }
+@keyframes kf_c_48_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  26.67% { opacity: 1; transform: scale(1); }
+  26.73% { opacity: 0.12; transform: scale(0.25); }
+  26.84% { opacity: 0.12; transform: scale(0.25); }
+  32.37% { opacity: 0.12; transform: scale(0.25); }
+  32.49% { opacity: 0.12; transform: scale(0.25); }
+  32.95% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_48_3 { animation: kf_c_48_3 17.36s linear infinite; }
+@keyframes kf_c_47_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  27.13% { opacity: 1; transform: scale(1); }
+  27.19% { opacity: 0.12; transform: scale(0.25); }
+  27.30% { opacity: 0.12; transform: scale(0.25); }
+  32.83% { opacity: 0.12; transform: scale(0.25); }
+  32.95% { opacity: 0.12; transform: scale(0.25); }
+  33.41% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_47_3 { animation: kf_c_47_3 17.36s linear infinite; }
+@keyframes kf_c_46_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  27.59% { opacity: 1; transform: scale(1); }
+  27.65% { opacity: 0.12; transform: scale(0.25); }
+  27.76% { opacity: 0.12; transform: scale(0.25); }
+  33.29% { opacity: 0.12; transform: scale(0.25); }
+  33.41% { opacity: 0.12; transform: scale(0.25); }
+  33.87% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_46_3 { animation: kf_c_46_3 17.36s linear infinite; }
+@keyframes kf_c_45_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  28.05% { opacity: 1; transform: scale(1); }
+  28.11% { opacity: 0.12; transform: scale(0.25); }
+  28.23% { opacity: 0.12; transform: scale(0.25); }
+  33.76% { opacity: 0.12; transform: scale(0.25); }
+  33.87% { opacity: 0.12; transform: scale(0.25); }
+  34.33% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_45_3 { animation: kf_c_45_3 17.36s linear infinite; }
+@keyframes kf_c_44_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  28.51% { opacity: 1; transform: scale(1); }
+  28.57% { opacity: 0.12; transform: scale(0.25); }
+  28.69% { opacity: 0.12; transform: scale(0.25); }
+  34.22% { opacity: 0.12; transform: scale(0.25); }
+  34.33% { opacity: 0.12; transform: scale(0.25); }
+  34.79% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_44_3 { animation: kf_c_44_3 17.36s linear infinite; }
+@keyframes kf_c_43_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  28.97% { opacity: 1; transform: scale(1); }
+  29.03% { opacity: 0.12; transform: scale(0.25); }
+  29.15% { opacity: 0.12; transform: scale(0.25); }
+  34.68% { opacity: 0.12; transform: scale(0.25); }
+  34.79% { opacity: 0.12; transform: scale(0.25); }
+  35.25% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_43_3 { animation: kf_c_43_3 17.36s linear infinite; }
+@keyframes kf_c_42_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  29.44% { opacity: 1; transform: scale(1); }
+  29.49% { opacity: 0.12; transform: scale(0.25); }
+  29.61% { opacity: 0.12; transform: scale(0.25); }
+  35.14% { opacity: 0.12; transform: scale(0.25); }
+  35.25% { opacity: 0.12; transform: scale(0.25); }
+  35.71% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_42_3 { animation: kf_c_42_3 17.36s linear infinite; }
+@keyframes kf_c_41_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  29.90% { opacity: 1; transform: scale(1); }
+  29.95% { opacity: 0.12; transform: scale(0.25); }
+  30.07% { opacity: 0.12; transform: scale(0.25); }
+  35.60% { opacity: 0.12; transform: scale(0.25); }
+  35.71% { opacity: 0.12; transform: scale(0.25); }
+  36.18% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_41_3 { animation: kf_c_41_3 17.36s linear infinite; }
+@keyframes kf_c_40_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  30.36% { opacity: 1; transform: scale(1); }
+  30.41% { opacity: 0.12; transform: scale(0.25); }
+  30.53% { opacity: 0.12; transform: scale(0.25); }
+  36.06% { opacity: 0.12; transform: scale(0.25); }
+  36.18% { opacity: 0.12; transform: scale(0.25); }
+  36.64% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_40_3 { animation: kf_c_40_3 17.36s linear infinite; }
+@keyframes kf_c_39_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  30.82% { opacity: 1; transform: scale(1); }
+  30.88% { opacity: 0.12; transform: scale(0.25); }
+  30.99% { opacity: 0.12; transform: scale(0.25); }
+  36.52% { opacity: 0.12; transform: scale(0.25); }
+  36.64% { opacity: 0.12; transform: scale(0.25); }
+  37.10% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_39_3 { animation: kf_c_39_3 17.36s linear infinite; }
+@keyframes kf_c_38_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  31.28% { opacity: 1; transform: scale(1); }
+  31.34% { opacity: 0.12; transform: scale(0.25); }
+  31.45% { opacity: 0.12; transform: scale(0.25); }
+  36.98% { opacity: 0.12; transform: scale(0.25); }
+  37.10% { opacity: 0.12; transform: scale(0.25); }
+  37.56% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_38_3 { animation: kf_c_38_3 17.36s linear infinite; }
+@keyframes kf_c_37_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  31.74% { opacity: 1; transform: scale(1); }
+  31.80% { opacity: 0.12; transform: scale(0.25); }
+  31.91% { opacity: 0.12; transform: scale(0.25); }
+  37.44% { opacity: 0.12; transform: scale(0.25); }
+  37.56% { opacity: 0.12; transform: scale(0.25); }
+  38.02% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_37_3 { animation: kf_c_37_3 17.36s linear infinite; }
+@keyframes kf_c_36_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  32.20% { opacity: 1; transform: scale(1); }
+  32.26% { opacity: 0.12; transform: scale(0.25); }
+  32.37% { opacity: 0.12; transform: scale(0.25); }
+  37.90% { opacity: 0.12; transform: scale(0.25); }
+  38.02% { opacity: 0.12; transform: scale(0.25); }
+  38.48% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_36_3 { animation: kf_c_36_3 17.36s linear infinite; }
+@keyframes kf_c_35_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  32.66% { opacity: 1; transform: scale(1); }
+  32.72% { opacity: 0.12; transform: scale(0.25); }
+  32.83% { opacity: 0.12; transform: scale(0.25); }
+  38.36% { opacity: 0.12; transform: scale(0.25); }
+  38.48% { opacity: 0.12; transform: scale(0.25); }
+  38.94% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_35_3 { animation: kf_c_35_3 17.36s linear infinite; }
+@keyframes kf_c_34_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  33.12% { opacity: 1; transform: scale(1); }
+  33.18% { opacity: 0.12; transform: scale(0.25); }
+  33.29% { opacity: 0.12; transform: scale(0.25); }
+  38.82% { opacity: 0.12; transform: scale(0.25); }
+  38.94% { opacity: 0.12; transform: scale(0.25); }
+  39.40% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_34_3 { animation: kf_c_34_3 17.36s linear infinite; }
+@keyframes kf_c_33_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  33.58% { opacity: 1; transform: scale(1); }
+  33.64% { opacity: 0.12; transform: scale(0.25); }
+  33.76% { opacity: 0.12; transform: scale(0.25); }
+  39.29% { opacity: 0.12; transform: scale(0.25); }
+  39.40% { opacity: 0.12; transform: scale(0.25); }
+  39.86% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_33_3 { animation: kf_c_33_3 17.36s linear infinite; }
+@keyframes kf_c_32_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  34.04% { opacity: 1; transform: scale(1); }
+  34.10% { opacity: 0.12; transform: scale(0.25); }
+  34.22% { opacity: 0.12; transform: scale(0.25); }
+  39.75% { opacity: 0.12; transform: scale(0.25); }
+  39.86% { opacity: 0.12; transform: scale(0.25); }
+  40.32% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_32_3 { animation: kf_c_32_3 17.36s linear infinite; }
+@keyframes kf_c_31_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  34.50% { opacity: 1; transform: scale(1); }
+  34.56% { opacity: 0.12; transform: scale(0.25); }
+  34.68% { opacity: 0.12; transform: scale(0.25); }
+  40.21% { opacity: 0.12; transform: scale(0.25); }
+  40.32% { opacity: 0.12; transform: scale(0.25); }
+  40.78% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_31_3 { animation: kf_c_31_3 17.36s linear infinite; }
+@keyframes kf_c_30_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  34.97% { opacity: 1; transform: scale(1); }
+  35.02% { opacity: 0.12; transform: scale(0.25); }
+  35.14% { opacity: 0.12; transform: scale(0.25); }
+  40.67% { opacity: 0.12; transform: scale(0.25); }
+  40.78% { opacity: 0.12; transform: scale(0.25); }
+  41.24% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_30_3 { animation: kf_c_30_3 17.36s linear infinite; }
+@keyframes kf_c_29_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  35.43% { opacity: 1; transform: scale(1); }
+  35.48% { opacity: 0.12; transform: scale(0.25); }
+  35.60% { opacity: 0.12; transform: scale(0.25); }
+  41.13% { opacity: 0.12; transform: scale(0.25); }
+  41.24% { opacity: 0.12; transform: scale(0.25); }
+  41.71% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_29_3 { animation: kf_c_29_3 17.36s linear infinite; }
+@keyframes kf_c_28_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  35.89% { opacity: 1; transform: scale(1); }
+  35.94% { opacity: 0.12; transform: scale(0.25); }
+  36.06% { opacity: 0.12; transform: scale(0.25); }
+  41.59% { opacity: 0.12; transform: scale(0.25); }
+  41.71% { opacity: 0.12; transform: scale(0.25); }
+  42.17% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_28_3 { animation: kf_c_28_3 17.36s linear infinite; }
+@keyframes kf_c_27_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  36.35% { opacity: 1; transform: scale(1); }
+  36.41% { opacity: 0.12; transform: scale(0.25); }
+  36.52% { opacity: 0.12; transform: scale(0.25); }
+  42.05% { opacity: 0.12; transform: scale(0.25); }
+  42.17% { opacity: 0.12; transform: scale(0.25); }
+  42.63% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_27_3 { animation: kf_c_27_3 17.36s linear infinite; }
+@keyframes kf_c_26_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  36.81% { opacity: 1; transform: scale(1); }
+  36.87% { opacity: 0.12; transform: scale(0.25); }
+  36.98% { opacity: 0.12; transform: scale(0.25); }
+  42.51% { opacity: 0.12; transform: scale(0.25); }
+  42.63% { opacity: 0.12; transform: scale(0.25); }
+  43.09% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_26_3 { animation: kf_c_26_3 17.36s linear infinite; }
+@keyframes kf_c_25_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  37.27% { opacity: 1; transform: scale(1); }
+  37.33% { opacity: 0.12; transform: scale(0.25); }
+  37.44% { opacity: 0.12; transform: scale(0.25); }
+  42.97% { opacity: 0.12; transform: scale(0.25); }
+  43.09% { opacity: 0.12; transform: scale(0.25); }
+  43.55% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_25_3 { animation: kf_c_25_3 17.36s linear infinite; }
+@keyframes kf_c_24_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  37.73% { opacity: 1; transform: scale(1); }
+  37.79% { opacity: 0.12; transform: scale(0.25); }
+  37.90% { opacity: 0.12; transform: scale(0.25); }
+  43.43% { opacity: 0.12; transform: scale(0.25); }
+  43.55% { opacity: 0.12; transform: scale(0.25); }
+  44.01% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_24_3 { animation: kf_c_24_3 17.36s linear infinite; }
+@keyframes kf_c_23_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  38.19% { opacity: 1; transform: scale(1); }
+  38.25% { opacity: 0.12; transform: scale(0.25); }
+  38.36% { opacity: 0.12; transform: scale(0.25); }
+  43.89% { opacity: 0.12; transform: scale(0.25); }
+  44.01% { opacity: 0.12; transform: scale(0.25); }
+  44.47% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_23_3 { animation: kf_c_23_3 17.36s linear infinite; }
+@keyframes kf_c_22_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  38.65% { opacity: 1; transform: scale(1); }
+  38.71% { opacity: 0.12; transform: scale(0.25); }
+  38.82% { opacity: 0.12; transform: scale(0.25); }
+  44.35% { opacity: 0.12; transform: scale(0.25); }
+  44.47% { opacity: 0.12; transform: scale(0.25); }
+  44.93% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_22_3 { animation: kf_c_22_3 17.36s linear infinite; }
+@keyframes kf_c_21_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  39.11% { opacity: 1; transform: scale(1); }
+  39.17% { opacity: 0.12; transform: scale(0.25); }
+  39.29% { opacity: 0.12; transform: scale(0.25); }
+  44.82% { opacity: 0.12; transform: scale(0.25); }
+  44.93% { opacity: 0.12; transform: scale(0.25); }
+  45.39% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_21_3 { animation: kf_c_21_3 17.36s linear infinite; }
+@keyframes kf_c_20_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  39.57% { opacity: 1; transform: scale(1); }
+  39.63% { opacity: 0.12; transform: scale(0.25); }
+  39.75% { opacity: 0.12; transform: scale(0.25); }
+  45.28% { opacity: 0.12; transform: scale(0.25); }
+  45.39% { opacity: 0.12; transform: scale(0.25); }
+  45.85% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_20_3 { animation: kf_c_20_3 17.36s linear infinite; }
+@keyframes kf_c_19_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  40.03% { opacity: 1; transform: scale(1); }
+  40.09% { opacity: 0.12; transform: scale(0.25); }
+  40.21% { opacity: 0.12; transform: scale(0.25); }
+  45.74% { opacity: 0.12; transform: scale(0.25); }
+  45.85% { opacity: 0.12; transform: scale(0.25); }
+  46.31% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_19_3 { animation: kf_c_19_3 17.36s linear infinite; }
+@keyframes kf_c_18_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  40.50% { opacity: 1; transform: scale(1); }
+  40.55% { opacity: 0.12; transform: scale(0.25); }
+  40.67% { opacity: 0.12; transform: scale(0.25); }
+  46.20% { opacity: 0.12; transform: scale(0.25); }
+  46.31% { opacity: 0.12; transform: scale(0.25); }
+  46.77% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_18_3 { animation: kf_c_18_3 17.36s linear infinite; }
+@keyframes kf_c_17_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  40.96% { opacity: 1; transform: scale(1); }
+  41.01% { opacity: 0.12; transform: scale(0.25); }
+  41.13% { opacity: 0.12; transform: scale(0.25); }
+  46.66% { opacity: 0.12; transform: scale(0.25); }
+  46.77% { opacity: 0.12; transform: scale(0.25); }
+  47.24% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_17_3 { animation: kf_c_17_3 17.36s linear infinite; }
+@keyframes kf_c_16_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  41.42% { opacity: 1; transform: scale(1); }
+  41.47% { opacity: 0.12; transform: scale(0.25); }
+  41.59% { opacity: 0.12; transform: scale(0.25); }
+  47.12% { opacity: 0.12; transform: scale(0.25); }
+  47.24% { opacity: 0.12; transform: scale(0.25); }
+  47.70% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_16_3 { animation: kf_c_16_3 17.36s linear infinite; }
+@keyframes kf_c_15_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  41.88% { opacity: 1; transform: scale(1); }
+  41.94% { opacity: 0.12; transform: scale(0.25); }
+  42.05% { opacity: 0.12; transform: scale(0.25); }
+  47.58% { opacity: 0.12; transform: scale(0.25); }
+  47.70% { opacity: 0.12; transform: scale(0.25); }
+  48.16% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_15_3 { animation: kf_c_15_3 17.36s linear infinite; }
+@keyframes kf_c_14_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  42.34% { opacity: 1; transform: scale(1); }
+  42.40% { opacity: 0.12; transform: scale(0.25); }
+  42.51% { opacity: 0.12; transform: scale(0.25); }
+  48.04% { opacity: 0.12; transform: scale(0.25); }
+  48.16% { opacity: 0.12; transform: scale(0.25); }
+  48.62% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_14_3 { animation: kf_c_14_3 17.36s linear infinite; }
+@keyframes kf_c_13_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  42.80% { opacity: 1; transform: scale(1); }
+  42.86% { opacity: 0.12; transform: scale(0.25); }
+  42.97% { opacity: 0.12; transform: scale(0.25); }
+  48.50% { opacity: 0.12; transform: scale(0.25); }
+  48.62% { opacity: 0.12; transform: scale(0.25); }
+  49.08% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_13_3 { animation: kf_c_13_3 17.36s linear infinite; }
+@keyframes kf_c_12_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  43.26% { opacity: 1; transform: scale(1); }
+  43.32% { opacity: 0.12; transform: scale(0.25); }
+  43.43% { opacity: 0.12; transform: scale(0.25); }
+  48.96% { opacity: 0.12; transform: scale(0.25); }
+  49.08% { opacity: 0.12; transform: scale(0.25); }
+  49.54% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_12_3 { animation: kf_c_12_3 17.36s linear infinite; }
+@keyframes kf_c_11_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  43.72% { opacity: 1; transform: scale(1); }
+  43.78% { opacity: 0.12; transform: scale(0.25); }
+  43.89% { opacity: 0.12; transform: scale(0.25); }
+  49.42% { opacity: 0.12; transform: scale(0.25); }
+  49.54% { opacity: 0.12; transform: scale(0.25); }
+  50.00% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_11_3 { animation: kf_c_11_3 17.36s linear infinite; }
+@keyframes kf_c_10_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  44.18% { opacity: 1; transform: scale(1); }
+  44.24% { opacity: 0.12; transform: scale(0.25); }
+  44.35% { opacity: 0.12; transform: scale(0.25); }
+  49.88% { opacity: 0.12; transform: scale(0.25); }
+  50.00% { opacity: 0.12; transform: scale(0.25); }
+  50.46% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_10_3 { animation: kf_c_10_3 17.36s linear infinite; }
+@keyframes kf_c_9_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  44.64% { opacity: 1; transform: scale(1); }
+  44.70% { opacity: 0.12; transform: scale(0.25); }
+  44.82% { opacity: 0.12; transform: scale(0.25); }
+  50.35% { opacity: 0.12; transform: scale(0.25); }
+  50.46% { opacity: 0.12; transform: scale(0.25); }
+  50.92% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_9_3 { animation: kf_c_9_3 17.36s linear infinite; }
+@keyframes kf_c_8_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  45.10% { opacity: 1; transform: scale(1); }
+  45.16% { opacity: 0.12; transform: scale(0.25); }
+  45.28% { opacity: 0.12; transform: scale(0.25); }
+  50.81% { opacity: 0.12; transform: scale(0.25); }
+  50.92% { opacity: 0.12; transform: scale(0.25); }
+  51.38% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_8_3 { animation: kf_c_8_3 17.36s linear infinite; }
+@keyframes kf_c_7_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  45.56% { opacity: 1; transform: scale(1); }
+  45.62% { opacity: 0.12; transform: scale(0.25); }
+  45.74% { opacity: 0.12; transform: scale(0.25); }
+  51.27% { opacity: 0.12; transform: scale(0.25); }
+  51.38% { opacity: 0.12; transform: scale(0.25); }
+  51.84% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_7_3 { animation: kf_c_7_3 17.36s linear infinite; }
+@keyframes kf_c_6_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  46.03% { opacity: 1; transform: scale(1); }
+  46.08% { opacity: 0.12; transform: scale(0.25); }
+  46.20% { opacity: 0.12; transform: scale(0.25); }
+  51.73% { opacity: 0.12; transform: scale(0.25); }
+  51.84% { opacity: 0.12; transform: scale(0.25); }
+  52.30% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_6_3 { animation: kf_c_6_3 17.36s linear infinite; }
+@keyframes kf_c_5_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  46.49% { opacity: 1; transform: scale(1); }
+  46.54% { opacity: 0.12; transform: scale(0.25); }
+  46.66% { opacity: 0.12; transform: scale(0.25); }
+  52.19% { opacity: 0.12; transform: scale(0.25); }
+  52.30% { opacity: 0.12; transform: scale(0.25); }
+  52.76% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_5_3 { animation: kf_c_5_3 17.36s linear infinite; }
+@keyframes kf_c_4_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  46.95% { opacity: 1; transform: scale(1); }
+  47.00% { opacity: 0.12; transform: scale(0.25); }
+  47.12% { opacity: 0.12; transform: scale(0.25); }
+  52.65% { opacity: 0.12; transform: scale(0.25); }
+  52.76% { opacity: 0.12; transform: scale(0.25); }
+  53.23% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_4_3 { animation: kf_c_4_3 17.36s linear infinite; }
+@keyframes kf_c_3_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  47.41% { opacity: 1; transform: scale(1); }
+  47.47% { opacity: 0.12; transform: scale(0.25); }
+  47.58% { opacity: 0.12; transform: scale(0.25); }
+  53.11% { opacity: 0.12; transform: scale(0.25); }
+  53.23% { opacity: 0.12; transform: scale(0.25); }
+  53.69% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_3_3 { animation: kf_c_3_3 17.36s linear infinite; }
+@keyframes kf_c_2_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  47.87% { opacity: 1; transform: scale(1); }
+  47.93% { opacity: 0.12; transform: scale(0.25); }
+  48.04% { opacity: 0.12; transform: scale(0.25); }
+  53.57% { opacity: 0.12; transform: scale(0.25); }
+  53.69% { opacity: 0.12; transform: scale(0.25); }
+  54.15% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_2_3 { animation: kf_c_2_3 17.36s linear infinite; }
+@keyframes kf_c_1_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  48.33% { opacity: 1; transform: scale(1); }
+  48.39% { opacity: 0.12; transform: scale(0.25); }
+  48.50% { opacity: 0.12; transform: scale(0.25); }
+  54.03% { opacity: 0.12; transform: scale(0.25); }
+  54.15% { opacity: 0.12; transform: scale(0.25); }
+  54.61% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_1_3 { animation: kf_c_1_3 17.36s linear infinite; }
+@keyframes kf_c_0_3 {
+  0.00% { opacity: 1; transform: scale(1); }
+  48.79% { opacity: 1; transform: scale(1); }
+  48.85% { opacity: 0.12; transform: scale(0.25); }
+  48.96% { opacity: 0.12; transform: scale(0.25); }
+  54.49% { opacity: 0.12; transform: scale(0.25); }
+  54.61% { opacity: 0.12; transform: scale(0.25); }
+  55.07% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_0_3 { animation: kf_c_0_3 17.36s linear infinite; }
+@keyframes kf_c_0_4 {
+  0.00% { opacity: 1; transform: scale(1); }
+  49.25% { opacity: 1; transform: scale(1); }
+  49.31% { opacity: 0.12; transform: scale(0.25); }
+  49.42% { opacity: 0.12; transform: scale(0.25); }
+  54.95% { opacity: 0.12; transform: scale(0.25); }
+  55.07% { opacity: 0.12; transform: scale(0.25); }
+  55.53% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_0_4 { animation: kf_c_0_4 17.36s linear infinite; }
+@keyframes kf_c_0_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  49.71% { opacity: 1; transform: scale(1); }
+  49.77% { opacity: 0.12; transform: scale(0.25); }
+  49.88% { opacity: 0.12; transform: scale(0.25); }
+  55.41% { opacity: 0.12; transform: scale(0.25); }
+  55.53% { opacity: 0.12; transform: scale(0.25); }
+  55.99% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_0_5 { animation: kf_c_0_5 17.36s linear infinite; }
+@keyframes kf_c_1_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  50.17% { opacity: 1; transform: scale(1); }
+  50.23% { opacity: 0.12; transform: scale(0.25); }
+  50.35% { opacity: 0.12; transform: scale(0.25); }
+  55.88% { opacity: 0.12; transform: scale(0.25); }
+  55.99% { opacity: 0.12; transform: scale(0.25); }
+  56.45% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_1_5 { animation: kf_c_1_5 17.36s linear infinite; }
+@keyframes kf_c_2_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  50.63% { opacity: 1; transform: scale(1); }
+  50.69% { opacity: 0.12; transform: scale(0.25); }
+  50.81% { opacity: 0.12; transform: scale(0.25); }
+  56.34% { opacity: 0.12; transform: scale(0.25); }
+  56.45% { opacity: 0.12; transform: scale(0.25); }
+  56.91% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_2_5 { animation: kf_c_2_5 17.36s linear infinite; }
+@keyframes kf_c_3_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  51.09% { opacity: 1; transform: scale(1); }
+  51.15% { opacity: 0.12; transform: scale(0.25); }
+  51.27% { opacity: 0.12; transform: scale(0.25); }
+  56.80% { opacity: 0.12; transform: scale(0.25); }
+  56.91% { opacity: 0.12; transform: scale(0.25); }
+  57.37% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_3_5 { animation: kf_c_3_5 17.36s linear infinite; }
+@keyframes kf_c_4_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  51.56% { opacity: 1; transform: scale(1); }
+  51.61% { opacity: 0.12; transform: scale(0.25); }
+  51.73% { opacity: 0.12; transform: scale(0.25); }
+  57.26% { opacity: 0.12; transform: scale(0.25); }
+  57.37% { opacity: 0.12; transform: scale(0.25); }
+  57.83% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_4_5 { animation: kf_c_4_5 17.36s linear infinite; }
+@keyframes kf_c_5_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  52.02% { opacity: 1; transform: scale(1); }
+  52.07% { opacity: 0.12; transform: scale(0.25); }
+  52.19% { opacity: 0.12; transform: scale(0.25); }
+  57.72% { opacity: 0.12; transform: scale(0.25); }
+  57.83% { opacity: 0.12; transform: scale(0.25); }
+  58.29% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_5_5 { animation: kf_c_5_5 17.36s linear infinite; }
+@keyframes kf_c_6_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  52.48% { opacity: 1; transform: scale(1); }
+  52.53% { opacity: 0.12; transform: scale(0.25); }
+  52.65% { opacity: 0.12; transform: scale(0.25); }
+  58.18% { opacity: 0.12; transform: scale(0.25); }
+  58.29% { opacity: 0.12; transform: scale(0.25); }
+  58.76% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_6_5 { animation: kf_c_6_5 17.36s linear infinite; }
+@keyframes kf_c_7_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  52.94% { opacity: 1; transform: scale(1); }
+  53.00% { opacity: 0.12; transform: scale(0.25); }
+  53.11% { opacity: 0.12; transform: scale(0.25); }
+  58.64% { opacity: 0.12; transform: scale(0.25); }
+  58.76% { opacity: 0.12; transform: scale(0.25); }
+  59.22% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_7_5 { animation: kf_c_7_5 17.36s linear infinite; }
+@keyframes kf_c_8_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  53.40% { opacity: 1; transform: scale(1); }
+  53.46% { opacity: 0.12; transform: scale(0.25); }
+  53.57% { opacity: 0.12; transform: scale(0.25); }
+  59.10% { opacity: 0.12; transform: scale(0.25); }
+  59.22% { opacity: 0.12; transform: scale(0.25); }
+  59.68% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_8_5 { animation: kf_c_8_5 17.36s linear infinite; }
+@keyframes kf_c_9_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  53.86% { opacity: 1; transform: scale(1); }
+  53.92% { opacity: 0.12; transform: scale(0.25); }
+  54.03% { opacity: 0.12; transform: scale(0.25); }
+  59.56% { opacity: 0.12; transform: scale(0.25); }
+  59.68% { opacity: 0.12; transform: scale(0.25); }
+  60.14% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_9_5 { animation: kf_c_9_5 17.36s linear infinite; }
+@keyframes kf_c_10_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  54.32% { opacity: 1; transform: scale(1); }
+  54.38% { opacity: 0.12; transform: scale(0.25); }
+  54.49% { opacity: 0.12; transform: scale(0.25); }
+  60.02% { opacity: 0.12; transform: scale(0.25); }
+  60.14% { opacity: 0.12; transform: scale(0.25); }
+  60.60% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_10_5 { animation: kf_c_10_5 17.36s linear infinite; }
+@keyframes kf_c_11_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  54.78% { opacity: 1; transform: scale(1); }
+  54.84% { opacity: 0.12; transform: scale(0.25); }
+  54.95% { opacity: 0.12; transform: scale(0.25); }
+  60.48% { opacity: 0.12; transform: scale(0.25); }
+  60.60% { opacity: 0.12; transform: scale(0.25); }
+  61.06% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_11_5 { animation: kf_c_11_5 17.36s linear infinite; }
+@keyframes kf_c_12_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  55.24% { opacity: 1; transform: scale(1); }
+  55.30% { opacity: 0.12; transform: scale(0.25); }
+  55.41% { opacity: 0.12; transform: scale(0.25); }
+  60.94% { opacity: 0.12; transform: scale(0.25); }
+  61.06% { opacity: 0.12; transform: scale(0.25); }
+  61.52% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_12_5 { animation: kf_c_12_5 17.36s linear infinite; }
+@keyframes kf_c_13_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  55.70% { opacity: 1; transform: scale(1); }
+  55.76% { opacity: 0.12; transform: scale(0.25); }
+  55.88% { opacity: 0.12; transform: scale(0.25); }
+  61.41% { opacity: 0.12; transform: scale(0.25); }
+  61.52% { opacity: 0.12; transform: scale(0.25); }
+  61.98% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_13_5 { animation: kf_c_13_5 17.36s linear infinite; }
+@keyframes kf_c_14_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  56.16% { opacity: 1; transform: scale(1); }
+  56.22% { opacity: 0.12; transform: scale(0.25); }
+  56.34% { opacity: 0.12; transform: scale(0.25); }
+  61.87% { opacity: 0.12; transform: scale(0.25); }
+  61.98% { opacity: 0.12; transform: scale(0.25); }
+  62.44% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_14_5 { animation: kf_c_14_5 17.36s linear infinite; }
+@keyframes kf_c_15_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  56.62% { opacity: 1; transform: scale(1); }
+  56.68% { opacity: 0.12; transform: scale(0.25); }
+  56.80% { opacity: 0.12; transform: scale(0.25); }
+  62.33% { opacity: 0.12; transform: scale(0.25); }
+  62.44% { opacity: 0.12; transform: scale(0.25); }
+  62.90% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_15_5 { animation: kf_c_15_5 17.36s linear infinite; }
+@keyframes kf_c_16_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  57.09% { opacity: 1; transform: scale(1); }
+  57.14% { opacity: 0.12; transform: scale(0.25); }
+  57.26% { opacity: 0.12; transform: scale(0.25); }
+  62.79% { opacity: 0.12; transform: scale(0.25); }
+  62.90% { opacity: 0.12; transform: scale(0.25); }
+  63.36% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_16_5 { animation: kf_c_16_5 17.36s linear infinite; }
+@keyframes kf_c_17_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  57.55% { opacity: 1; transform: scale(1); }
+  57.60% { opacity: 0.12; transform: scale(0.25); }
+  57.72% { opacity: 0.12; transform: scale(0.25); }
+  63.25% { opacity: 0.12; transform: scale(0.25); }
+  63.36% { opacity: 0.12; transform: scale(0.25); }
+  63.82% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_17_5 { animation: kf_c_17_5 17.36s linear infinite; }
+@keyframes kf_c_18_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  58.01% { opacity: 1; transform: scale(1); }
+  58.06% { opacity: 0.12; transform: scale(0.25); }
+  58.18% { opacity: 0.12; transform: scale(0.25); }
+  63.71% { opacity: 0.12; transform: scale(0.25); }
+  63.82% { opacity: 0.12; transform: scale(0.25); }
+  64.29% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_18_5 { animation: kf_c_18_5 17.36s linear infinite; }
+@keyframes kf_c_19_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  58.47% { opacity: 1; transform: scale(1); }
+  58.53% { opacity: 0.12; transform: scale(0.25); }
+  58.64% { opacity: 0.12; transform: scale(0.25); }
+  64.17% { opacity: 0.12; transform: scale(0.25); }
+  64.29% { opacity: 0.12; transform: scale(0.25); }
+  64.75% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_19_5 { animation: kf_c_19_5 17.36s linear infinite; }
+@keyframes kf_c_20_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  58.93% { opacity: 1; transform: scale(1); }
+  58.99% { opacity: 0.12; transform: scale(0.25); }
+  59.10% { opacity: 0.12; transform: scale(0.25); }
+  64.63% { opacity: 0.12; transform: scale(0.25); }
+  64.75% { opacity: 0.12; transform: scale(0.25); }
+  65.21% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_20_5 { animation: kf_c_20_5 17.36s linear infinite; }
+@keyframes kf_c_21_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  59.39% { opacity: 1; transform: scale(1); }
+  59.45% { opacity: 0.12; transform: scale(0.25); }
+  59.56% { opacity: 0.12; transform: scale(0.25); }
+  65.09% { opacity: 0.12; transform: scale(0.25); }
+  65.21% { opacity: 0.12; transform: scale(0.25); }
+  65.67% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_21_5 { animation: kf_c_21_5 17.36s linear infinite; }
+@keyframes kf_c_22_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  59.85% { opacity: 1; transform: scale(1); }
+  59.91% { opacity: 0.12; transform: scale(0.25); }
+  60.02% { opacity: 0.12; transform: scale(0.25); }
+  65.55% { opacity: 0.12; transform: scale(0.25); }
+  65.67% { opacity: 0.12; transform: scale(0.25); }
+  66.13% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_22_5 { animation: kf_c_22_5 17.36s linear infinite; }
+@keyframes kf_c_23_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  60.31% { opacity: 1; transform: scale(1); }
+  60.37% { opacity: 0.12; transform: scale(0.25); }
+  60.48% { opacity: 0.12; transform: scale(0.25); }
+  66.01% { opacity: 0.12; transform: scale(0.25); }
+  66.13% { opacity: 0.12; transform: scale(0.25); }
+  66.59% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_23_5 { animation: kf_c_23_5 17.36s linear infinite; }
+@keyframes kf_c_24_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  60.77% { opacity: 1; transform: scale(1); }
+  60.83% { opacity: 0.12; transform: scale(0.25); }
+  60.94% { opacity: 0.12; transform: scale(0.25); }
+  66.47% { opacity: 0.12; transform: scale(0.25); }
+  66.59% { opacity: 0.12; transform: scale(0.25); }
+  67.05% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_24_5 { animation: kf_c_24_5 17.36s linear infinite; }
+@keyframes kf_c_25_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  61.23% { opacity: 1; transform: scale(1); }
+  61.29% { opacity: 0.12; transform: scale(0.25); }
+  61.41% { opacity: 0.12; transform: scale(0.25); }
+  66.94% { opacity: 0.12; transform: scale(0.25); }
+  67.05% { opacity: 0.12; transform: scale(0.25); }
+  67.51% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_25_5 { animation: kf_c_25_5 17.36s linear infinite; }
+@keyframes kf_c_26_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  61.69% { opacity: 1; transform: scale(1); }
+  61.75% { opacity: 0.12; transform: scale(0.25); }
+  61.87% { opacity: 0.12; transform: scale(0.25); }
+  67.40% { opacity: 0.12; transform: scale(0.25); }
+  67.51% { opacity: 0.12; transform: scale(0.25); }
+  67.97% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_26_5 { animation: kf_c_26_5 17.36s linear infinite; }
+@keyframes kf_c_27_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  62.15% { opacity: 1; transform: scale(1); }
+  62.21% { opacity: 0.12; transform: scale(0.25); }
+  62.33% { opacity: 0.12; transform: scale(0.25); }
+  67.86% { opacity: 0.12; transform: scale(0.25); }
+  67.97% { opacity: 0.12; transform: scale(0.25); }
+  68.43% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_27_5 { animation: kf_c_27_5 17.36s linear infinite; }
+@keyframes kf_c_28_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  62.62% { opacity: 1; transform: scale(1); }
+  62.67% { opacity: 0.12; transform: scale(0.25); }
+  62.79% { opacity: 0.12; transform: scale(0.25); }
+  68.32% { opacity: 0.12; transform: scale(0.25); }
+  68.43% { opacity: 0.12; transform: scale(0.25); }
+  68.89% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_28_5 { animation: kf_c_28_5 17.36s linear infinite; }
+@keyframes kf_c_29_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  63.08% { opacity: 1; transform: scale(1); }
+  63.13% { opacity: 0.12; transform: scale(0.25); }
+  63.25% { opacity: 0.12; transform: scale(0.25); }
+  68.78% { opacity: 0.12; transform: scale(0.25); }
+  68.89% { opacity: 0.12; transform: scale(0.25); }
+  69.35% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_29_5 { animation: kf_c_29_5 17.36s linear infinite; }
+@keyframes kf_c_30_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  63.54% { opacity: 1; transform: scale(1); }
+  63.59% { opacity: 0.12; transform: scale(0.25); }
+  63.71% { opacity: 0.12; transform: scale(0.25); }
+  69.24% { opacity: 0.12; transform: scale(0.25); }
+  69.35% { opacity: 0.12; transform: scale(0.25); }
+  69.82% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_30_5 { animation: kf_c_30_5 17.36s linear infinite; }
+@keyframes kf_c_31_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  64.00% { opacity: 1; transform: scale(1); }
+  64.06% { opacity: 0.12; transform: scale(0.25); }
+  64.17% { opacity: 0.12; transform: scale(0.25); }
+  69.70% { opacity: 0.12; transform: scale(0.25); }
+  69.82% { opacity: 0.12; transform: scale(0.25); }
+  70.28% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_31_5 { animation: kf_c_31_5 17.36s linear infinite; }
+@keyframes kf_c_32_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  64.46% { opacity: 1; transform: scale(1); }
+  64.52% { opacity: 0.12; transform: scale(0.25); }
+  64.63% { opacity: 0.12; transform: scale(0.25); }
+  70.16% { opacity: 0.12; transform: scale(0.25); }
+  70.28% { opacity: 0.12; transform: scale(0.25); }
+  70.74% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_32_5 { animation: kf_c_32_5 17.36s linear infinite; }
+@keyframes kf_c_33_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  64.92% { opacity: 1; transform: scale(1); }
+  64.98% { opacity: 0.12; transform: scale(0.25); }
+  65.09% { opacity: 0.12; transform: scale(0.25); }
+  70.62% { opacity: 0.12; transform: scale(0.25); }
+  70.74% { opacity: 0.12; transform: scale(0.25); }
+  71.20% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_33_5 { animation: kf_c_33_5 17.36s linear infinite; }
+@keyframes kf_c_34_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  65.38% { opacity: 1; transform: scale(1); }
+  65.44% { opacity: 0.12; transform: scale(0.25); }
+  65.55% { opacity: 0.12; transform: scale(0.25); }
+  71.08% { opacity: 0.12; transform: scale(0.25); }
+  71.20% { opacity: 0.12; transform: scale(0.25); }
+  71.66% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_34_5 { animation: kf_c_34_5 17.36s linear infinite; }
+@keyframes kf_c_35_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  65.84% { opacity: 1; transform: scale(1); }
+  65.90% { opacity: 0.12; transform: scale(0.25); }
+  66.01% { opacity: 0.12; transform: scale(0.25); }
+  71.54% { opacity: 0.12; transform: scale(0.25); }
+  71.66% { opacity: 0.12; transform: scale(0.25); }
+  72.12% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_35_5 { animation: kf_c_35_5 17.36s linear infinite; }
+@keyframes kf_c_36_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  66.30% { opacity: 1; transform: scale(1); }
+  66.36% { opacity: 0.12; transform: scale(0.25); }
+  66.47% { opacity: 0.12; transform: scale(0.25); }
+  72.00% { opacity: 0.12; transform: scale(0.25); }
+  72.12% { opacity: 0.12; transform: scale(0.25); }
+  72.58% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_36_5 { animation: kf_c_36_5 17.36s linear infinite; }
+@keyframes kf_c_37_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  66.76% { opacity: 1; transform: scale(1); }
+  66.82% { opacity: 0.12; transform: scale(0.25); }
+  66.94% { opacity: 0.12; transform: scale(0.25); }
+  72.47% { opacity: 0.12; transform: scale(0.25); }
+  72.58% { opacity: 0.12; transform: scale(0.25); }
+  73.04% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_37_5 { animation: kf_c_37_5 17.36s linear infinite; }
+@keyframes kf_c_38_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  67.22% { opacity: 1; transform: scale(1); }
+  67.28% { opacity: 0.12; transform: scale(0.25); }
+  67.40% { opacity: 0.12; transform: scale(0.25); }
+  72.93% { opacity: 0.12; transform: scale(0.25); }
+  73.04% { opacity: 0.12; transform: scale(0.25); }
+  73.50% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_38_5 { animation: kf_c_38_5 17.36s linear infinite; }
+@keyframes kf_c_39_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  67.68% { opacity: 1; transform: scale(1); }
+  67.74% { opacity: 0.12; transform: scale(0.25); }
+  67.86% { opacity: 0.12; transform: scale(0.25); }
+  73.39% { opacity: 0.12; transform: scale(0.25); }
+  73.50% { opacity: 0.12; transform: scale(0.25); }
+  73.96% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_39_5 { animation: kf_c_39_5 17.36s linear infinite; }
+@keyframes kf_c_40_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  68.15% { opacity: 1; transform: scale(1); }
+  68.20% { opacity: 0.12; transform: scale(0.25); }
+  68.32% { opacity: 0.12; transform: scale(0.25); }
+  73.85% { opacity: 0.12; transform: scale(0.25); }
+  73.96% { opacity: 0.12; transform: scale(0.25); }
+  74.42% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_40_5 { animation: kf_c_40_5 17.36s linear infinite; }
+@keyframes kf_c_41_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  68.61% { opacity: 1; transform: scale(1); }
+  68.66% { opacity: 0.12; transform: scale(0.25); }
+  68.78% { opacity: 0.12; transform: scale(0.25); }
+  74.31% { opacity: 0.12; transform: scale(0.25); }
+  74.42% { opacity: 0.12; transform: scale(0.25); }
+  74.88% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_41_5 { animation: kf_c_41_5 17.36s linear infinite; }
+@keyframes kf_c_42_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  69.07% { opacity: 1; transform: scale(1); }
+  69.12% { opacity: 0.12; transform: scale(0.25); }
+  69.24% { opacity: 0.12; transform: scale(0.25); }
+  74.77% { opacity: 0.12; transform: scale(0.25); }
+  74.88% { opacity: 0.12; transform: scale(0.25); }
+  75.35% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_42_5 { animation: kf_c_42_5 17.36s linear infinite; }
+@keyframes kf_c_43_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  69.53% { opacity: 1; transform: scale(1); }
+  69.59% { opacity: 0.12; transform: scale(0.25); }
+  69.70% { opacity: 0.12; transform: scale(0.25); }
+  75.23% { opacity: 0.12; transform: scale(0.25); }
+  75.35% { opacity: 0.12; transform: scale(0.25); }
+  75.81% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_43_5 { animation: kf_c_43_5 17.36s linear infinite; }
+@keyframes kf_c_44_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  69.99% { opacity: 1; transform: scale(1); }
+  70.05% { opacity: 0.12; transform: scale(0.25); }
+  70.16% { opacity: 0.12; transform: scale(0.25); }
+  75.69% { opacity: 0.12; transform: scale(0.25); }
+  75.81% { opacity: 0.12; transform: scale(0.25); }
+  76.27% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_44_5 { animation: kf_c_44_5 17.36s linear infinite; }
+@keyframes kf_c_45_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  70.45% { opacity: 1; transform: scale(1); }
+  70.51% { opacity: 0.12; transform: scale(0.25); }
+  70.62% { opacity: 0.12; transform: scale(0.25); }
+  76.15% { opacity: 0.12; transform: scale(0.25); }
+  76.27% { opacity: 0.12; transform: scale(0.25); }
+  76.73% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_45_5 { animation: kf_c_45_5 17.36s linear infinite; }
+@keyframes kf_c_46_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  70.91% { opacity: 1; transform: scale(1); }
+  70.97% { opacity: 0.12; transform: scale(0.25); }
+  71.08% { opacity: 0.12; transform: scale(0.25); }
+  76.61% { opacity: 0.12; transform: scale(0.25); }
+  76.73% { opacity: 0.12; transform: scale(0.25); }
+  77.19% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_46_5 { animation: kf_c_46_5 17.36s linear infinite; }
+@keyframes kf_c_47_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  71.37% { opacity: 1; transform: scale(1); }
+  71.43% { opacity: 0.12; transform: scale(0.25); }
+  71.54% { opacity: 0.12; transform: scale(0.25); }
+  77.07% { opacity: 0.12; transform: scale(0.25); }
+  77.19% { opacity: 0.12; transform: scale(0.25); }
+  77.65% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_47_5 { animation: kf_c_47_5 17.36s linear infinite; }
+@keyframes kf_c_48_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  71.83% { opacity: 1; transform: scale(1); }
+  71.89% { opacity: 0.12; transform: scale(0.25); }
+  72.00% { opacity: 0.12; transform: scale(0.25); }
+  77.53% { opacity: 0.12; transform: scale(0.25); }
+  77.65% { opacity: 0.12; transform: scale(0.25); }
+  78.11% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_48_5 { animation: kf_c_48_5 17.36s linear infinite; }
+@keyframes kf_c_49_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  72.29% { opacity: 1; transform: scale(1); }
+  72.35% { opacity: 0.12; transform: scale(0.25); }
+  72.47% { opacity: 0.12; transform: scale(0.25); }
+  78.00% { opacity: 0.12; transform: scale(0.25); }
+  78.11% { opacity: 0.12; transform: scale(0.25); }
+  78.57% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_49_5 { animation: kf_c_49_5 17.36s linear infinite; }
+@keyframes kf_c_50_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  72.75% { opacity: 1; transform: scale(1); }
+  72.81% { opacity: 0.12; transform: scale(0.25); }
+  72.93% { opacity: 0.12; transform: scale(0.25); }
+  78.46% { opacity: 0.12; transform: scale(0.25); }
+  78.57% { opacity: 0.12; transform: scale(0.25); }
+  79.03% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_50_5 { animation: kf_c_50_5 17.36s linear infinite; }
+@keyframes kf_c_51_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  73.21% { opacity: 1; transform: scale(1); }
+  73.27% { opacity: 0.12; transform: scale(0.25); }
+  73.39% { opacity: 0.12; transform: scale(0.25); }
+  78.92% { opacity: 0.12; transform: scale(0.25); }
+  79.03% { opacity: 0.12; transform: scale(0.25); }
+  79.49% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_51_5 { animation: kf_c_51_5 17.36s linear infinite; }
+@keyframes kf_c_52_5 {
+  0.00% { opacity: 1; transform: scale(1); }
+  73.68% { opacity: 1; transform: scale(1); }
+  73.73% { opacity: 0.12; transform: scale(0.25); }
+  73.85% { opacity: 0.12; transform: scale(0.25); }
+  79.38% { opacity: 0.12; transform: scale(0.25); }
+  79.49% { opacity: 0.12; transform: scale(0.25); }
+  79.95% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_5 { animation: kf_c_52_5 17.36s linear infinite; }
+@keyframes kf_c_52_4 {
+  0.00% { opacity: 1; transform: scale(1); }
+  74.14% { opacity: 1; transform: scale(1); }
+  74.19% { opacity: 0.12; transform: scale(0.25); }
+  74.31% { opacity: 0.12; transform: scale(0.25); }
+  79.84% { opacity: 0.12; transform: scale(0.25); }
+  79.95% { opacity: 0.12; transform: scale(0.25); }
+  80.41% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_4 { animation: kf_c_52_4 17.36s linear infinite; }
+@keyframes kf_c_52_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  75.06% { opacity: 1; transform: scale(1); }
+  75.12% { opacity: 0.12; transform: scale(0.25); }
+  75.23% { opacity: 0.12; transform: scale(0.25); }
+  80.76% { opacity: 0.12; transform: scale(0.25); }
+  80.88% { opacity: 0.12; transform: scale(0.25); }
+  81.34% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_52_0 { animation: kf_c_52_0 17.36s linear infinite; }
+@keyframes kf_c_51_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  75.52% { opacity: 1; transform: scale(1); }
+  75.58% { opacity: 0.12; transform: scale(0.25); }
+  75.69% { opacity: 0.12; transform: scale(0.25); }
+  81.22% { opacity: 0.12; transform: scale(0.25); }
+  81.34% { opacity: 0.12; transform: scale(0.25); }
+  81.80% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_51_0 { animation: kf_c_51_0 17.36s linear infinite; }
+@keyframes kf_c_50_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  75.98% { opacity: 1; transform: scale(1); }
+  76.04% { opacity: 0.12; transform: scale(0.25); }
+  76.15% { opacity: 0.12; transform: scale(0.25); }
+  81.68% { opacity: 0.12; transform: scale(0.25); }
+  81.80% { opacity: 0.12; transform: scale(0.25); }
+  82.26% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_50_0 { animation: kf_c_50_0 17.36s linear infinite; }
+@keyframes kf_c_49_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  76.44% { opacity: 1; transform: scale(1); }
+  76.50% { opacity: 0.12; transform: scale(0.25); }
+  76.61% { opacity: 0.12; transform: scale(0.25); }
+  82.14% { opacity: 0.12; transform: scale(0.25); }
+  82.26% { opacity: 0.12; transform: scale(0.25); }
+  82.72% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_49_0 { animation: kf_c_49_0 17.36s linear infinite; }
+@keyframes kf_c_48_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  76.90% { opacity: 1; transform: scale(1); }
+  76.96% { opacity: 0.12; transform: scale(0.25); }
+  77.07% { opacity: 0.12; transform: scale(0.25); }
+  82.60% { opacity: 0.12; transform: scale(0.25); }
+  82.72% { opacity: 0.12; transform: scale(0.25); }
+  83.18% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_48_0 { animation: kf_c_48_0 17.36s linear infinite; }
+@keyframes kf_c_47_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  77.36% { opacity: 1; transform: scale(1); }
+  77.42% { opacity: 0.12; transform: scale(0.25); }
+  77.53% { opacity: 0.12; transform: scale(0.25); }
+  83.06% { opacity: 0.12; transform: scale(0.25); }
+  83.18% { opacity: 0.12; transform: scale(0.25); }
+  83.64% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_47_0 { animation: kf_c_47_0 17.36s linear infinite; }
+@keyframes kf_c_46_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  77.82% { opacity: 1; transform: scale(1); }
+  77.88% { opacity: 0.12; transform: scale(0.25); }
+  78.00% { opacity: 0.12; transform: scale(0.25); }
+  83.53% { opacity: 0.12; transform: scale(0.25); }
+  83.64% { opacity: 0.12; transform: scale(0.25); }
+  84.10% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_46_0 { animation: kf_c_46_0 17.36s linear infinite; }
+@keyframes kf_c_45_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  78.28% { opacity: 1; transform: scale(1); }
+  78.34% { opacity: 0.12; transform: scale(0.25); }
+  78.46% { opacity: 0.12; transform: scale(0.25); }
+  83.99% { opacity: 0.12; transform: scale(0.25); }
+  84.10% { opacity: 0.12; transform: scale(0.25); }
+  84.56% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_45_0 { animation: kf_c_45_0 17.36s linear infinite; }
+@keyframes kf_c_44_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  78.74% { opacity: 1; transform: scale(1); }
+  78.80% { opacity: 0.12; transform: scale(0.25); }
+  78.92% { opacity: 0.12; transform: scale(0.25); }
+  84.45% { opacity: 0.12; transform: scale(0.25); }
+  84.56% { opacity: 0.12; transform: scale(0.25); }
+  85.02% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_44_0 { animation: kf_c_44_0 17.36s linear infinite; }
+@keyframes kf_c_43_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  79.21% { opacity: 1; transform: scale(1); }
+  79.26% { opacity: 0.12; transform: scale(0.25); }
+  79.38% { opacity: 0.12; transform: scale(0.25); }
+  84.91% { opacity: 0.12; transform: scale(0.25); }
+  85.02% { opacity: 0.12; transform: scale(0.25); }
+  85.48% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_43_0 { animation: kf_c_43_0 17.36s linear infinite; }
+@keyframes kf_c_42_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  79.67% { opacity: 1; transform: scale(1); }
+  79.72% { opacity: 0.12; transform: scale(0.25); }
+  79.84% { opacity: 0.12; transform: scale(0.25); }
+  85.37% { opacity: 0.12; transform: scale(0.25); }
+  85.48% { opacity: 0.12; transform: scale(0.25); }
+  85.94% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_42_0 { animation: kf_c_42_0 17.36s linear infinite; }
+@keyframes kf_c_41_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  80.13% { opacity: 1; transform: scale(1); }
+  80.18% { opacity: 0.12; transform: scale(0.25); }
+  80.30% { opacity: 0.12; transform: scale(0.25); }
+  85.83% { opacity: 0.12; transform: scale(0.25); }
+  85.94% { opacity: 0.12; transform: scale(0.25); }
+  86.41% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_41_0 { animation: kf_c_41_0 17.36s linear infinite; }
+@keyframes kf_c_40_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  80.59% { opacity: 1; transform: scale(1); }
+  80.65% { opacity: 0.12; transform: scale(0.25); }
+  80.76% { opacity: 0.12; transform: scale(0.25); }
+  86.29% { opacity: 0.12; transform: scale(0.25); }
+  86.41% { opacity: 0.12; transform: scale(0.25); }
+  86.87% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_40_0 { animation: kf_c_40_0 17.36s linear infinite; }
+@keyframes kf_c_39_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  81.05% { opacity: 1; transform: scale(1); }
+  81.11% { opacity: 0.12; transform: scale(0.25); }
+  81.22% { opacity: 0.12; transform: scale(0.25); }
+  86.75% { opacity: 0.12; transform: scale(0.25); }
+  86.87% { opacity: 0.12; transform: scale(0.25); }
+  87.33% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_39_0 { animation: kf_c_39_0 17.36s linear infinite; }
+@keyframes kf_c_38_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  81.51% { opacity: 1; transform: scale(1); }
+  81.57% { opacity: 0.12; transform: scale(0.25); }
+  81.68% { opacity: 0.12; transform: scale(0.25); }
+  87.21% { opacity: 0.12; transform: scale(0.25); }
+  87.33% { opacity: 0.12; transform: scale(0.25); }
+  87.79% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_38_0 { animation: kf_c_38_0 17.36s linear infinite; }
+@keyframes kf_c_37_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  81.97% { opacity: 1; transform: scale(1); }
+  82.03% { opacity: 0.12; transform: scale(0.25); }
+  82.14% { opacity: 0.12; transform: scale(0.25); }
+  87.67% { opacity: 0.12; transform: scale(0.25); }
+  87.79% { opacity: 0.12; transform: scale(0.25); }
+  88.25% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_37_0 { animation: kf_c_37_0 17.36s linear infinite; }
+@keyframes kf_c_36_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  82.43% { opacity: 1; transform: scale(1); }
+  82.49% { opacity: 0.12; transform: scale(0.25); }
+  82.60% { opacity: 0.12; transform: scale(0.25); }
+  88.13% { opacity: 0.12; transform: scale(0.25); }
+  88.25% { opacity: 0.12; transform: scale(0.25); }
+  88.71% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_36_0 { animation: kf_c_36_0 17.36s linear infinite; }
+@keyframes kf_c_35_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  82.89% { opacity: 1; transform: scale(1); }
+  82.95% { opacity: 0.12; transform: scale(0.25); }
+  83.06% { opacity: 0.12; transform: scale(0.25); }
+  88.59% { opacity: 0.12; transform: scale(0.25); }
+  88.71% { opacity: 0.12; transform: scale(0.25); }
+  89.17% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_35_0 { animation: kf_c_35_0 17.36s linear infinite; }
+@keyframes kf_c_34_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  83.35% { opacity: 1; transform: scale(1); }
+  83.41% { opacity: 0.12; transform: scale(0.25); }
+  83.53% { opacity: 0.12; transform: scale(0.25); }
+  89.06% { opacity: 0.12; transform: scale(0.25); }
+  89.17% { opacity: 0.12; transform: scale(0.25); }
+  89.63% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_34_0 { animation: kf_c_34_0 17.36s linear infinite; }
+@keyframes kf_c_33_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  83.81% { opacity: 1; transform: scale(1); }
+  83.87% { opacity: 0.12; transform: scale(0.25); }
+  83.99% { opacity: 0.12; transform: scale(0.25); }
+  89.52% { opacity: 0.12; transform: scale(0.25); }
+  89.63% { opacity: 0.12; transform: scale(0.25); }
+  90.09% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_33_0 { animation: kf_c_33_0 17.36s linear infinite; }
+@keyframes kf_c_32_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  84.27% { opacity: 1; transform: scale(1); }
+  84.33% { opacity: 0.12; transform: scale(0.25); }
+  84.45% { opacity: 0.12; transform: scale(0.25); }
+  89.98% { opacity: 0.12; transform: scale(0.25); }
+  90.09% { opacity: 0.12; transform: scale(0.25); }
+  90.55% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_32_0 { animation: kf_c_32_0 17.36s linear infinite; }
+@keyframes kf_c_31_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  84.74% { opacity: 1; transform: scale(1); }
+  84.79% { opacity: 0.12; transform: scale(0.25); }
+  84.91% { opacity: 0.12; transform: scale(0.25); }
+  90.44% { opacity: 0.12; transform: scale(0.25); }
+  90.55% { opacity: 0.12; transform: scale(0.25); }
+  91.01% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_31_0 { animation: kf_c_31_0 17.36s linear infinite; }
+@keyframes kf_c_30_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  85.20% { opacity: 1; transform: scale(1); }
+  85.25% { opacity: 0.12; transform: scale(0.25); }
+  85.37% { opacity: 0.12; transform: scale(0.25); }
+  90.90% { opacity: 0.12; transform: scale(0.25); }
+  91.01% { opacity: 0.12; transform: scale(0.25); }
+  91.47% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_30_0 { animation: kf_c_30_0 17.36s linear infinite; }
+@keyframes kf_c_29_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  85.66% { opacity: 1; transform: scale(1); }
+  85.71% { opacity: 0.12; transform: scale(0.25); }
+  85.83% { opacity: 0.12; transform: scale(0.25); }
+  91.36% { opacity: 0.12; transform: scale(0.25); }
+  91.47% { opacity: 0.12; transform: scale(0.25); }
+  91.94% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_29_0 { animation: kf_c_29_0 17.36s linear infinite; }
+@keyframes kf_c_28_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  86.12% { opacity: 1; transform: scale(1); }
+  86.18% { opacity: 0.12; transform: scale(0.25); }
+  86.29% { opacity: 0.12; transform: scale(0.25); }
+  91.82% { opacity: 0.12; transform: scale(0.25); }
+  91.94% { opacity: 0.12; transform: scale(0.25); }
+  92.40% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_28_0 { animation: kf_c_28_0 17.36s linear infinite; }
+@keyframes kf_c_27_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  86.58% { opacity: 1; transform: scale(1); }
+  86.64% { opacity: 0.12; transform: scale(0.25); }
+  86.75% { opacity: 0.12; transform: scale(0.25); }
+  92.28% { opacity: 0.12; transform: scale(0.25); }
+  92.40% { opacity: 0.12; transform: scale(0.25); }
+  92.86% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_27_0 { animation: kf_c_27_0 17.36s linear infinite; }
+@keyframes kf_c_26_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  87.04% { opacity: 1; transform: scale(1); }
+  87.10% { opacity: 0.12; transform: scale(0.25); }
+  87.21% { opacity: 0.12; transform: scale(0.25); }
+  92.74% { opacity: 0.12; transform: scale(0.25); }
+  92.86% { opacity: 0.12; transform: scale(0.25); }
+  93.32% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_26_0 { animation: kf_c_26_0 17.36s linear infinite; }
+@keyframes kf_c_25_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  87.50% { opacity: 1; transform: scale(1); }
+  87.56% { opacity: 0.12; transform: scale(0.25); }
+  87.67% { opacity: 0.12; transform: scale(0.25); }
+  93.20% { opacity: 0.12; transform: scale(0.25); }
+  93.32% { opacity: 0.12; transform: scale(0.25); }
+  93.78% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_25_0 { animation: kf_c_25_0 17.36s linear infinite; }
+@keyframes kf_c_24_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  87.96% { opacity: 1; transform: scale(1); }
+  88.02% { opacity: 0.12; transform: scale(0.25); }
+  88.13% { opacity: 0.12; transform: scale(0.25); }
+  93.66% { opacity: 0.12; transform: scale(0.25); }
+  93.78% { opacity: 0.12; transform: scale(0.25); }
+  94.24% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_24_0 { animation: kf_c_24_0 17.36s linear infinite; }
+@keyframes kf_c_23_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  88.42% { opacity: 1; transform: scale(1); }
+  88.48% { opacity: 0.12; transform: scale(0.25); }
+  88.59% { opacity: 0.12; transform: scale(0.25); }
+  94.12% { opacity: 0.12; transform: scale(0.25); }
+  94.24% { opacity: 0.12; transform: scale(0.25); }
+  94.70% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_23_0 { animation: kf_c_23_0 17.36s linear infinite; }
+@keyframes kf_c_22_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  88.88% { opacity: 1; transform: scale(1); }
+  88.94% { opacity: 0.12; transform: scale(0.25); }
+  89.06% { opacity: 0.12; transform: scale(0.25); }
+  94.59% { opacity: 0.12; transform: scale(0.25); }
+  94.70% { opacity: 0.12; transform: scale(0.25); }
+  95.16% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_22_0 { animation: kf_c_22_0 17.36s linear infinite; }
+@keyframes kf_c_21_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  89.34% { opacity: 1; transform: scale(1); }
+  89.40% { opacity: 0.12; transform: scale(0.25); }
+  89.52% { opacity: 0.12; transform: scale(0.25); }
+  95.05% { opacity: 0.12; transform: scale(0.25); }
+  95.16% { opacity: 0.12; transform: scale(0.25); }
+  95.62% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_21_0 { animation: kf_c_21_0 17.36s linear infinite; }
+@keyframes kf_c_20_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  89.80% { opacity: 1; transform: scale(1); }
+  89.86% { opacity: 0.12; transform: scale(0.25); }
+  89.98% { opacity: 0.12; transform: scale(0.25); }
+  95.51% { opacity: 0.12; transform: scale(0.25); }
+  95.62% { opacity: 0.12; transform: scale(0.25); }
+  96.08% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_20_0 { animation: kf_c_20_0 17.36s linear infinite; }
+@keyframes kf_c_19_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  90.26% { opacity: 1; transform: scale(1); }
+  90.32% { opacity: 0.12; transform: scale(0.25); }
+  90.44% { opacity: 0.12; transform: scale(0.25); }
+  95.97% { opacity: 0.12; transform: scale(0.25); }
+  96.08% { opacity: 0.12; transform: scale(0.25); }
+  96.54% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_19_0 { animation: kf_c_19_0 17.36s linear infinite; }
+@keyframes kf_c_18_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  90.73% { opacity: 1; transform: scale(1); }
+  90.78% { opacity: 0.12; transform: scale(0.25); }
+  90.90% { opacity: 0.12; transform: scale(0.25); }
+  96.43% { opacity: 0.12; transform: scale(0.25); }
+  96.54% { opacity: 0.12; transform: scale(0.25); }
+  97.00% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_18_0 { animation: kf_c_18_0 17.36s linear infinite; }
+@keyframes kf_c_17_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  91.19% { opacity: 1; transform: scale(1); }
+  91.24% { opacity: 0.12; transform: scale(0.25); }
+  91.36% { opacity: 0.12; transform: scale(0.25); }
+  96.89% { opacity: 0.12; transform: scale(0.25); }
+  97.00% { opacity: 0.12; transform: scale(0.25); }
+  97.47% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_17_0 { animation: kf_c_17_0 17.36s linear infinite; }
+@keyframes kf_c_16_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  91.65% { opacity: 1; transform: scale(1); }
+  91.71% { opacity: 0.12; transform: scale(0.25); }
+  91.82% { opacity: 0.12; transform: scale(0.25); }
+  97.35% { opacity: 0.12; transform: scale(0.25); }
+  97.47% { opacity: 0.12; transform: scale(0.25); }
+  97.93% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_16_0 { animation: kf_c_16_0 17.36s linear infinite; }
+@keyframes kf_c_15_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  92.11% { opacity: 1; transform: scale(1); }
+  92.17% { opacity: 0.12; transform: scale(0.25); }
+  92.28% { opacity: 0.12; transform: scale(0.25); }
+  97.81% { opacity: 0.12; transform: scale(0.25); }
+  97.93% { opacity: 0.12; transform: scale(0.25); }
+  98.39% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_15_0 { animation: kf_c_15_0 17.36s linear infinite; }
+@keyframes kf_c_14_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  92.57% { opacity: 1; transform: scale(1); }
+  92.63% { opacity: 0.12; transform: scale(0.25); }
+  92.74% { opacity: 0.12; transform: scale(0.25); }
+  98.27% { opacity: 0.12; transform: scale(0.25); }
+  98.39% { opacity: 0.12; transform: scale(0.25); }
+  98.85% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_14_0 { animation: kf_c_14_0 17.36s linear infinite; }
+@keyframes kf_c_13_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  93.03% { opacity: 1; transform: scale(1); }
+  93.09% { opacity: 0.12; transform: scale(0.25); }
+  93.20% { opacity: 0.12; transform: scale(0.25); }
+  98.73% { opacity: 0.12; transform: scale(0.25); }
+  98.85% { opacity: 0.12; transform: scale(0.25); }
+  99.31% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_13_0 { animation: kf_c_13_0 17.36s linear infinite; }
+@keyframes kf_c_12_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  93.49% { opacity: 1; transform: scale(1); }
+  93.55% { opacity: 0.12; transform: scale(0.25); }
+  93.66% { opacity: 0.12; transform: scale(0.25); }
+  99.19% { opacity: 0.12; transform: scale(0.25); }
+  99.31% { opacity: 0.12; transform: scale(0.25); }
+  99.77% { opacity: 1; transform: scale(1.22); }
+  100.00% { opacity: 1; transform: scale(1); }
+}
+.c_12_0 { animation: kf_c_12_0 17.36s linear infinite; }
+@keyframes kf_c_11_0 {
+  0.00% { opacity: 1; transform: scale(1); }
+  93.95% { opacity: 1; transform: scale(1); }
+  94.01% { opacity: 0.12; transform: scale(0.25); }
+  94.12% { opacity: 0.12; transform: scale(0.25); }
+  99.65% { opacity: 0.12; transform: scale(0.25); }
+  99.77% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 1; transform: scale(1.22); }
+}
+.c_11_0 { animation: kf_c_11_0 17.36s linear infinite; }
+@keyframes kf_c_10_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  0.12% { opacity: 0.12; transform: scale(0.25); }
+  0.23% { opacity: 0.12; transform: scale(0.25); }
+  0.69% { opacity: 1; transform: scale(1.22); }
+  94.41% { opacity: 1; transform: scale(1); }
+  94.47% { opacity: 0.12; transform: scale(0.25); }
+  94.59% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_10_0 { animation: kf_c_10_0 17.36s linear infinite; }
+@keyframes kf_c_9_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  0.58% { opacity: 0.12; transform: scale(0.25); }
+  0.69% { opacity: 0.12; transform: scale(0.25); }
+  1.15% { opacity: 1; transform: scale(1.22); }
+  94.87% { opacity: 1; transform: scale(1); }
+  94.93% { opacity: 0.12; transform: scale(0.25); }
+  95.05% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_9_0 { animation: kf_c_9_0 17.36s linear infinite; }
+@keyframes kf_c_8_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  1.04% { opacity: 0.12; transform: scale(0.25); }
+  1.15% { opacity: 0.12; transform: scale(0.25); }
+  1.61% { opacity: 1; transform: scale(1.22); }
+  95.33% { opacity: 1; transform: scale(1); }
+  95.39% { opacity: 0.12; transform: scale(0.25); }
+  95.51% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_8_0 { animation: kf_c_8_0 17.36s linear infinite; }
+@keyframes kf_c_7_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  1.50% { opacity: 0.12; transform: scale(0.25); }
+  1.61% { opacity: 0.12; transform: scale(0.25); }
+  2.07% { opacity: 1; transform: scale(1.22); }
+  95.79% { opacity: 1; transform: scale(1); }
+  95.85% { opacity: 0.12; transform: scale(0.25); }
+  95.97% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_7_0 { animation: kf_c_7_0 17.36s linear infinite; }
+@keyframes kf_c_6_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  1.96% { opacity: 0.12; transform: scale(0.25); }
+  2.07% { opacity: 0.12; transform: scale(0.25); }
+  2.53% { opacity: 1; transform: scale(1.22); }
+  96.26% { opacity: 1; transform: scale(1); }
+  96.31% { opacity: 0.12; transform: scale(0.25); }
+  96.43% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_6_0 { animation: kf_c_6_0 17.36s linear infinite; }
+@keyframes kf_c_5_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  2.42% { opacity: 0.12; transform: scale(0.25); }
+  2.53% { opacity: 0.12; transform: scale(0.25); }
+  3.00% { opacity: 1; transform: scale(1.22); }
+  96.72% { opacity: 1; transform: scale(1); }
+  96.77% { opacity: 0.12; transform: scale(0.25); }
+  96.89% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_5_0 { animation: kf_c_5_0 17.36s linear infinite; }
+@keyframes kf_c_4_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  2.88% { opacity: 0.12; transform: scale(0.25); }
+  3.00% { opacity: 0.12; transform: scale(0.25); }
+  3.46% { opacity: 1; transform: scale(1.22); }
+  97.18% { opacity: 1; transform: scale(1); }
+  97.24% { opacity: 0.12; transform: scale(0.25); }
+  97.35% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_4_0 { animation: kf_c_4_0 17.36s linear infinite; }
+@keyframes kf_c_3_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  3.34% { opacity: 0.12; transform: scale(0.25); }
+  3.46% { opacity: 0.12; transform: scale(0.25); }
+  3.92% { opacity: 1; transform: scale(1.22); }
+  97.64% { opacity: 1; transform: scale(1); }
+  97.70% { opacity: 0.12; transform: scale(0.25); }
+  97.81% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_3_0 { animation: kf_c_3_0 17.36s linear infinite; }
+@keyframes kf_c_2_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  3.80% { opacity: 0.12; transform: scale(0.25); }
+  3.92% { opacity: 0.12; transform: scale(0.25); }
+  4.38% { opacity: 1; transform: scale(1.22); }
+  98.10% { opacity: 1; transform: scale(1); }
+  98.16% { opacity: 0.12; transform: scale(0.25); }
+  98.27% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_2_0 { animation: kf_c_2_0 17.36s linear infinite; }
+@keyframes kf_c_1_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  4.26% { opacity: 0.12; transform: scale(0.25); }
+  4.38% { opacity: 0.12; transform: scale(0.25); }
+  4.84% { opacity: 1; transform: scale(1.22); }
+  98.56% { opacity: 1; transform: scale(1); }
+  98.62% { opacity: 0.12; transform: scale(0.25); }
+  98.73% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_1_0 { animation: kf_c_1_0 17.36s linear infinite; }
+@keyframes kf_c_0_0 {
+  0.00% { opacity: 0.12; transform: scale(0.25); }
+  4.72% { opacity: 0.12; transform: scale(0.25); }
+  4.84% { opacity: 0.12; transform: scale(0.25); }
+  5.30% { opacity: 1; transform: scale(1.22); }
+  99.02% { opacity: 1; transform: scale(1); }
+  99.08% { opacity: 0.12; transform: scale(0.25); }
+  99.19% { opacity: 0.12; transform: scale(0.25); }
+  100.00% { opacity: 0.12; transform: scale(0.25); }
+}
+.c_0_0 { animation: kf_c_0_0 17.36s linear infinite; }</style></defs>
+<rect width="816" height="185" class="bg"/>
+<text x="42" y="24" class="title">🕹️ DEV//ZERO PAC-MAN CONTRIBUTION MATRIX</text>
+<text x="786" y="24" text-anchor="end" class="sub">62,000+ COMMITS • 369 DAY STREAK • 150-200+ COMMITS/DAY</text>
+<text x="56" y="44" class="lbl">Oct</text>
+<text x="98" y="44" class="lbl">Nov</text>
+<text x="168" y="44" class="lbl">Dec</text>
+<text x="224" y="44" class="lbl">Jan</text>
+<text x="294" y="44" class="lbl">Feb</text>
+<text x="350" y="44" class="lbl">Mar</text>
+<text x="406" y="44" class="lbl">Apr</text>
+<text x="462" y="44" class="lbl">May</text>
+<text x="532" y="44" class="lbl">Jun</text>
+<text x="588" y="44" class="lbl">Jul</text>
+<text x="644" y="44" class="lbl">Aug</text>
+<text x="714" y="44" class="lbl">Sep</text>
+<text x="34" y="75" text-anchor="end" class="lbl">Mon</text>
+<text x="34" y="103" text-anchor="end" class="lbl">Wed</text>
+<text x="34" y="131" text-anchor="end" class="lbl">Fri</text>
+<rect x="42" y="52" width="11" height="11" fill="#26A641" class="cell c_0_0"><title>152 contributions on 2025-09-28</title></rect>
+<rect x="42" y="66" width="11" height="11" fill="#26A641" class="cell c_0_1"><title>153 contributions on 2025-09-29</title></rect>
+<rect x="42" y="80" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2025-09-30</title></rect>
+<rect x="42" y="94" width="11" height="11" fill="#26A641" class="cell c_0_3"><title>126 contributions on 2025-10-01</title></rect>
+<rect x="42" y="108" width="11" height="11" fill="#26A641" class="cell c_0_4"><title>89 contributions on 2025-10-02</title></rect>
+<rect x="42" y="122" width="11" height="11" fill="#39D353" class="cell c_0_5"><title>187 contributions on 2025-10-03</title></rect>
+<rect x="42" y="136" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2025-10-04</title></rect>
+<rect x="56" y="52" width="11" height="11" fill="#39D353" class="cell c_1_0"><title>189 contributions on 2025-10-05</title></rect>
+<rect x="56" y="66" width="11" height="11" fill="#26A641" class="cell c_1_1"><title>121 contributions on 2025-10-06</title></rect>
+<rect x="56" y="80" width="11" height="11" fill="#26A641" class="cell"><title>81 contributions on 2025-10-07</title></rect>
+<rect x="56" y="94" width="11" height="11" fill="#39D353" class="cell c_1_3"><title>192 contributions on 2025-10-08</title></rect>
+<rect x="56" y="108" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2025-10-09</title></rect>
+<rect x="56" y="122" width="11" height="11" fill="#39D353" class="cell c_1_5"><title>185 contributions on 2025-10-10</title></rect>
+<rect x="56" y="136" width="11" height="11" fill="#39D353" class="cell"><title>186 contributions on 2025-10-11</title></rect>
+<rect x="70" y="52" width="11" height="11" fill="#39D353" class="cell c_2_0"><title>187 contributions on 2025-10-12</title></rect>
+<rect x="70" y="66" width="11" height="11" fill="#26A641" class="cell c_2_1"><title>117 contributions on 2025-10-13</title></rect>
+<rect x="70" y="80" width="11" height="11" fill="#26A641" class="cell"><title>74 contributions on 2025-10-14</title></rect>
+<rect x="70" y="94" width="11" height="11" fill="#39D353" class="cell c_2_3"><title>190 contributions on 2025-10-15</title></rect>
+<rect x="70" y="108" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2025-10-16</title></rect>
+<rect x="70" y="122" width="11" height="11" fill="#39D353" class="cell c_2_5"><title>192 contributions on 2025-10-17</title></rect>
+<rect x="70" y="136" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2025-10-18</title></rect>
+<rect x="84" y="52" width="11" height="11" fill="#39D353" class="cell c_3_0"><title>194 contributions on 2025-10-19</title></rect>
+<rect x="84" y="66" width="11" height="11" fill="#39D353" class="cell c_3_1"><title>186 contributions on 2025-10-20</title></rect>
+<rect x="84" y="80" width="11" height="11" fill="#39D353" class="cell"><title>187 contributions on 2025-10-21</title></rect>
+<rect x="84" y="94" width="11" height="11" fill="#39D353" class="cell c_3_3"><title>173 contributions on 2025-10-22</title></rect>
+<rect x="84" y="108" width="11" height="11" fill="#26A641" class="cell"><title>123 contributions on 2025-10-23</title></rect>
+<rect x="84" y="122" width="11" height="11" fill="#39D353" class="cell c_3_5"><title>190 contributions on 2025-10-24</title></rect>
+<rect x="84" y="136" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2025-10-25</title></rect>
+<rect x="98" y="52" width="11" height="11" fill="#26A641" class="cell c_4_0"><title>112 contributions on 2025-10-26</title></rect>
+<rect x="98" y="66" width="11" height="11" fill="#39D353" class="cell c_4_1"><title>244 contributions on 2025-10-27</title></rect>
+<rect x="98" y="80" width="11" height="11" fill="#39D353" class="cell"><title>268 contributions on 2025-10-28</title></rect>
+<rect x="98" y="94" width="11" height="11" fill="#26A641" class="cell c_4_3"><title>128 contributions on 2025-10-29</title></rect>
+<rect x="98" y="108" width="11" height="11" fill="#39D353" class="cell"><title>187 contributions on 2025-10-30</title></rect>
+<rect x="98" y="122" width="11" height="11" fill="#39D353" class="cell c_4_5"><title>188 contributions on 2025-10-31</title></rect>
+<rect x="98" y="136" width="11" height="11" fill="#39D353" class="cell"><title>186 contributions on 2025-11-01</title></rect>
+<rect x="112" y="52" width="11" height="11" fill="#39D353" class="cell c_5_0"><title>187 contributions on 2025-11-02</title></rect>
+<rect x="112" y="66" width="11" height="11" fill="#39D353" class="cell c_5_1"><title>188 contributions on 2025-11-03</title></rect>
+<rect x="112" y="80" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2025-11-04</title></rect>
+<rect x="112" y="94" width="11" height="11" fill="#26A641" class="cell c_5_3"><title>104 contributions on 2025-11-05</title></rect>
+<rect x="112" y="108" width="11" height="11" fill="#26A641" class="cell"><title>77 contributions on 2025-11-06</title></rect>
+<rect x="112" y="122" width="11" height="11" fill="#39D353" class="cell c_5_5"><title>192 contributions on 2025-11-07</title></rect>
+<rect x="112" y="136" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2025-11-08</title></rect>
+<rect x="126" y="52" width="11" height="11" fill="#39D353" class="cell c_6_0"><title>194 contributions on 2025-11-09</title></rect>
+<rect x="126" y="66" width="11" height="11" fill="#39D353" class="cell c_6_1"><title>186 contributions on 2025-11-10</title></rect>
+<rect x="126" y="80" width="11" height="11" fill="#39D353" class="cell"><title>187 contributions on 2025-11-11</title></rect>
+<rect x="126" y="94" width="11" height="11" fill="#39D353" class="cell c_6_3"><title>188 contributions on 2025-11-12</title></rect>
+<rect x="126" y="108" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2025-11-13</title></rect>
+<rect x="126" y="122" width="11" height="11" fill="#26A641" class="cell c_6_5"><title>74 contributions on 2025-11-14</title></rect>
+<rect x="126" y="136" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2025-11-15</title></rect>
+<rect x="140" y="52" width="11" height="11" fill="#26A641" class="cell c_7_0"><title>93 contributions on 2025-11-16</title></rect>
+<rect x="140" y="66" width="11" height="11" fill="#26A641" class="cell c_7_1"><title>73 contributions on 2025-11-17</title></rect>
+<rect x="140" y="80" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2025-11-18</title></rect>
+<rect x="140" y="94" width="11" height="11" fill="#26A641" class="cell c_7_3"><title>97 contributions on 2025-11-19</title></rect>
+<rect x="140" y="108" width="11" height="11" fill="#26A641" class="cell"><title>78 contributions on 2025-11-20</title></rect>
+<rect x="140" y="122" width="11" height="11" fill="#39D353" class="cell c_7_5"><title>188 contributions on 2025-11-21</title></rect>
+<rect x="140" y="136" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2025-11-22</title></rect>
+<rect x="154" y="52" width="11" height="11" fill="#39D353" class="cell c_8_0"><title>190 contributions on 2025-11-23</title></rect>
+<rect x="154" y="66" width="11" height="11" fill="#39D353" class="cell c_8_1"><title>191 contributions on 2025-11-24</title></rect>
+<rect x="154" y="80" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2025-11-25</title></rect>
+<rect x="154" y="94" width="11" height="11" fill="#39D353" class="cell c_8_3"><title>193 contributions on 2025-11-26</title></rect>
+<rect x="154" y="108" width="11" height="11" fill="#26A641" class="cell"><title>114 contributions on 2025-11-27</title></rect>
+<rect x="154" y="122" width="11" height="11" fill="#39D353" class="cell c_8_5"><title>195 contributions on 2025-11-28</title></rect>
+<rect x="154" y="136" width="11" height="11" fill="#26A641" class="cell"><title>103 contributions on 2025-11-29</title></rect>
+<rect x="168" y="52" width="11" height="11" fill="#26A641" class="cell c_9_0"><title>127 contributions on 2025-11-30</title></rect>
+<rect x="168" y="66" width="11" height="11" fill="#39D353" class="cell c_9_1"><title>187 contributions on 2025-12-01</title></rect>
+<rect x="168" y="80" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2025-12-02</title></rect>
+<rect x="168" y="94" width="11" height="11" fill="#39D353" class="cell c_9_3"><title>189 contributions on 2025-12-03</title></rect>
+<rect x="168" y="108" width="11" height="11" fill="#26A641" class="cell"><title>112 contributions on 2025-12-04</title></rect>
+<rect x="168" y="122" width="11" height="11" fill="#26A641" class="cell c_9_5"><title>86 contributions on 2025-12-05</title></rect>
+<rect x="168" y="136" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2025-12-06</title></rect>
+<rect x="182" y="52" width="11" height="11" fill="#39D353" class="cell c_10_0"><title>193 contributions on 2025-12-07</title></rect>
+<rect x="182" y="66" width="11" height="11" fill="#39D353" class="cell c_10_1"><title>194 contributions on 2025-12-08</title></rect>
+<rect x="182" y="80" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2025-12-09</title></rect>
+<rect x="182" y="94" width="11" height="11" fill="#26A641" class="cell c_10_3"><title>90 contributions on 2025-12-10</title></rect>
+<rect x="182" y="108" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2025-12-11</title></rect>
+<rect x="182" y="122" width="11" height="11" fill="#39D353" class="cell c_10_5"><title>189 contributions on 2025-12-12</title></rect>
+<rect x="182" y="136" width="11" height="11" fill="#39D353" class="cell"><title>190 contributions on 2025-12-13</title></rect>
+<rect x="196" y="52" width="11" height="11" fill="#39D353" class="cell c_11_0"><title>191 contributions on 2025-12-14</title></rect>
+<rect x="196" y="66" width="11" height="11" fill="#39D353" class="cell c_11_1"><title>192 contributions on 2025-12-15</title></rect>
+<rect x="196" y="80" width="11" height="11" fill="#39D353" class="cell"><title>178 contributions on 2025-12-16</title></rect>
+<rect x="196" y="94" width="11" height="11" fill="#26A641" class="cell c_11_3"><title>106 contributions on 2025-12-17</title></rect>
+<rect x="196" y="108" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2025-12-18</title></rect>
+<rect x="196" y="122" width="11" height="11" fill="#39D353" class="cell c_11_5"><title>196 contributions on 2025-12-19</title></rect>
+<rect x="196" y="136" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2025-12-20</title></rect>
+<rect x="210" y="52" width="11" height="11" fill="#39D353" class="cell c_12_0"><title>258 contributions on 2025-12-21</title></rect>
+<rect x="210" y="66" width="11" height="11" fill="#39D353" class="cell c_12_1"><title>183 contributions on 2025-12-22</title></rect>
+<rect x="210" y="80" width="11" height="11" fill="#26A641" class="cell"><title>72 contributions on 2025-12-23</title></rect>
+<rect x="210" y="94" width="11" height="11" fill="#39D353" class="cell c_12_3"><title>192 contributions on 2025-12-24</title></rect>
+<rect x="210" y="108" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2025-12-25</title></rect>
+<rect x="210" y="122" width="11" height="11" fill="#26A641" class="cell c_12_5"><title>156 contributions on 2025-12-26</title></rect>
+<rect x="210" y="136" width="11" height="11" fill="#39D353" class="cell"><title>211 contributions on 2025-12-27</title></rect>
+<rect x="224" y="52" width="11" height="11" fill="#26A641" class="cell c_13_0"><title>88 contributions on 2025-12-28</title></rect>
+<rect x="224" y="66" width="11" height="11" fill="#39D353" class="cell c_13_1"><title>197 contributions on 2025-12-29</title></rect>
+<rect x="224" y="80" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2025-12-30</title></rect>
+<rect x="224" y="94" width="11" height="11" fill="#39D353" class="cell c_13_3"><title>190 contributions on 2025-12-31</title></rect>
+<rect x="224" y="108" width="11" height="11" fill="#39D353" class="cell"><title>186 contributions on 2026-01-01</title></rect>
+<rect x="224" y="122" width="11" height="11" fill="#39D353" class="cell c_13_5"><title>187 contributions on 2026-01-02</title></rect>
+<rect x="224" y="136" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2026-01-03</title></rect>
+<rect x="238" y="52" width="11" height="11" fill="#39D353" class="cell c_14_0"><title>189 contributions on 2026-01-04</title></rect>
+<rect x="238" y="66" width="11" height="11" fill="#39D353" class="cell c_14_1"><title>190 contributions on 2026-01-05</title></rect>
+<rect x="238" y="80" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-01-06</title></rect>
+<rect x="238" y="94" width="11" height="11" fill="#39D353" class="cell c_14_3"><title>192 contributions on 2026-01-07</title></rect>
+<rect x="238" y="108" width="11" height="11" fill="#26A641" class="cell"><title>72 contributions on 2026-01-08</title></rect>
+<rect x="238" y="122" width="11" height="11" fill="#39D353" class="cell c_14_5"><title>194 contributions on 2026-01-09</title></rect>
+<rect x="238" y="136" width="11" height="11" fill="#39D353" class="cell"><title>186 contributions on 2026-01-10</title></rect>
+<rect x="252" y="52" width="11" height="11" fill="#26A641" class="cell c_15_0"><title>107 contributions on 2026-01-11</title></rect>
+<rect x="252" y="66" width="11" height="11" fill="#39D353" class="cell c_15_1"><title>188 contributions on 2026-01-12</title></rect>
+<rect x="252" y="80" width="11" height="11" fill="#26A641" class="cell"><title>112 contributions on 2026-01-13</title></rect>
+<rect x="252" y="94" width="11" height="11" fill="#26A641" class="cell c_15_3"><title>86 contributions on 2026-01-14</title></rect>
+<rect x="252" y="108" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-01-15</title></rect>
+<rect x="252" y="122" width="11" height="11" fill="#39D353" class="cell c_15_5"><title>233 contributions on 2026-01-16</title></rect>
+<rect x="252" y="136" width="11" height="11" fill="#26A641" class="cell"><title>136 contributions on 2026-01-17</title></rect>
+<rect x="266" y="52" width="11" height="11" fill="#26A641" class="cell c_16_0"><title>127 contributions on 2026-01-18</title></rect>
+<rect x="266" y="66" width="11" height="11" fill="#26A641" class="cell c_16_1"><title>91 contributions on 2026-01-19</title></rect>
+<rect x="266" y="80" width="11" height="11" fill="#39D353" class="cell"><title>187 contributions on 2026-01-20</title></rect>
+<rect x="266" y="94" width="11" height="11" fill="#39D353" class="cell c_16_3"><title>188 contributions on 2026-01-21</title></rect>
+<rect x="266" y="108" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2026-01-22</title></rect>
+<rect x="266" y="122" width="11" height="11" fill="#39D353" class="cell c_16_5"><title>190 contributions on 2026-01-23</title></rect>
+<rect x="266" y="136" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-01-24</title></rect>
+<rect x="280" y="52" width="11" height="11" fill="#26A641" class="cell c_17_0"><title>123 contributions on 2026-01-25</title></rect>
+<rect x="280" y="66" width="11" height="11" fill="#26A641" class="cell c_17_1"><title>72 contributions on 2026-01-26</title></rect>
+<rect x="280" y="80" width="11" height="11" fill="#39D353" class="cell"><title>181 contributions on 2026-01-27</title></rect>
+<rect x="280" y="94" width="11" height="11" fill="#26A641" class="cell c_17_3"><title>111 contributions on 2026-01-28</title></rect>
+<rect x="280" y="108" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-01-29</title></rect>
+<rect x="280" y="122" width="11" height="11" fill="#39D353" class="cell c_17_5"><title>188 contributions on 2026-01-30</title></rect>
+<rect x="280" y="136" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2026-01-31</title></rect>
+<rect x="294" y="52" width="11" height="11" fill="#39D353" class="cell c_18_0"><title>187 contributions on 2026-02-01</title></rect>
+<rect x="294" y="66" width="11" height="11" fill="#26A641" class="cell c_18_1"><title>88 contributions on 2026-02-02</title></rect>
+<rect x="294" y="80" width="11" height="11" fill="#26A641" class="cell"><title>77 contributions on 2026-02-03</title></rect>
+<rect x="294" y="94" width="11" height="11" fill="#39D353" class="cell c_18_3"><title>190 contributions on 2026-02-04</title></rect>
+<rect x="294" y="108" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-02-05</title></rect>
+<rect x="294" y="122" width="11" height="11" fill="#39D353" class="cell c_18_5"><title>192 contributions on 2026-02-06</title></rect>
+<rect x="294" y="136" width="11" height="11" fill="#26A641" class="cell"><title>74 contributions on 2026-02-07</title></rect>
+<rect x="308" y="52" width="11" height="11" fill="#39D353" class="cell c_19_0"><title>194 contributions on 2026-02-08</title></rect>
+<rect x="308" y="66" width="11" height="11" fill="#26A641" class="cell c_19_1"><title>81 contributions on 2026-02-09</title></rect>
+<rect x="308" y="80" width="11" height="11" fill="#39D353" class="cell"><title>187 contributions on 2026-02-10</title></rect>
+<rect x="308" y="94" width="11" height="11" fill="#39D353" class="cell c_19_3"><title>188 contributions on 2026-02-11</title></rect>
+<rect x="308" y="108" width="11" height="11" fill="#39D353" class="cell"><title>189 contributions on 2026-02-12</title></rect>
+<rect x="308" y="122" width="11" height="11" fill="#39D353" class="cell c_19_5"><title>190 contributions on 2026-02-13</title></rect>
+<rect x="308" y="136" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-02-14</title></rect>
+<rect x="322" y="52" width="11" height="11" fill="#39D353" class="cell c_20_0"><title>192 contributions on 2026-02-15</title></rect>
+<rect x="322" y="66" width="11" height="11" fill="#39D353" class="cell c_20_1"><title>193 contributions on 2026-02-16</title></rect>
+<rect x="322" y="80" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-02-17</title></rect>
+<rect x="322" y="94" width="11" height="11" fill="#26A641" class="cell c_20_3"><title>101 contributions on 2026-02-18</title></rect>
+<rect x="322" y="108" width="11" height="11" fill="#26A641" class="cell"><title>94 contributions on 2026-02-19</title></rect>
+<rect x="322" y="122" width="11" height="11" fill="#39D353" class="cell c_20_5"><title>188 contributions on 2026-02-20</title></rect>
+<rect x="322" y="136" width="11" height="11" fill="#26A641" class="cell"><title>92 contributions on 2026-02-21</title></rect>
+<rect x="336" y="52" width="11" height="11" fill="#39D353" class="cell c_21_0"><title>190 contributions on 2026-02-22</title></rect>
+<rect x="336" y="66" width="11" height="11" fill="#39D353" class="cell c_21_1"><title>191 contributions on 2026-02-23</title></rect>
+<rect x="336" y="80" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-02-24</title></rect>
+<rect x="336" y="94" width="11" height="11" fill="#39D353" class="cell c_21_3"><title>193 contributions on 2026-02-25</title></rect>
+<rect x="336" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-02-26</title></rect>
+<rect x="336" y="122" width="11" height="11" fill="#39D353" class="cell c_21_5"><title>195 contributions on 2026-02-27</title></rect>
+<rect x="336" y="136" width="11" height="11" fill="#26A641" class="cell"><title>74 contributions on 2026-02-28</title></rect>
+<rect x="350" y="52" width="11" height="11" fill="#39D353" class="cell c_22_0"><title>188 contributions on 2026-03-01</title></rect>
+<rect x="350" y="66" width="11" height="11" fill="#26A641" class="cell c_22_1"><title>82 contributions on 2026-03-02</title></rect>
+<rect x="350" y="80" width="11" height="11" fill="#39D353" class="cell"><title>190 contributions on 2026-03-03</title></rect>
+<rect x="350" y="94" width="11" height="11" fill="#39D353" class="cell c_22_3"><title>191 contributions on 2026-03-04</title></rect>
+<rect x="350" y="108" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-03-05</title></rect>
+<rect x="350" y="122" width="11" height="11" fill="#39D353" class="cell c_22_5"><title>193 contributions on 2026-03-06</title></rect>
+<rect x="350" y="136" width="11" height="11" fill="#26A641" class="cell"><title>107 contributions on 2026-03-07</title></rect>
+<rect x="364" y="52" width="11" height="11" fill="#26A641" class="cell c_23_0"><title>103 contributions on 2026-03-08</title></rect>
+<rect x="364" y="66" width="11" height="11" fill="#39D353" class="cell c_23_1"><title>196 contributions on 2026-03-09</title></rect>
+<rect x="364" y="80" width="11" height="11" fill="#39D353" class="cell"><title>188 contributions on 2026-03-10</title></rect>
+<rect x="364" y="94" width="11" height="11" fill="#39D353" class="cell c_23_3"><title>189 contributions on 2026-03-11</title></rect>
+<rect x="364" y="108" width="11" height="11" fill="#39D353" class="cell"><title>190 contributions on 2026-03-12</title></rect>
+<rect x="364" y="122" width="11" height="11" fill="#26A641" class="cell c_23_5"><title>89 contributions on 2026-03-13</title></rect>
+<rect x="364" y="136" width="11" height="11" fill="#26A641" class="cell"><title>125 contributions on 2026-03-14</title></rect>
+<rect x="378" y="52" width="11" height="11" fill="#26A641" class="cell c_24_0"><title>74 contributions on 2026-03-15</title></rect>
+<rect x="378" y="66" width="11" height="11" fill="#39D353" class="cell c_24_1"><title>194 contributions on 2026-03-16</title></rect>
+<rect x="378" y="80" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2026-03-17</title></rect>
+<rect x="378" y="94" width="11" height="11" fill="#39D353" class="cell c_24_3"><title>196 contributions on 2026-03-18</title></rect>
+<rect x="378" y="108" width="11" height="11" fill="#39D353" class="cell"><title>197 contributions on 2026-03-19</title></rect>
+<rect x="378" y="122" width="11" height="11" fill="#39D353" class="cell c_24_5"><title>189 contributions on 2026-03-20</title></rect>
+<rect x="378" y="136" width="11" height="11" fill="#39D353" class="cell"><title>190 contributions on 2026-03-21</title></rect>
+<rect x="392" y="52" width="11" height="11" fill="#39D353" class="cell c_25_0"><title>191 contributions on 2026-03-22</title></rect>
+<rect x="392" y="66" width="11" height="11" fill="#39D353" class="cell c_25_1"><title>192 contributions on 2026-03-23</title></rect>
+<rect x="392" y="80" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-03-24</title></rect>
+<rect x="392" y="94" width="11" height="11" fill="#39D353" class="cell c_25_3"><title>194 contributions on 2026-03-25</title></rect>
+<rect x="392" y="108" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2026-03-26</title></rect>
+<rect x="392" y="122" width="11" height="11" fill="#39D353" class="cell c_25_5"><title>196 contributions on 2026-03-27</title></rect>
+<rect x="392" y="136" width="11" height="11" fill="#39D353" class="cell"><title>197 contributions on 2026-03-28</title></rect>
+<rect x="406" y="52" width="11" height="11" fill="#39D353" class="cell c_26_0"><title>198 contributions on 2026-03-29</title></rect>
+<rect x="406" y="66" width="11" height="11" fill="#39D353" class="cell c_26_1"><title>190 contributions on 2026-03-30</title></rect>
+<rect x="406" y="80" width="11" height="11" fill="#26A641" class="cell"><title>106 contributions on 2026-03-31</title></rect>
+<rect x="406" y="94" width="11" height="11" fill="#26A641" class="cell c_26_3"><title>97 contributions on 2026-04-01</title></rect>
+<rect x="406" y="108" width="11" height="11" fill="#39D353" class="cell"><title>302 contributions on 2026-04-02</title></rect>
+<rect x="406" y="122" width="11" height="11" fill="#26A641" class="cell c_26_5"><title>149 contributions on 2026-04-03</title></rect>
+<rect x="406" y="136" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-04-04</title></rect>
+<rect x="420" y="52" width="11" height="11" fill="#39D353" class="cell c_27_0"><title>193 contributions on 2026-04-05</title></rect>
+<rect x="420" y="66" width="11" height="11" fill="#39D353" class="cell c_27_1"><title>194 contributions on 2026-04-06</title></rect>
+<rect x="420" y="80" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2026-04-07</title></rect>
+<rect x="420" y="94" width="11" height="11" fill="#26A641" class="cell c_27_3"><title>109 contributions on 2026-04-08</title></rect>
+<rect x="420" y="108" width="11" height="11" fill="#26A641" class="cell"><title>84 contributions on 2026-04-09</title></rect>
+<rect x="420" y="122" width="11" height="11" fill="#39D353" class="cell c_27_5"><title>189 contributions on 2026-04-10</title></rect>
+<rect x="420" y="136" width="11" height="11" fill="#39D353" class="cell"><title>190 contributions on 2026-04-11</title></rect>
+<rect x="434" y="52" width="11" height="11" fill="#39D353" class="cell c_28_0"><title>191 contributions on 2026-04-12</title></rect>
+<rect x="434" y="66" width="11" height="11" fill="#39D353" class="cell c_28_1"><title>192 contributions on 2026-04-13</title></rect>
+<rect x="434" y="80" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-04-14</title></rect>
+<rect x="434" y="94" width="11" height="11" fill="#39D353" class="cell c_28_3"><title>194 contributions on 2026-04-15</title></rect>
+<rect x="434" y="108" width="11" height="11" fill="#39D353" class="cell"><title>208 contributions on 2026-04-16</title></rect>
+<rect x="434" y="122" width="11" height="11" fill="#39D353" class="cell c_28_5"><title>277 contributions on 2026-04-17</title></rect>
+<rect x="434" y="136" width="11" height="11" fill="#26A641" class="cell"><title>124 contributions on 2026-04-18</title></rect>
+<rect x="448" y="52" width="11" height="11" fill="#39D353" class="cell c_29_0"><title>198 contributions on 2026-04-19</title></rect>
+<rect x="448" y="66" width="11" height="11" fill="#39D353" class="cell c_29_1"><title>190 contributions on 2026-04-20</title></rect>
+<rect x="448" y="80" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-04-21</title></rect>
+<rect x="448" y="94" width="11" height="11" fill="#39D353" class="cell c_29_3"><title>192 contributions on 2026-04-22</title></rect>
+<rect x="448" y="108" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-04-23</title></rect>
+<rect x="448" y="122" width="11" height="11" fill="#39D353" class="cell c_29_5"><title>194 contributions on 2026-04-24</title></rect>
+<rect x="448" y="136" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2026-04-25</title></rect>
+<rect x="462" y="52" width="11" height="11" fill="#39D353" class="cell c_30_0"><title>196 contributions on 2026-04-26</title></rect>
+<rect x="462" y="66" width="11" height="11" fill="#39D353" class="cell c_30_1"><title>197 contributions on 2026-04-27</title></rect>
+<rect x="462" y="80" width="11" height="11" fill="#39D353" class="cell"><title>198 contributions on 2026-04-28</title></rect>
+<rect x="462" y="94" width="11" height="11" fill="#39D353" class="cell c_30_3"><title>199 contributions on 2026-04-29</title></rect>
+<rect x="462" y="108" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-04-30</title></rect>
+<rect x="462" y="122" width="11" height="11" fill="#39D353" class="cell c_30_5"><title>190 contributions on 2026-05-01</title></rect>
+<rect x="462" y="136" width="11" height="11" fill="#39D353" class="cell"><title>191 contributions on 2026-05-02</title></rect>
+<rect x="476" y="52" width="11" height="11" fill="#39D353" class="cell c_31_0"><title>192 contributions on 2026-05-03</title></rect>
+<rect x="476" y="66" width="11" height="11" fill="#26A641" class="cell c_31_1"><title>80 contributions on 2026-05-04</title></rect>
+<rect x="476" y="80" width="11" height="11" fill="#39D353" class="cell"><title>212 contributions on 2026-05-05</title></rect>
+<rect x="476" y="94" width="11" height="11" fill="#39D353" class="cell c_31_3"><title>196 contributions on 2026-05-06</title></rect>
+<rect x="476" y="108" width="11" height="11" fill="#39D353" class="cell"><title>214 contributions on 2026-05-07</title></rect>
+<rect x="476" y="122" width="11" height="11" fill="#26A641" class="cell c_31_5"><title>124 contributions on 2026-05-08</title></rect>
+<rect x="476" y="136" width="11" height="11" fill="#39D353" class="cell"><title>198 contributions on 2026-05-09</title></rect>
+<rect x="490" y="52" width="11" height="11" fill="#39D353" class="cell c_32_0"><title>190 contributions on 2026-05-10</title></rect>
+<rect x="490" y="66" width="11" height="11" fill="#39D353" class="cell c_32_1"><title>191 contributions on 2026-05-11</title></rect>
+<rect x="490" y="80" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-05-12</title></rect>
+<rect x="490" y="94" width="11" height="11" fill="#39D353" class="cell c_32_3"><title>193 contributions on 2026-05-13</title></rect>
+<rect x="490" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-05-14</title></rect>
+<rect x="490" y="122" width="11" height="11" fill="#39D353" class="cell c_32_5"><title>195 contributions on 2026-05-15</title></rect>
+<rect x="490" y="136" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-05-16</title></rect>
+<rect x="504" y="52" width="11" height="11" fill="#39D353" class="cell c_33_0"><title>197 contributions on 2026-05-17</title></rect>
+<rect x="504" y="66" width="11" height="11" fill="#39D353" class="cell c_33_1"><title>198 contributions on 2026-05-18</title></rect>
+<rect x="504" y="80" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-05-19</title></rect>
+<rect x="504" y="94" width="11" height="11" fill="#26A641" class="cell c_33_3"><title>96 contributions on 2026-05-20</title></rect>
+<rect x="504" y="108" width="11" height="11" fill="#26A641" class="cell"><title>100 contributions on 2026-05-21</title></rect>
+<rect x="504" y="122" width="11" height="11" fill="#26A641" class="cell c_33_5"><title>144 contributions on 2026-05-22</title></rect>
+<rect x="504" y="136" width="11" height="11" fill="#26A641" class="cell"><title>80 contributions on 2026-05-23</title></rect>
+<rect x="518" y="52" width="11" height="11" fill="#39D353" class="cell c_34_0"><title>195 contributions on 2026-05-24</title></rect>
+<rect x="518" y="66" width="11" height="11" fill="#39D353" class="cell c_34_1"><title>196 contributions on 2026-05-25</title></rect>
+<rect x="518" y="80" width="11" height="11" fill="#39D353" class="cell"><title>197 contributions on 2026-05-26</title></rect>
+<rect x="518" y="94" width="11" height="11" fill="#39D353" class="cell c_34_3"><title>198 contributions on 2026-05-27</title></rect>
+<rect x="518" y="108" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-05-28</title></rect>
+<rect x="518" y="122" width="11" height="11" fill="#26A641" class="cell c_34_5"><title>150 contributions on 2026-05-29</title></rect>
+<rect x="518" y="136" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-05-30</title></rect>
+<rect x="532" y="52" width="11" height="11" fill="#39D353" class="cell c_35_0"><title>193 contributions on 2026-05-31</title></rect>
+<rect x="532" y="66" width="11" height="11" fill="#39D353" class="cell c_35_1"><title>191 contributions on 2026-06-01</title></rect>
+<rect x="532" y="80" width="11" height="11" fill="#26A641" class="cell"><title>78 contributions on 2026-06-02</title></rect>
+<rect x="532" y="94" width="11" height="11" fill="#26A641" class="cell c_35_3"><title>73 contributions on 2026-06-03</title></rect>
+<rect x="532" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-06-04</title></rect>
+<rect x="532" y="122" width="11" height="11" fill="#39D353" class="cell c_35_5"><title>238 contributions on 2026-06-05</title></rect>
+<rect x="532" y="136" width="11" height="11" fill="#26A641" class="cell"><title>156 contributions on 2026-06-06</title></rect>
+<rect x="546" y="52" width="11" height="11" fill="#39D353" class="cell c_36_0"><title>197 contributions on 2026-06-07</title></rect>
+<rect x="546" y="66" width="11" height="11" fill="#26A641" class="cell c_36_1"><title>72 contributions on 2026-06-08</title></rect>
+<rect x="546" y="80" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-06-09</title></rect>
+<rect x="546" y="94" width="11" height="11" fill="#39D353" class="cell c_36_3"><title>191 contributions on 2026-06-10</title></rect>
+<rect x="546" y="108" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-06-11</title></rect>
+<rect x="546" y="122" width="11" height="11" fill="#39D353" class="cell c_36_5"><title>193 contributions on 2026-06-12</title></rect>
+<rect x="546" y="136" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-06-13</title></rect>
+<rect x="560" y="52" width="11" height="11" fill="#39D353" class="cell c_37_0"><title>195 contributions on 2026-06-14</title></rect>
+<rect x="560" y="66" width="11" height="11" fill="#39D353" class="cell c_37_1"><title>196 contributions on 2026-06-15</title></rect>
+<rect x="560" y="80" width="11" height="11" fill="#39D353" class="cell"><title>197 contributions on 2026-06-16</title></rect>
+<rect x="560" y="94" width="11" height="11" fill="#39D353" class="cell c_37_3"><title>198 contributions on 2026-06-17</title></rect>
+<rect x="560" y="108" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-06-18</title></rect>
+<rect x="560" y="122" width="11" height="11" fill="#26A641" class="cell c_37_5"><title>108 contributions on 2026-06-19</title></rect>
+<rect x="560" y="136" width="11" height="11" fill="#39D353" class="cell"><title>192 contributions on 2026-06-20</title></rect>
+<rect x="574" y="52" width="11" height="11" fill="#39D353" class="cell c_38_0"><title>193 contributions on 2026-06-21</title></rect>
+<rect x="574" y="66" width="11" height="11" fill="#39D353" class="cell c_38_1"><title>194 contributions on 2026-06-22</title></rect>
+<rect x="574" y="80" width="11" height="11" fill="#26A641" class="cell"><title>73 contributions on 2026-06-23</title></rect>
+<rect x="574" y="94" width="11" height="11" fill="#39D353" class="cell c_38_3"><title>196 contributions on 2026-06-24</title></rect>
+<rect x="574" y="108" width="11" height="11" fill="#39D353" class="cell"><title>197 contributions on 2026-06-25</title></rect>
+<rect x="574" y="122" width="11" height="11" fill="#26A641" class="cell c_38_5"><title>109 contributions on 2026-06-26</title></rect>
+<rect x="574" y="136" width="11" height="11" fill="#26A641" class="cell"><title>158 contributions on 2026-06-27</title></rect>
+<rect x="588" y="52" width="11" height="11" fill="#26A641" class="cell c_39_0"><title>98 contributions on 2026-06-28</title></rect>
+<rect x="588" y="66" width="11" height="11" fill="#26A641" class="cell c_39_1"><title>88 contributions on 2026-06-29</title></rect>
+<rect x="588" y="80" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-06-30</title></rect>
+<rect x="588" y="94" width="11" height="11" fill="#26A641" class="cell c_39_3"><title>82 contributions on 2026-07-01</title></rect>
+<rect x="588" y="108" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-07-02</title></rect>
+<rect x="588" y="122" width="11" height="11" fill="#39D353" class="cell c_39_5"><title>194 contributions on 2026-07-03</title></rect>
+<rect x="588" y="136" width="11" height="11" fill="#39D353" class="cell"><title>195 contributions on 2026-07-04</title></rect>
+<rect x="602" y="52" width="11" height="11" fill="#39D353" class="cell c_40_0"><title>196 contributions on 2026-07-05</title></rect>
+<rect x="602" y="66" width="11" height="11" fill="#39D353" class="cell c_40_1"><title>197 contributions on 2026-07-06</title></rect>
+<rect x="602" y="80" width="11" height="11" fill="#26A641" class="cell"><title>122 contributions on 2026-07-07</title></rect>
+<rect x="602" y="94" width="11" height="11" fill="#26A641" class="cell c_40_3"><title>90 contributions on 2026-07-08</title></rect>
+<rect x="602" y="108" width="11" height="11" fill="#26A641" class="cell"><title>150 contributions on 2026-07-09</title></rect>
+<rect x="602" y="122" width="11" height="11" fill="#39D353" class="cell c_40_5"><title>183 contributions on 2026-07-10</title></rect>
+<rect x="602" y="136" width="11" height="11" fill="#26A641" class="cell"><title>117 contributions on 2026-07-11</title></rect>
+<rect x="616" y="52" width="11" height="11" fill="#26A641" class="cell c_41_0"><title>93 contributions on 2026-07-12</title></rect>
+<rect x="616" y="66" width="11" height="11" fill="#26A641" class="cell c_41_1"><title>75 contributions on 2026-07-13</title></rect>
+<rect x="616" y="80" width="11" height="11" fill="#26A641" class="cell"><title>72 contributions on 2026-07-14</title></rect>
+<rect x="616" y="94" width="11" height="11" fill="#26A641" class="cell c_41_3"><title>123 contributions on 2026-07-15</title></rect>
+<rect x="616" y="108" width="11" height="11" fill="#26A641" class="cell"><title>122 contributions on 2026-07-16</title></rect>
+<rect x="616" y="122" width="11" height="11" fill="#39D353" class="cell c_41_5"><title>242 contributions on 2026-07-17</title></rect>
+<rect x="616" y="136" width="11" height="11" fill="#26A641" class="cell"><title>134 contributions on 2026-07-18</title></rect>
+<rect x="630" y="52" width="11" height="11" fill="#26A641" class="cell c_42_0"><title>151 contributions on 2026-07-19</title></rect>
+<rect x="630" y="66" width="11" height="11" fill="#39D353" class="cell c_42_1"><title>193 contributions on 2026-07-20</title></rect>
+<rect x="630" y="80" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-07-21</title></rect>
+<rect x="630" y="94" width="11" height="11" fill="#39D353" class="cell c_42_3"><title>195 contributions on 2026-07-22</title></rect>
+<rect x="630" y="108" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-07-23</title></rect>
+<rect x="630" y="122" width="11" height="11" fill="#39D353" class="cell c_42_5"><title>197 contributions on 2026-07-24</title></rect>
+<rect x="630" y="136" width="11" height="11" fill="#39D353" class="cell"><title>198 contributions on 2026-07-25</title></rect>
+<rect x="644" y="52" width="11" height="11" fill="#26A641" class="cell c_43_0"><title>73 contributions on 2026-07-26</title></rect>
+<rect x="644" y="66" width="11" height="11" fill="#26A641" class="cell c_43_1"><title>150 contributions on 2026-07-27</title></rect>
+<rect x="644" y="80" width="11" height="11" fill="#26A641" class="cell"><title>151 contributions on 2026-07-28</title></rect>
+<rect x="644" y="94" width="11" height="11" fill="#26A641" class="cell c_43_3"><title>152 contributions on 2026-07-29</title></rect>
+<rect x="644" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-07-30</title></rect>
+<rect x="644" y="122" width="11" height="11" fill="#39D353" class="cell c_43_5"><title>195 contributions on 2026-07-31</title></rect>
+<rect x="644" y="136" width="11" height="11" fill="#39D353" class="cell"><title>193 contributions on 2026-08-01</title></rect>
+<rect x="658" y="52" width="11" height="11" fill="#39D353" class="cell c_44_0"><title>194 contributions on 2026-08-02</title></rect>
+<rect x="658" y="66" width="11" height="11" fill="#39D353" class="cell c_44_1"><title>195 contributions on 2026-08-03</title></rect>
+<rect x="658" y="80" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-08-04</title></rect>
+<rect x="658" y="94" width="11" height="11" fill="#39D353" class="cell c_44_3"><title>197 contributions on 2026-08-05</title></rect>
+<rect x="658" y="108" width="11" height="11" fill="#39D353" class="cell"><title>198 contributions on 2026-08-06</title></rect>
+<rect x="658" y="122" width="11" height="11" fill="#26A641" class="cell c_44_5"><title>159 contributions on 2026-08-07</title></rect>
+<rect x="658" y="136" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-08-08</title></rect>
+<rect x="672" y="52" width="11" height="11" fill="#26A641" class="cell c_45_0"><title>104 contributions on 2026-08-09</title></rect>
+<rect x="672" y="66" width="11" height="11" fill="#26A641" class="cell c_45_1"><title>75 contributions on 2026-08-10</title></rect>
+<rect x="672" y="80" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-08-11</title></rect>
+<rect x="672" y="94" width="11" height="11" fill="#26A641" class="cell c_45_3"><title>72 contributions on 2026-08-12</title></rect>
+<rect x="672" y="108" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-08-13</title></rect>
+<rect x="672" y="122" width="11" height="11" fill="#39D353" class="cell c_45_5"><title>197 contributions on 2026-08-14</title></rect>
+<rect x="672" y="136" width="11" height="11" fill="#39D353" class="cell"><title>198 contributions on 2026-08-15</title></rect>
+<rect x="686" y="52" width="11" height="11" fill="#39D353" class="cell c_46_0"><title>208 contributions on 2026-08-16</title></rect>
+<rect x="686" y="66" width="11" height="11" fill="#26A641" class="cell c_46_1"><title>125 contributions on 2026-08-17</title></rect>
+<rect x="686" y="80" width="11" height="11" fill="#26A641" class="cell"><title>151 contributions on 2026-08-18</title></rect>
+<rect x="686" y="94" width="11" height="11" fill="#26A641" class="cell c_46_3"><title>152 contributions on 2026-08-19</title></rect>
+<rect x="686" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-08-20</title></rect>
+<rect x="686" y="122" width="11" height="11" fill="#39D353" class="cell c_46_5"><title>195 contributions on 2026-08-21</title></rect>
+<rect x="686" y="136" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-08-22</title></rect>
+<rect x="700" y="52" width="11" height="11" fill="#39D353" class="cell c_47_0"><title>197 contributions on 2026-08-23</title></rect>
+<rect x="700" y="66" width="11" height="11" fill="#39D353" class="cell c_47_1"><title>198 contributions on 2026-08-24</title></rect>
+<rect x="700" y="80" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-08-25</title></rect>
+<rect x="700" y="94" width="11" height="11" fill="#26A641" class="cell c_47_3"><title>150 contributions on 2026-08-26</title></rect>
+<rect x="700" y="108" width="11" height="11" fill="#26A641" class="cell"><title>151 contributions on 2026-08-27</title></rect>
+<rect x="700" y="122" width="11" height="11" fill="#26A641" class="cell c_47_5"><title>152 contributions on 2026-08-28</title></rect>
+<rect x="700" y="136" width="11" height="11" fill="#26A641" class="cell"><title>153 contributions on 2026-08-29</title></rect>
+<rect x="714" y="52" width="11" height="11" fill="#39D353" class="cell c_48_0"><title>195 contributions on 2026-08-30</title></rect>
+<rect x="714" y="66" width="11" height="11" fill="#39D353" class="cell c_48_1"><title>248 contributions on 2026-08-31</title></rect>
+<rect x="714" y="80" width="11" height="11" fill="#26A641" class="cell"><title>159 contributions on 2026-09-01</title></rect>
+<rect x="714" y="94" width="11" height="11" fill="#39D353" class="cell c_48_3"><title>195 contributions on 2026-09-02</title></rect>
+<rect x="714" y="108" width="11" height="11" fill="#39D353" class="cell"><title>391 contributions on 2026-09-03</title></rect>
+<rect x="714" y="122" width="11" height="11" fill="#39D353" class="cell c_48_5"><title>197 contributions on 2026-09-04</title></rect>
+<rect x="714" y="136" width="11" height="11" fill="#39D353" class="cell"><title>1000 contributions on 2026-09-05</title></rect>
+<rect x="728" y="52" width="11" height="11" fill="#39D353" class="cell c_49_0"><title>2673 contributions on 2026-09-06</title></rect>
+<rect x="728" y="66" width="11" height="11" fill="#26A641" class="cell c_49_1"><title>150 contributions on 2026-09-07</title></rect>
+<rect x="728" y="80" width="11" height="11" fill="#39D353" class="cell"><title>264 contributions on 2026-09-08</title></rect>
+<rect x="728" y="94" width="11" height="11" fill="#39D353" class="cell c_49_3"><title>374 contributions on 2026-09-09</title></rect>
+<rect x="728" y="108" width="11" height="11" fill="#39D353" class="cell"><title>194 contributions on 2026-09-10</title></rect>
+<rect x="728" y="122" width="11" height="11" fill="#39D353" class="cell c_49_5"><title>195 contributions on 2026-09-11</title></rect>
+<rect x="728" y="136" width="11" height="11" fill="#39D353" class="cell"><title>196 contributions on 2026-09-12</title></rect>
+<rect x="742" y="52" width="11" height="11" fill="#39D353" class="cell c_50_0"><title>197 contributions on 2026-09-13</title></rect>
+<rect x="742" y="66" width="11" height="11" fill="#26A641" class="cell c_50_1"><title>111 contributions on 2026-09-14</title></rect>
+<rect x="742" y="80" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-09-15</title></rect>
+<rect x="742" y="94" width="11" height="11" fill="#26A641" class="cell c_50_3"><title>150 contributions on 2026-09-16</title></rect>
+<rect x="742" y="108" width="11" height="11" fill="#26A641" class="cell"><title>151 contributions on 2026-09-17</title></rect>
+<rect x="742" y="122" width="11" height="11" fill="#26A641" class="cell c_50_5"><title>152 contributions on 2026-09-18</title></rect>
+<rect x="742" y="136" width="11" height="11" fill="#26A641" class="cell"><title>153 contributions on 2026-09-19</title></rect>
+<rect x="756" y="52" width="11" height="11" fill="#26A641" class="cell c_51_0"><title>117 contributions on 2026-09-20</title></rect>
+<rect x="756" y="66" width="11" height="11" fill="#39D353" class="cell c_51_1"><title>274 contributions on 2026-09-21</title></rect>
+<rect x="756" y="80" width="11" height="11" fill="#26A641" class="cell"><title>164 contributions on 2026-09-22</title></rect>
+<rect x="756" y="94" width="11" height="11" fill="#39D353" class="cell c_51_3"><title>176 contributions on 2026-09-23</title></rect>
+<rect x="756" y="108" width="11" height="11" fill="#39D353" class="cell"><title>199 contributions on 2026-09-24</title></rect>
+<rect x="756" y="122" width="11" height="11" fill="#39D353" class="cell c_51_5"><title>269 contributions on 2026-09-25</title></rect>
+<rect x="756" y="136" width="11" height="11" fill="#26A641" class="cell"><title>151 contributions on 2026-09-26</title></rect>
+<rect x="770" y="52" width="11" height="11" fill="#26A641" class="cell c_52_0"><title>152 contributions on 2026-09-27</title></rect>
+<rect x="770" y="66" width="11" height="11" fill="#26A641" class="cell c_52_1"><title>153 contributions on 2026-09-28</title></rect>
+<rect x="770" y="80" width="11" height="11" fill="#26A641" class="cell c_52_2"><title>154 contributions on 2026-09-29</title></rect>
+<rect x="770" y="94" width="11" height="11" fill="#39D353" class="cell c_52_3"><title>196 contributions on 2026-09-30</title></rect>
+<rect x="770" y="108" width="11" height="11" fill="#39D353" class="cell c_52_4"><title>170 contributions on 2026-10-01</title></rect>
+<text x="626" y="177" text-anchor="end" class="lbl">Less</text>
+<rect x="636" y="169" width="11" height="11" rx="2" fill="#161B22"/>
+<rect x="650" y="169" width="11" height="11" rx="2" fill="#0E4429"/>
+<rect x="664" y="169" width="11" height="11" rx="2" fill="#006D32"/>
+<rect x="678" y="169" width="11" height="11" rx="2" fill="#26A641"/>
+<rect x="692" y="169" width="11" height="11" rx="2" fill="#39D353"/>
+<text x="712" y="177" class="lbl">More</text>
+
+      <g class="pacman-sprite">
+        <g class="jaw-t">
+          <path d="M 0 0 L 8.5 0 A 8.5 8.5 0 0 0 -8.5 0 Z" fill="#FFE600" />
+        </g>
+        <g class="jaw-b">
+          <path d="M 0 0 L 8.5 0 A 8.5 8.5 0 0 1 -8.5 0 Z" fill="#FFE600" />
+        </g>
+        <circle cx="2" cy="-4.5" r="1.3" fill="#000" />
+      </g>
+    
+
+      <g class="ghost-sprite">
+        <g class="ghost-body" transform="translate(-7, -7)">
+          <path d="M 0 7 A 7 7 0 0 1 14 7 L 14 13 L 11.5 11 L 9.5 13 L 7 11 L 4.5 13 L 2.5 11 L 0 13 Z" fill="#FF0000" />
+          <circle cx="4.5" cy="6" r="2.2" fill="#FFFFFF" />
+          <circle cx="9.5" cy="6" r="2.2" fill="#FFFFFF" />
+          <circle cx="5.5" cy="6" r="1.1" fill="#0000FF" />
+          <circle cx="10.5" cy="6" r="1.1" fill="#0000FF" />
+        </g>
+      </g>
+    
+</svg>
