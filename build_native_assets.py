@@ -3,7 +3,8 @@ import json
 import os
 import math
 
-DIST_DIR = "/home/suraj/antigravity-projects/Suraj-Mavuleti/dist"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+DIST_DIR = os.path.join(script_dir, "dist")
 CONTRIBUTIONS_FILE = "/tmp/contributions.json"
 
 os.makedirs(DIST_DIR, exist_ok=True)
