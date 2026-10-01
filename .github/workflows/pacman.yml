@@ -36,7 +36,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore(cron): auto-update Pac-Man contribution graph with real activity & 1s regen"
+            git commit -m "chore(cron): auto-update Pac-Man contribution graph with maze barriers & 2s regen"
             git pull --rebase origin master
             git push origin master
           fi

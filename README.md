@@ -21,9 +21,9 @@
     <code>ᗧ • • • 🍒 • • • 👻 • • • 👾 • • • 🍓 • • • 👻 • • • 💊 • • • ᗣ</code>
   </p>
 
-  <img src="dist/pacman-matrix.svg" width="100%" alt="Pac-Man eating Suraj's GitHub contribution grid with 1-second regeneration" />
+  <img src="dist/pacman-matrix.svg" width="100%" alt="Pac-Man eating Suraj's GitHub contribution grid with 2-second regeneration" />
 
-  <p><sub><em>🎮 Watch Pac-Man gobble up my 62,000+ GitHub contributions in real-time across an unbroken 369+ day streak with 150–200+ daily commits! When eaten, each block regenerates back to life in 1 second. Auto-updated daily via GitHub Actions.</em></sub></p>
+  <p><sub><em>🎮 Watch Pac-Man navigate the authentic arcade maze corridors and gobble up my 62,000+ GitHub contributions across an unbroken 369+ day streak with 150–200+ daily commits! When eaten, each block regenerates back to life in 2 seconds. Auto-updated daily via GitHub Actions.</em></sub></p>
 </div>
 
 ---
