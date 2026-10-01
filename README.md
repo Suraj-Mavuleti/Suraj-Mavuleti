@@ -40,7 +40,7 @@
 │ ROLE:        Software Developer & Systems Architect                           │
 │ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine    │
 │ PORTAL:      https://zero.skillissue.gg                                       │
-│ STATUS:      ⚡ [LEVEL 99] Building high-impact autonomous architectures      │
+│ STATUS:      ⚡ Building high-impact autonomous architectures                 │
 └───────────────────────────────────────────────────────────────────────────────┘
 ```
 

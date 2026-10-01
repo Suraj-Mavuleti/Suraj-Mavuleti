@@ -97,7 +97,7 @@ def build_header_banner():
   <g transform="translate(30, 28)">
     <circle cx="0" cy="0" r="4.5" fill="#10B981" />
     <circle cx="0" cy="0" r="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.5" />
-    <text x="14" y="4" font-family="'Fira Code', monospace" font-size="11" fill="#10B981" font-weight="600">SYS_STATUS: ONLINE // LEVEL 99</text>
+    <text x="14" y="4" font-family="'Fira Code', monospace" font-size="11" fill="#10B981" font-weight="600">SYS_STATUS: ONLINE</text>
   </g>
   <text x="{w - 30}" y="32" text-anchor="end" font-family="'Fira Code', monospace" font-size="11" fill="#64748B">zero.skillissue.gg</text>
 
