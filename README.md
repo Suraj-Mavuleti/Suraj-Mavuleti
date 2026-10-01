@@ -17,6 +17,9 @@
     <a href="https://www.iitm.ac.in" target="_blank">
       <img src="https://img.shields.io/badge/🎓_IIT_Madras-BS_in_Electronic_Systems-0073e6?style=for-the-badge&logoColor=white" alt="IIT Madras" />
     </a>
+    <a href="https://github.com/Suraj-Mavuleti" target="_blank">
+      <img src="https://img.shields.io/badge/🔥_Streak-369+_Days_Unbroken-ff4500?style=for-the-badge&logoColor=white" alt="369 Day Streak" />
+    </a>
     <a href="https://zero.skillissue.gg" target="_blank">
       <img src="https://img.shields.io/badge/🌐_Wiki_%26_Systems-zero.skillissue.gg-10b981?style=for-the-badge&logoColor=white" alt="Official Website" />
     </a>
@@ -45,7 +48,7 @@
     <img alt="Pac-Man eating Suraj's GitHub contribution grid" src="https://raw.githubusercontent.com/Suraj-Mavuleti/Suraj-Mavuleti/master/dist/pacman-contribution-graph-dark.svg" width="100%" />
   </picture>
 
-  <p><sub><em>🎮 Watch Pac-Man gobble up my 30,000+ GitHub contributions in real-time! Auto-updated daily via GitHub Actions.</em></sub></p>
+  <p><sub><em>🎮 Watch Pac-Man gobble up my 32,000+ GitHub contributions in real-time across an unbroken 369+ day streak! Auto-updated daily via GitHub Actions.</em></sub></p>
 </div>
 
 ---
@@ -54,40 +57,41 @@
 
 ```bash
 ┌──[ DEV//ZERO ARCADE TERMINAL ]────────────────────────────────────────────────┐
-│ PLAYER:     Suraj Mavuleti (alias: Dev Zero)                                  │
-│ EDUCATION:  BS in Electronic Systems — Indian Institute of Technology, Madras │
+│ PLAYER:      Suraj Mavuleti (alias: Dev Zero)                                 │
+│ EDUCATION:   BS in Electronic Systems — Indian Institute of Technology, Madras│
 │ INSTITUTION: IIT Madras (IITM)                                                │
-│ HIGH SCORE: 30,328+ Public Commits & Pushes                                   │
-│ ROLE:       Software Developer & Systems Architect                            │
-│ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine     │
-│ PORTAL:     https://zero.skillissue.gg                                        │
-│ STATUS:     ⚡ [LEVEL 99] Building high-impact autonomous architectures       │
+│ STREAK:      🔥 369+ Days Continuous Unbroken Activity (Zero Missing Days)    │
+│ HIGH SCORE:  32,700+ Public Commits & Continuous System Pushes                │
+│ ROLE:        Software Developer & Systems Architect                           │
+│ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine    │
+│ PORTAL:      https://zero.skillissue.gg                                       │
+│ STATUS:      ⚡ [LEVEL 99] Building high-impact autonomous architectures      │
 └───────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 📊 TELEMETRY & COMMIT ACTIVITY METERS
+### 🔥 UNBROKEN COMMIT STREAK & TELEMETRY METERS
 
 <div align="center">
 
-  <!-- Streak Stats -->
+  <!-- Streak Stats Hero Meter -->
   <a href="https://zero.skillissue.gg">
-    <img src="https://streak-stats.demolab.com?user=Suraj-Mavuleti&theme=cyberpunk&hide_border=true&background=0D1117&ring=10B981&fire=10B981&currStreakNum=58A6FF&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak Stats" width="49%" />
-  </a>
-  <!-- Core GitHub Stats -->
-  <a href="https://zero.skillissue.gg">
-    <img src="https://github-readme-stats.vercel.app/api?username=Suraj-Mavuleti&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=58A6FF&text_color=E6EDF3&rank_icon=github" alt="GitHub Overall Stats" width="49%" />
+    <img src="https://streak-stats.demolab.com?user=Suraj-Mavuleti&theme=cyberpunk&hide_border=true&background=0D1117&ring=10B981&fire=10B981&currStreakNum=58A6FF&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak Stats" width="85%" />
   </a>
 
   <br/><br/>
 
-  <!-- Top Languages Card -->
+  <!-- Core GitHub Stats & Top Languages -->
   <a href="https://zero.skillissue.gg">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj-Mavuleti&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=E6EDF3" alt="Top Languages" width="60%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Suraj-Mavuleti&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=58A6FF&text_color=E6EDF3&rank_icon=github" alt="GitHub Overall Stats" width="49%" />
+  </a>
+  <a href="https://zero.skillissue.gg">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj-Mavuleti&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=E6EDF3" alt="Top Languages" width="49%" />
   </a>
 
 </div>
+
 
 ---
 
