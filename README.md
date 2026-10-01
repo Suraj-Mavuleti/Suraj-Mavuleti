@@ -39,7 +39,7 @@ User: Suraj Mavuleti (aka Dev Zero)
 Education: BS in Electronic Systems @ Indian Institute of Technology, Madras (IITM)
 Role: Software Developer & Systems Architect
 Focus: Electronic Systems, High-Performance Web & Low-Latency Architecture
-Projects: Dev-Zer0, Zero-IDE, ZeroMusic & Zero Ecosystem
+Projects: Zero-IDE, ZeroMusic, Zero Control, High on Therapy AI
 Website: https://zero.skillissue.gg
 Status: ⚡ Building cutting-edge systems every day
 ```
@@ -56,9 +56,10 @@ Status: ⚡ Building cutting-edge systems every day
 
 ### 🚀 What I Build
 
-* **[Zero-IDE](https://zero.skillissue.gg):** Advanced browser-based workspace, cloud IDE, and development platform.
-* **[ZeroMusic](https://zero.skillissue.gg/zero-music):** High-fidelity reactive audio workspace and streaming suite.
-* **[High on Therapy AI](https://zero.skillissue.gg/highontherapy):** Generative AI wellness platform and real-time interaction systems.
+* **[Zero-IDE](https://zero.skillissue.gg/zero-ide):** A high-performance coding environment with integrated AI assistance.
+* **[ZeroMusic](https://zero.skillissue.gg/zero-music):** A free Android music player with playlist import, offline backup and synced lyrics.
+* **[Zero Control](https://zero.skillissue.gg/zero-control):** A free, lightweight remote desktop for Windows, Linux and Android.
+* **[High on Therapy AI](https://zero.skillissue.gg/highontherapy):** An AI-powered mental wellness companion.
 * **[Dev//Zero Central Wiki](https://zero.skillissue.gg):** Living archive of experimental architectures and blueprints.
 
 ---
