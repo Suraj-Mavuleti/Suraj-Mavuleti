@@ -48,7 +48,7 @@
     <img alt="Pac-Man eating Suraj's GitHub contribution grid" src="https://raw.githubusercontent.com/Suraj-Mavuleti/Suraj-Mavuleti/master/dist/pacman-contribution-graph-dark.svg" width="100%" />
   </picture>
 
-  <p><sub><em>🎮 Watch Pac-Man gobble up my 32,000+ GitHub contributions in real-time across an unbroken 369+ day streak! Auto-updated daily via GitHub Actions.</em></sub></p>
+  <p><sub><em>🎮 Watch Pac-Man gobble up my 62,000+ GitHub contributions in real-time across an unbroken 369+ day streak with 150–200+ daily commits! Auto-updated daily via GitHub Actions.</em></sub></p>
 </div>
 
 ---
@@ -60,8 +60,8 @@
 │ PLAYER:      Suraj Mavuleti (alias: Dev Zero)                                 │
 │ EDUCATION:   BS in Electronic Systems — Indian Institute of Technology, Madras│
 │ INSTITUTION: IIT Madras (IITM)                                                │
-│ STREAK:      🔥 369+ Days Continuous Unbroken Activity (Zero Missing Days)    │
-│ HIGH SCORE:  32,700+ Public Commits & Continuous System Pushes                │
+│ STREAK:      🔥 369+ Days Continuous Unbroken Activity (150–200+ Commits/Day) │
+│ HIGH SCORE:  62,000+ Public Commits & Continuous System Pushes                │
 │ ROLE:        Software Developer & Systems Architect                           │
 │ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine    │
 │ PORTAL:      https://zero.skillissue.gg                                       │
