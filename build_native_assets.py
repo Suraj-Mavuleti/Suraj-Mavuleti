@@ -49,26 +49,12 @@ def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
     for d in raw_days:
         date_str = d["date"]
         count = d.get("count", 0)
-        # Normalize contribution data:
-        #   count == 0 (gap day): fill with 75-150 (matches actual backfill)
-        #   0 < count < 72 (low day): approximate to 100-170
-        #   count >= 72: keep real data as-is
-        if count == 0:
-            seed = sum(ord(ch) for ch in date_str)
-            count = 75 + (seed % 76)  # 75 to 150
-            level = 3 if count >= 120 else 2
-        elif count < 72:
-            seed = sum(ord(ch) for ch in date_str)
-            count = 100 + (seed % 71)  # 100 to 170
-            level = 4 if count >= 140 else 3
-        else:
-            level = d.get("level", 4 if count >= 165 else 3)
-            
+        level = d.get("level", 0)
         processed_days.append({
             "date": date_str,
             "count": count,
             "level": level,
-            "text": f"{count} contributions on {date_str}"
+            "text": f"{count} contributions on {date_str}" if count != 1 else f"1 contribution on {date_str}"
         })
 
     # Regroup into 53 weeks

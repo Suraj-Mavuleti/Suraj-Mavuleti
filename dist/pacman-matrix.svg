@@ -2378,7 +2378,7 @@
 }.c_0_1 { animation: kf_c_0_1 56.00s linear infinite; }  </style>
   <g transform="translate(42, 13)"><rect x="0" y="8" width="14" height="5" rx="1.5" fill="#262626" /><line x1="7" y1="8" x2="7" y2="3.5" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" /><circle cx="7" cy="2.5" r="2.5" fill="#EF4444" /></g>
   <text x="64" y="24" class="title">DEV//ZERO PAC-MAN CONTRIBUTION MATRIX</text>
-  <text x="1208" y="25" text-anchor="end" class="sub">65,180 COMMITS • 369 DAY STREAK</text>
+  <text x="1208" y="25" text-anchor="end" class="sub">31,479 COMMITS • 12 DAY STREAK</text>
   <text x="69" y="42" class="lbl">Oct</text>
   <text x="157" y="42" class="lbl">Nov</text>
   <text x="245" y="42" class="lbl">Dec</text>
@@ -2395,369 +2395,369 @@
   <text x="32" y="132" text-anchor="end" class="lbl">Wed</text>
   <text x="32" y="176" text-anchor="end" class="lbl">Fri</text>
   <rect x="591" y="95" width="66" height="44" fill="#080C10" rx="3" />
-<rect x="42" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_0_0"><title>193 contributions on 2025-09-28</title></rect>
-<rect x="42" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_0_1"><title>194 contributions on 2025-09-29</title></rect>
-<rect x="42" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2025-09-30</title></rect>
-<rect x="42" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>126 contributions on 2025-10-01</title></rect>
-<rect x="42" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>89 contributions on 2025-10-02</title></rect>
-<rect x="42" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_0_5"><title>178 contributions on 2025-10-03</title></rect>
-<rect x="42" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_0_6"><title>179 contributions on 2025-10-04</title></rect>
-<rect x="64" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_1_0"><title>180 contributions on 2025-10-05</title></rect>
-<rect x="64" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell c_1_1"><title>121 contributions on 2025-10-06</title></rect>
-<rect x="64" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_1_2"><title>81 contributions on 2025-10-07</title></rect>
-<rect x="64" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_1_3"><title>183 contributions on 2025-10-08</title></rect>
-<rect x="64" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_1_4"><title>184 contributions on 2025-10-09</title></rect>
-<rect x="64" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_1_5"><title>176 contributions on 2025-10-10</title></rect>
-<rect x="64" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_1_6"><title>177 contributions on 2025-10-11</title></rect>
-<rect x="86" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_2_0"><title>178 contributions on 2025-10-12</title></rect>
-<rect x="86" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell c_2_1"><title>117 contributions on 2025-10-13</title></rect>
-<rect x="86" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_2_2"><title>74 contributions on 2025-10-14</title></rect>
-<rect x="86" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_2_3"><title>181 contributions on 2025-10-15</title></rect>
-<rect x="86" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_2_4"><title>182 contributions on 2025-10-16</title></rect>
-<rect x="86" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_2_5"><title>183 contributions on 2025-10-17</title></rect>
-<rect x="86" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_2_6"><title>184 contributions on 2025-10-18</title></rect>
-<rect x="108" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_3_0"><title>185 contributions on 2025-10-19</title></rect>
-<rect x="108" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>177 contributions on 2025-10-20</title></rect>
-<rect x="108" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>178 contributions on 2025-10-21</title></rect>
-<rect x="108" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>173 contributions on 2025-10-22</title></rect>
-<rect x="108" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>123 contributions on 2025-10-23</title></rect>
-<rect x="108" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_3_5"><title>181 contributions on 2025-10-24</title></rect>
-<rect x="108" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_3_6"><title>182 contributions on 2025-10-25</title></rect>
-<rect x="130" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_4_0"><title>112 contributions on 2025-10-26</title></rect>
-<rect x="130" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>244 contributions on 2025-10-27</title></rect>
-<rect x="130" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>268 contributions on 2025-10-28</title></rect>
-<rect x="130" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>128 contributions on 2025-10-29</title></rect>
-<rect x="130" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>178 contributions on 2025-10-30</title></rect>
-<rect x="130" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_4_5"><title>179 contributions on 2025-10-31</title></rect>
-<rect x="130" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_4_6"><title>177 contributions on 2025-11-01</title></rect>
-<rect x="152" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_5_0"><title>178 contributions on 2025-11-02</title></rect>
-<rect x="152" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2025-11-03</title></rect>
-<rect x="152" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2025-11-04</title></rect>
-<rect x="152" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>104 contributions on 2025-11-05</title></rect>
-<rect x="152" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>77 contributions on 2025-11-06</title></rect>
-<rect x="152" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_5_5"><title>183 contributions on 2025-11-07</title></rect>
-<rect x="152" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_5_6"><title>184 contributions on 2025-11-08</title></rect>
-<rect x="174" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_6_0"><title>185 contributions on 2025-11-09</title></rect>
-<rect x="174" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>177 contributions on 2025-11-10</title></rect>
-<rect x="174" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_6_2"><title>178 contributions on 2025-11-11</title></rect>
-<rect x="174" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_6_3"><title>179 contributions on 2025-11-12</title></rect>
-<rect x="174" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_6_4"><title>180 contributions on 2025-11-13</title></rect>
-<rect x="174" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell c_6_5"><title>74 contributions on 2025-11-14</title></rect>
-<rect x="174" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_6_6"><title>182 contributions on 2025-11-15</title></rect>
-<rect x="196" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_7_0"><title>93 contributions on 2025-11-16</title></rect>
-<rect x="196" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_7_1"><title>73 contributions on 2025-11-17</title></rect>
-<rect x="196" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_7_2"><title>185 contributions on 2025-11-18</title></rect>
-<rect x="196" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>97 contributions on 2025-11-19</title></rect>
-<rect x="196" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>78 contributions on 2025-11-20</title></rect>
-<rect x="196" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_7_5"><title>179 contributions on 2025-11-21</title></rect>
-<rect x="196" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_7_6"><title>180 contributions on 2025-11-22</title></rect>
-<rect x="218" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2025-11-23</title></rect>
-<rect x="218" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_8_1"><title>182 contributions on 2025-11-24</title></rect>
-<rect x="218" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_8_2"><title>183 contributions on 2025-11-25</title></rect>
-<rect x="218" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2025-11-26</title></rect>
-<rect x="218" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>114 contributions on 2025-11-27</title></rect>
-<rect x="218" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_8_5"><title>186 contributions on 2025-11-28</title></rect>
-<rect x="218" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_8_6"><title>103 contributions on 2025-11-29</title></rect>
-<rect x="240" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>127 contributions on 2025-11-30</title></rect>
-<rect x="240" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_9_1"><title>178 contributions on 2025-12-01</title></rect>
-<rect x="240" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_9_2"><title>179 contributions on 2025-12-02</title></rect>
-<rect x="240" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2025-12-03</title></rect>
-<rect x="240" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>112 contributions on 2025-12-04</title></rect>
-<rect x="240" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>86 contributions on 2025-12-05</title></rect>
-<rect x="240" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_9_6"><title>183 contributions on 2025-12-06</title></rect>
-<rect x="262" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2025-12-07</title></rect>
-<rect x="262" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_10_1"><title>185 contributions on 2025-12-08</title></rect>
-<rect x="262" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_10_2"><title>186 contributions on 2025-12-09</title></rect>
-<rect x="262" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>90 contributions on 2025-12-10</title></rect>
-<rect x="262" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>146 contributions on 2025-12-11</title></rect>
-<rect x="262" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>174 contributions on 2025-12-12</title></rect>
-<rect x="262" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_10_6"><title>197 contributions on 2025-12-13</title></rect>
-<rect x="284" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>197 contributions on 2025-12-14</title></rect>
-<rect x="284" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>191 contributions on 2025-12-15</title></rect>
-<rect x="284" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>178 contributions on 2025-12-16</title></rect>
-<rect x="284" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>106 contributions on 2025-12-17</title></rect>
-<rect x="284" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>157 contributions on 2025-12-18</title></rect>
-<rect x="284" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>168 contributions on 2025-12-19</title></rect>
-<rect x="284" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_11_6"><title>179 contributions on 2025-12-20</title></rect>
-<rect x="306" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_12_0"><title>258 contributions on 2025-12-21</title></rect>
-<rect x="306" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_12_1"><title>183 contributions on 2025-12-22</title></rect>
-<rect x="306" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_12_2"><title>72 contributions on 2025-12-23</title></rect>
-<rect x="306" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_12_3"><title>183 contributions on 2025-12-24</title></rect>
-<rect x="306" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_12_4"><title>184 contributions on 2025-12-25</title></rect>
-<rect x="306" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell c_12_5"><title>156 contributions on 2025-12-26</title></rect>
-<rect x="306" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_12_6"><title>211 contributions on 2025-12-27</title></rect>
-<rect x="328" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_13_0"><title>88 contributions on 2025-12-28</title></rect>
-<rect x="328" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2025-12-29</title></rect>
-<rect x="328" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2025-12-30</title></rect>
-<rect x="328" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2025-12-31</title></rect>
-<rect x="328" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>177 contributions on 2026-01-01</title></rect>
-<rect x="328" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>178 contributions on 2026-01-02</title></rect>
-<rect x="328" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_13_6"><title>179 contributions on 2026-01-03</title></rect>
-<rect x="350" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_14_0"><title>180 contributions on 2026-01-04</title></rect>
-<rect x="350" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-01-05</title></rect>
-<rect x="350" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-01-06</title></rect>
-<rect x="350" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-01-07</title></rect>
-<rect x="350" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>72 contributions on 2026-01-08</title></rect>
-<rect x="350" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-01-09</title></rect>
-<rect x="350" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_14_6"><title>177 contributions on 2026-01-10</title></rect>
-<rect x="372" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_15_0"><title>107 contributions on 2026-01-11</title></rect>
-<rect x="372" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-01-12</title></rect>
-<rect x="372" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>112 contributions on 2026-01-13</title></rect>
-<rect x="372" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>86 contributions on 2026-01-14</title></rect>
-<rect x="372" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-01-15</title></rect>
-<rect x="372" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_15_5"><title>233 contributions on 2026-01-16</title></rect>
-<rect x="372" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_15_6"><title>136 contributions on 2026-01-17</title></rect>
-<rect x="394" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_16_0"><title>127 contributions on 2026-01-18</title></rect>
-<rect x="394" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>91 contributions on 2026-01-19</title></rect>
-<rect x="394" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>178 contributions on 2026-01-20</title></rect>
-<rect x="394" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-01-21</title></rect>
-<rect x="394" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2026-01-22</title></rect>
-<rect x="394" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-01-23</title></rect>
-<rect x="394" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_16_6"><title>182 contributions on 2026-01-24</title></rect>
-<rect x="416" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_17_0"><title>123 contributions on 2026-01-25</title></rect>
-<rect x="416" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>72 contributions on 2026-01-26</title></rect>
-<rect x="416" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-01-27</title></rect>
-<rect x="416" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>111 contributions on 2026-01-28</title></rect>
-<rect x="416" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-01-29</title></rect>
-<rect x="416" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-01-30</title></rect>
-<rect x="416" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_17_6"><title>180 contributions on 2026-01-31</title></rect>
-<rect x="438" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_18_0"><title>178 contributions on 2026-02-01</title></rect>
-<rect x="438" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>88 contributions on 2026-02-02</title></rect>
-<rect x="438" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_18_2"><title>77 contributions on 2026-02-03</title></rect>
-<rect x="438" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-02-04</title></rect>
-<rect x="438" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-02-05</title></rect>
-<rect x="438" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-02-06</title></rect>
-<rect x="438" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_18_6"><title>74 contributions on 2026-02-07</title></rect>
-<rect x="460" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_19_0"><title>185 contributions on 2026-02-08</title></rect>
-<rect x="460" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_19_1"><title>81 contributions on 2026-02-09</title></rect>
-<rect x="460" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_19_2"><title>178 contributions on 2026-02-10</title></rect>
-<rect x="460" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-02-11</title></rect>
-<rect x="460" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2026-02-12</title></rect>
-<rect x="460" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-02-13</title></rect>
-<rect x="460" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_19_6"><title>182 contributions on 2026-02-14</title></rect>
-<rect x="482" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_20_0"><title>183 contributions on 2026-02-15</title></rect>
-<rect x="482" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_20_1"><title>184 contributions on 2026-02-16</title></rect>
-<rect x="482" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_20_2"><title>185 contributions on 2026-02-17</title></rect>
-<rect x="482" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>101 contributions on 2026-02-18</title></rect>
-<rect x="482" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>94 contributions on 2026-02-19</title></rect>
-<rect x="482" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_20_5"><title>179 contributions on 2026-02-20</title></rect>
-<rect x="482" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_20_6"><title>92 contributions on 2026-02-21</title></rect>
-<rect x="504" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_21_0"><title>181 contributions on 2026-02-22</title></rect>
-<rect x="504" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-02-23</title></rect>
-<rect x="504" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-02-24</title></rect>
-<rect x="504" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-02-25</title></rect>
-<rect x="504" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-02-26</title></rect>
-<rect x="504" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-02-27</title></rect>
-<rect x="504" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_21_6"><title>74 contributions on 2026-02-28</title></rect>
-<rect x="526" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_22_0"><title>179 contributions on 2026-03-01</title></rect>
-<rect x="526" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>82 contributions on 2026-03-02</title></rect>
-<rect x="526" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-03-03</title></rect>
-<rect x="526" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-03-04</title></rect>
-<rect x="526" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-03-05</title></rect>
-<rect x="526" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-03-06</title></rect>
-<rect x="526" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_22_6"><title>107 contributions on 2026-03-07</title></rect>
-<rect x="548" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_23_0"><title>103 contributions on 2026-03-08</title></rect>
-<rect x="548" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-03-09</title></rect>
-<rect x="548" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-03-10</title></rect>
-<rect x="548" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2026-03-11</title></rect>
-<rect x="548" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-03-12</title></rect>
-<rect x="548" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>89 contributions on 2026-03-13</title></rect>
-<rect x="548" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_23_6"><title>125 contributions on 2026-03-14</title></rect>
-<rect x="570" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_24_0"><title>74 contributions on 2026-03-15</title></rect>
-<rect x="570" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_24_1"><title>185 contributions on 2026-03-16</title></rect>
-<rect x="570" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_24_2"><title>186 contributions on 2026-03-17</title></rect>
-<rect x="570" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_24_3"><title>187 contributions on 2026-03-18</title></rect>
-<rect x="570" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_24_4"><title>188 contributions on 2026-03-19</title></rect>
-<rect x="570" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2026-03-20</title></rect>
-<rect x="570" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_24_6"><title>181 contributions on 2026-03-21</title></rect>
-<rect x="592" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-03-22</title></rect>
-<rect x="592" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_25_1"><title>183 contributions on 2026-03-23</title></rect>
-<rect x="592" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-03-26</title></rect>
-<rect x="592" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-03-27</title></rect>
-<rect x="592" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_25_6"><title>188 contributions on 2026-03-28</title></rect>
-<rect x="614" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-03-29</title></rect>
-<rect x="614" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_26_1"><title>181 contributions on 2026-03-30</title></rect>
+<rect x="42" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_0_0"><title>62 contributions on 2025-09-28</title></rect>
+<rect x="42" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_0_1"><title>60 contributions on 2025-09-29</title></rect>
+<rect x="42" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>41 contributions on 2025-09-30</title></rect>
+<rect x="42" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>126 contributions on 2025-10-01</title></rect>
+<rect x="42" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>89 contributions on 2025-10-02</title></rect>
+<rect x="42" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_0_5"><title>34 contributions on 2025-10-03</title></rect>
+<rect x="42" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_0_6"><title>47 contributions on 2025-10-04</title></rect>
+<rect x="64" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_0"><title>42 contributions on 2025-10-05</title></rect>
+<rect x="64" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_1_1"><title>121 contributions on 2025-10-06</title></rect>
+<rect x="64" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_2"><title>81 contributions on 2025-10-07</title></rect>
+<rect x="64" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_3"><title>58 contributions on 2025-10-08</title></rect>
+<rect x="64" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_4"><title>35 contributions on 2025-10-09</title></rect>
+<rect x="64" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_5"><title>49 contributions on 2025-10-10</title></rect>
+<rect x="64" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_1_6"><title>46 contributions on 2025-10-11</title></rect>
+<rect x="86" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_0"><title>37 contributions on 2025-10-12</title></rect>
+<rect x="86" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_2_1"><title>117 contributions on 2025-10-13</title></rect>
+<rect x="86" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_2"><title>74 contributions on 2025-10-14</title></rect>
+<rect x="86" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_3"><title>43 contributions on 2025-10-15</title></rect>
+<rect x="86" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_4"><title>45 contributions on 2025-10-16</title></rect>
+<rect x="86" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_5"><title>62 contributions on 2025-10-17</title></rect>
+<rect x="86" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_2_6"><title>47 contributions on 2025-10-18</title></rect>
+<rect x="108" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_3_0"><title>45 contributions on 2025-10-19</title></rect>
+<rect x="108" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>32 contributions on 2025-10-20</title></rect>
+<rect x="108" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>48 contributions on 2025-10-21</title></rect>
+<rect x="108" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>173 contributions on 2025-10-22</title></rect>
+<rect x="108" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>123 contributions on 2025-10-23</title></rect>
+<rect x="108" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_3_5"><title>55 contributions on 2025-10-24</title></rect>
+<rect x="108" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_3_6"><title>37 contributions on 2025-10-25</title></rect>
+<rect x="130" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_4_0"><title>112 contributions on 2025-10-26</title></rect>
+<rect x="130" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>244 contributions on 2025-10-27</title></rect>
+<rect x="130" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>268 contributions on 2025-10-28</title></rect>
+<rect x="130" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>128 contributions on 2025-10-29</title></rect>
+<rect x="130" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2025-10-30</title></rect>
+<rect x="130" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_4_5"><title>50 contributions on 2025-10-31</title></rect>
+<rect x="130" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_4_6"><title>68 contributions on 2025-11-01</title></rect>
+<rect x="152" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_5_0"><title>58 contributions on 2025-11-02</title></rect>
+<rect x="152" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>59 contributions on 2025-11-03</title></rect>
+<rect x="152" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>58 contributions on 2025-11-04</title></rect>
+<rect x="152" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>104 contributions on 2025-11-05</title></rect>
+<rect x="152" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>77 contributions on 2025-11-06</title></rect>
+<rect x="152" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_5_5"><title>50 contributions on 2025-11-07</title></rect>
+<rect x="152" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_5_6"><title>55 contributions on 2025-11-08</title></rect>
+<rect x="174" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_0"><title>70 contributions on 2025-11-09</title></rect>
+<rect x="174" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>50 contributions on 2025-11-10</title></rect>
+<rect x="174" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_2"><title>40 contributions on 2025-11-11</title></rect>
+<rect x="174" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_3"><title>41 contributions on 2025-11-12</title></rect>
+<rect x="174" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_4"><title>53 contributions on 2025-11-13</title></rect>
+<rect x="174" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_5"><title>74 contributions on 2025-11-14</title></rect>
+<rect x="174" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_6_6"><title>66 contributions on 2025-11-15</title></rect>
+<rect x="196" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_7_0"><title>93 contributions on 2025-11-16</title></rect>
+<rect x="196" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_7_1"><title>73 contributions on 2025-11-17</title></rect>
+<rect x="196" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_7_2"><title>42 contributions on 2025-11-18</title></rect>
+<rect x="196" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>97 contributions on 2025-11-19</title></rect>
+<rect x="196" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>78 contributions on 2025-11-20</title></rect>
+<rect x="196" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_7_5"><title>71 contributions on 2025-11-21</title></rect>
+<rect x="196" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_7_6"><title>58 contributions on 2025-11-22</title></rect>
+<rect x="218" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>71 contributions on 2025-11-23</title></rect>
+<rect x="218" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_8_1"><title>47 contributions on 2025-11-24</title></rect>
+<rect x="218" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_8_2"><title>44 contributions on 2025-11-25</title></rect>
+<rect x="218" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>63 contributions on 2025-11-26</title></rect>
+<rect x="218" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>114 contributions on 2025-11-27</title></rect>
+<rect x="218" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_8_5"><title>54 contributions on 2025-11-28</title></rect>
+<rect x="218" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_8_6"><title>103 contributions on 2025-11-29</title></rect>
+<rect x="240" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>127 contributions on 2025-11-30</title></rect>
+<rect x="240" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_9_1"><title>62 contributions on 2025-12-01</title></rect>
+<rect x="240" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_9_2"><title>51 contributions on 2025-12-02</title></rect>
+<rect x="240" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>41 contributions on 2025-12-03</title></rect>
+<rect x="240" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>112 contributions on 2025-12-04</title></rect>
+<rect x="240" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>86 contributions on 2025-12-05</title></rect>
+<rect x="240" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_9_6"><title>49 contributions on 2025-12-06</title></rect>
+<rect x="262" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>48 contributions on 2025-12-07</title></rect>
+<rect x="262" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_10_1"><title>48 contributions on 2025-12-08</title></rect>
+<rect x="262" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_10_2"><title>39 contributions on 2025-12-09</title></rect>
+<rect x="262" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>90 contributions on 2025-12-10</title></rect>
+<rect x="262" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>71 contributions on 2025-12-11</title></rect>
+<rect x="262" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>38 contributions on 2025-12-12</title></rect>
+<rect x="262" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_10_6"><title>55 contributions on 2025-12-13</title></rect>
+<rect x="284" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2025-12-14</title></rect>
+<rect x="284" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>62 contributions on 2025-12-15</title></rect>
+<rect x="284" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>178 contributions on 2025-12-16</title></rect>
+<rect x="284" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>106 contributions on 2025-12-17</title></rect>
+<rect x="284" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>53 contributions on 2025-12-18</title></rect>
+<rect x="284" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>43 contributions on 2025-12-19</title></rect>
+<rect x="284" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_11_6"><title>43 contributions on 2025-12-20</title></rect>
+<rect x="306" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_12_0"><title>258 contributions on 2025-12-21</title></rect>
+<rect x="306" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_12_1"><title>183 contributions on 2025-12-22</title></rect>
+<rect x="306" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_12_2"><title>72 contributions on 2025-12-23</title></rect>
+<rect x="306" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_12_3"><title>45 contributions on 2025-12-24</title></rect>
+<rect x="306" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_12_4"><title>52 contributions on 2025-12-25</title></rect>
+<rect x="306" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell c_12_5"><title>156 contributions on 2025-12-26</title></rect>
+<rect x="306" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_12_6"><title>211 contributions on 2025-12-27</title></rect>
+<rect x="328" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_13_0"><title>88 contributions on 2025-12-28</title></rect>
+<rect x="328" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>52 contributions on 2025-12-29</title></rect>
+<rect x="328" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2025-12-30</title></rect>
+<rect x="328" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>41 contributions on 2025-12-31</title></rect>
+<rect x="328" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-01-01</title></rect>
+<rect x="328" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>66 contributions on 2026-01-02</title></rect>
+<rect x="328" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_13_6"><title>52 contributions on 2026-01-03</title></rect>
+<rect x="350" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_14_0"><title>41 contributions on 2026-01-04</title></rect>
+<rect x="350" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-01-05</title></rect>
+<rect x="350" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>38 contributions on 2026-01-06</title></rect>
+<rect x="350" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>52 contributions on 2026-01-07</title></rect>
+<rect x="350" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>72 contributions on 2026-01-08</title></rect>
+<rect x="350" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>70 contributions on 2026-01-09</title></rect>
+<rect x="350" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_14_6"><title>49 contributions on 2026-01-10</title></rect>
+<rect x="372" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_15_0"><title>107 contributions on 2026-01-11</title></rect>
+<rect x="372" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>69 contributions on 2026-01-12</title></rect>
+<rect x="372" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>112 contributions on 2026-01-13</title></rect>
+<rect x="372" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>86 contributions on 2026-01-14</title></rect>
+<rect x="372" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>53 contributions on 2026-01-15</title></rect>
+<rect x="372" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell c_15_5"><title>233 contributions on 2026-01-16</title></rect>
+<rect x="372" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_15_6"><title>136 contributions on 2026-01-17</title></rect>
+<rect x="394" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_16_0"><title>127 contributions on 2026-01-18</title></rect>
+<rect x="394" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>91 contributions on 2026-01-19</title></rect>
+<rect x="394" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>48 contributions on 2026-01-20</title></rect>
+<rect x="394" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-01-21</title></rect>
+<rect x="394" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>50 contributions on 2026-01-22</title></rect>
+<rect x="394" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>41 contributions on 2026-01-23</title></rect>
+<rect x="394" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_16_6"><title>45 contributions on 2026-01-24</title></rect>
+<rect x="416" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_17_0"><title>123 contributions on 2026-01-25</title></rect>
+<rect x="416" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>72 contributions on 2026-01-26</title></rect>
+<rect x="416" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>181 contributions on 2026-01-27</title></rect>
+<rect x="416" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>111 contributions on 2026-01-28</title></rect>
+<rect x="416" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>52 contributions on 2026-01-29</title></rect>
+<rect x="416" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>62 contributions on 2026-01-30</title></rect>
+<rect x="416" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_17_6"><title>48 contributions on 2026-01-31</title></rect>
+<rect x="438" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_18_0"><title>47 contributions on 2026-02-01</title></rect>
+<rect x="438" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>88 contributions on 2026-02-02</title></rect>
+<rect x="438" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_18_2"><title>77 contributions on 2026-02-03</title></rect>
+<rect x="438" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>35 contributions on 2026-02-04</title></rect>
+<rect x="438" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-02-05</title></rect>
+<rect x="438" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>63 contributions on 2026-02-06</title></rect>
+<rect x="438" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_18_6"><title>74 contributions on 2026-02-07</title></rect>
+<rect x="460" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_19_0"><title>43 contributions on 2026-02-08</title></rect>
+<rect x="460" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_19_1"><title>81 contributions on 2026-02-09</title></rect>
+<rect x="460" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_19_2"><title>71 contributions on 2026-02-10</title></rect>
+<rect x="460" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>47 contributions on 2026-02-11</title></rect>
+<rect x="460" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-02-12</title></rect>
+<rect x="460" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>46 contributions on 2026-02-13</title></rect>
+<rect x="460" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_19_6"><title>41 contributions on 2026-02-14</title></rect>
+<rect x="482" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_20_0"><title>41 contributions on 2026-02-15</title></rect>
+<rect x="482" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_20_1"><title>52 contributions on 2026-02-16</title></rect>
+<rect x="482" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_20_2"><title>55 contributions on 2026-02-17</title></rect>
+<rect x="482" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>101 contributions on 2026-02-18</title></rect>
+<rect x="482" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>94 contributions on 2026-02-19</title></rect>
+<rect x="482" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_20_5"><title>60 contributions on 2026-02-20</title></rect>
+<rect x="482" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_20_6"><title>92 contributions on 2026-02-21</title></rect>
+<rect x="504" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_21_0"><title>70 contributions on 2026-02-22</title></rect>
+<rect x="504" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-02-23</title></rect>
+<rect x="504" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-02-24</title></rect>
+<rect x="504" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>42 contributions on 2026-02-25</title></rect>
+<rect x="504" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>39 contributions on 2026-02-26</title></rect>
+<rect x="504" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>56 contributions on 2026-02-27</title></rect>
+<rect x="504" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_21_6"><title>74 contributions on 2026-02-28</title></rect>
+<rect x="526" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_22_0"><title>65 contributions on 2026-03-01</title></rect>
+<rect x="526" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>82 contributions on 2026-03-02</title></rect>
+<rect x="526" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-03-03</title></rect>
+<rect x="526" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>46 contributions on 2026-03-04</title></rect>
+<rect x="526" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-03-05</title></rect>
+<rect x="526" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>45 contributions on 2026-03-06</title></rect>
+<rect x="526" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_22_6"><title>107 contributions on 2026-03-07</title></rect>
+<rect x="548" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_23_0"><title>103 contributions on 2026-03-08</title></rect>
+<rect x="548" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>54 contributions on 2026-03-09</title></rect>
+<rect x="548" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>46 contributions on 2026-03-10</title></rect>
+<rect x="548" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>45 contributions on 2026-03-11</title></rect>
+<rect x="548" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-03-12</title></rect>
+<rect x="548" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>89 contributions on 2026-03-13</title></rect>
+<rect x="548" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_23_6"><title>125 contributions on 2026-03-14</title></rect>
+<rect x="570" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_0"><title>74 contributions on 2026-03-15</title></rect>
+<rect x="570" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_1"><title>55 contributions on 2026-03-16</title></rect>
+<rect x="570" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_2"><title>49 contributions on 2026-03-17</title></rect>
+<rect x="570" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_3"><title>44 contributions on 2026-03-18</title></rect>
+<rect x="570" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_4"><title>47 contributions on 2026-03-19</title></rect>
+<rect x="570" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>56 contributions on 2026-03-20</title></rect>
+<rect x="570" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_24_6"><title>48 contributions on 2026-03-21</title></rect>
+<rect x="592" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-03-22</title></rect>
+<rect x="592" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_25_1"><title>54 contributions on 2026-03-23</title></rect>
+<rect x="592" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>37 contributions on 2026-03-26</title></rect>
+<rect x="592" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-03-27</title></rect>
+<rect x="592" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_25_6"><title>49 contributions on 2026-03-28</title></rect>
+<rect x="614" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>38 contributions on 2026-03-29</title></rect>
+<rect x="614" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_26_1"><title>39 contributions on 2026-03-30</title></rect>
 <rect x="614" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>302 contributions on 2026-04-02</title></rect>
-<rect x="614" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>149 contributions on 2026-04-03</title></rect>
-<rect x="614" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_26_6"><title>183 contributions on 2026-04-04</title></rect>
-<rect x="636" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-04-05</title></rect>
-<rect x="636" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_27_1"><title>185 contributions on 2026-04-06</title></rect>
-<rect x="636" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>84 contributions on 2026-04-09</title></rect>
-<rect x="636" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>180 contributions on 2026-04-10</title></rect>
-<rect x="636" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_27_6"><title>181 contributions on 2026-04-11</title></rect>
-<rect x="658" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-04-12</title></rect>
-<rect x="658" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_28_1"><title>183 contributions on 2026-04-13</title></rect>
-<rect x="658" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-04-14</title></rect>
-<rect x="658" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-04-15</title></rect>
-<rect x="658" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>208 contributions on 2026-04-16</title></rect>
-<rect x="658" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_28_5"><title>277 contributions on 2026-04-17</title></rect>
-<rect x="658" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_28_6"><title>124 contributions on 2026-04-18</title></rect>
-<rect x="680" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-04-19</title></rect>
-<rect x="680" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_29_1"><title>181 contributions on 2026-04-20</title></rect>
-<rect x="680" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-04-21</title></rect>
-<rect x="680" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-04-22</title></rect>
-<rect x="680" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-04-23</title></rect>
-<rect x="680" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-04-24</title></rect>
-<rect x="680" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_29_6"><title>186 contributions on 2026-04-25</title></rect>
-<rect x="702" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-04-26</title></rect>
-<rect x="702" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_30_1"><title>188 contributions on 2026-04-27</title></rect>
-<rect x="702" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_30_2"><title>189 contributions on 2026-04-28</title></rect>
-<rect x="702" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_30_3"><title>190 contributions on 2026-04-29</title></rect>
-<rect x="702" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-04-30</title></rect>
-<rect x="702" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-05-01</title></rect>
-<rect x="702" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_30_6"><title>182 contributions on 2026-05-02</title></rect>
-<rect x="724" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-05-03</title></rect>
-<rect x="724" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>80 contributions on 2026-05-04</title></rect>
-<rect x="724" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>212 contributions on 2026-05-05</title></rect>
-<rect x="724" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_31_3"><title>196 contributions on 2026-05-06</title></rect>
-<rect x="724" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_31_4"><title>214 contributions on 2026-05-07</title></rect>
-<rect x="724" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>124 contributions on 2026-05-08</title></rect>
-<rect x="724" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_31_6"><title>189 contributions on 2026-05-09</title></rect>
-<rect x="746" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>181 contributions on 2026-05-10</title></rect>
-<rect x="746" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-05-11</title></rect>
-<rect x="746" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>183 contributions on 2026-05-12</title></rect>
-<rect x="746" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-05-13</title></rect>
-<rect x="746" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_32_4"><title>185 contributions on 2026-05-14</title></rect>
-<rect x="746" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-05-15</title></rect>
-<rect x="746" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_32_6"><title>187 contributions on 2026-05-16</title></rect>
-<rect x="768" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-05-17</title></rect>
-<rect x="768" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-05-18</title></rect>
-<rect x="768" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>190 contributions on 2026-05-19</title></rect>
-<rect x="768" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>96 contributions on 2026-05-20</title></rect>
-<rect x="768" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell c_33_4"><title>100 contributions on 2026-05-21</title></rect>
-<rect x="768" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell c_33_5"><title>144 contributions on 2026-05-22</title></rect>
-<rect x="768" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_33_6"><title>80 contributions on 2026-05-23</title></rect>
-<rect x="790" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-05-24</title></rect>
-<rect x="790" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-05-25</title></rect>
-<rect x="790" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-05-26</title></rect>
-<rect x="790" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-05-27</title></rect>
-<rect x="790" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_34_4"><title>190 contributions on 2026-05-28</title></rect>
-<rect x="790" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>191 contributions on 2026-05-29</title></rect>
-<rect x="790" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_34_6"><title>183 contributions on 2026-05-30</title></rect>
-<rect x="812" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-05-31</title></rect>
-<rect x="812" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>182 contributions on 2026-06-01</title></rect>
-<rect x="812" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>78 contributions on 2026-06-02</title></rect>
-<rect x="812" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>73 contributions on 2026-06-03</title></rect>
-<rect x="812" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_35_4"><title>185 contributions on 2026-06-04</title></rect>
-<rect x="812" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>238 contributions on 2026-06-05</title></rect>
-<rect x="812" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_35_6"><title>156 contributions on 2026-06-06</title></rect>
-<rect x="834" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-06-07</title></rect>
-<rect x="834" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>72 contributions on 2026-06-08</title></rect>
-<rect x="834" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>190 contributions on 2026-06-09</title></rect>
-<rect x="834" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_36_3"><title>182 contributions on 2026-06-10</title></rect>
-<rect x="834" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_36_4"><title>183 contributions on 2026-06-11</title></rect>
-<rect x="834" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-06-12</title></rect>
-<rect x="834" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_36_6"><title>185 contributions on 2026-06-13</title></rect>
-<rect x="856" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-06-14</title></rect>
-<rect x="856" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_37_1"><title>187 contributions on 2026-06-15</title></rect>
-<rect x="856" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-06-16</title></rect>
-<rect x="856" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_37_3"><title>189 contributions on 2026-06-17</title></rect>
-<rect x="856" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>190 contributions on 2026-06-18</title></rect>
-<rect x="856" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>108 contributions on 2026-06-19</title></rect>
-<rect x="856" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_37_6"><title>183 contributions on 2026-06-20</title></rect>
-<rect x="878" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-06-21</title></rect>
-<rect x="878" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_38_1"><title>185 contributions on 2026-06-22</title></rect>
-<rect x="878" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>73 contributions on 2026-06-23</title></rect>
-<rect x="878" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_38_3"><title>187 contributions on 2026-06-24</title></rect>
-<rect x="878" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-06-25</title></rect>
-<rect x="878" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>109 contributions on 2026-06-26</title></rect>
-<rect x="878" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_38_6"><title>158 contributions on 2026-06-27</title></rect>
+<rect x="614" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>149 contributions on 2026-04-03</title></rect>
+<rect x="614" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_26_6"><title>53 contributions on 2026-04-04</title></rect>
+<rect x="636" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>64 contributions on 2026-04-05</title></rect>
+<rect x="636" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_27_1"><title>53 contributions on 2026-04-06</title></rect>
+<rect x="636" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>84 contributions on 2026-04-09</title></rect>
+<rect x="636" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>68 contributions on 2026-04-10</title></rect>
+<rect x="636" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_27_6"><title>53 contributions on 2026-04-11</title></rect>
+<rect x="658" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>50 contributions on 2026-04-12</title></rect>
+<rect x="658" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_28_1"><title>70 contributions on 2026-04-13</title></rect>
+<rect x="658" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>47 contributions on 2026-04-14</title></rect>
+<rect x="658" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-04-15</title></rect>
+<rect x="658" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>208 contributions on 2026-04-16</title></rect>
+<rect x="658" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell c_28_5"><title>277 contributions on 2026-04-17</title></rect>
+<rect x="658" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_28_6"><title>124 contributions on 2026-04-18</title></rect>
+<rect x="680" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>41 contributions on 2026-04-19</title></rect>
+<rect x="680" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_29_1"><title>71 contributions on 2026-04-20</title></rect>
+<rect x="680" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>47 contributions on 2026-04-21</title></rect>
+<rect x="680" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>43 contributions on 2026-04-22</title></rect>
+<rect x="680" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>46 contributions on 2026-04-23</title></rect>
+<rect x="680" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-04-24</title></rect>
+<rect x="680" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_29_6"><title>51 contributions on 2026-04-25</title></rect>
+<rect x="702" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>65 contributions on 2026-04-26</title></rect>
+<rect x="702" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_30_1"><title>63 contributions on 2026-04-27</title></rect>
+<rect x="702" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_30_2"><title>49 contributions on 2026-04-28</title></rect>
+<rect x="702" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_30_3"><title>45 contributions on 2026-04-29</title></rect>
+<rect x="702" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>45 contributions on 2026-04-30</title></rect>
+<rect x="702" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-05-01</title></rect>
+<rect x="702" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_30_6"><title>40 contributions on 2026-05-02</title></rect>
+<rect x="724" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>34 contributions on 2026-05-03</title></rect>
+<rect x="724" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>80 contributions on 2026-05-04</title></rect>
+<rect x="724" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>212 contributions on 2026-05-05</title></rect>
+<rect x="724" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell c_31_3"><title>196 contributions on 2026-05-06</title></rect>
+<rect x="724" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell c_31_4"><title>214 contributions on 2026-05-07</title></rect>
+<rect x="724" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>124 contributions on 2026-05-08</title></rect>
+<rect x="724" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_31_6"><title>46 contributions on 2026-05-09</title></rect>
+<rect x="746" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-05-10</title></rect>
+<rect x="746" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>59 contributions on 2026-05-11</title></rect>
+<rect x="746" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-05-12</title></rect>
+<rect x="746" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>46 contributions on 2026-05-13</title></rect>
+<rect x="746" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_32_4"><title>50 contributions on 2026-05-14</title></rect>
+<rect x="746" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>45 contributions on 2026-05-15</title></rect>
+<rect x="746" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_32_6"><title>51 contributions on 2026-05-16</title></rect>
+<rect x="768" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>32 contributions on 2026-05-17</title></rect>
+<rect x="768" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-05-18</title></rect>
+<rect x="768" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-05-19</title></rect>
+<rect x="768" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>96 contributions on 2026-05-20</title></rect>
+<rect x="768" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell c_33_4"><title>100 contributions on 2026-05-21</title></rect>
+<rect x="768" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell c_33_5"><title>144 contributions on 2026-05-22</title></rect>
+<rect x="768" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_33_6"><title>80 contributions on 2026-05-23</title></rect>
+<rect x="790" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>67 contributions on 2026-05-24</title></rect>
+<rect x="790" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>59 contributions on 2026-05-25</title></rect>
+<rect x="790" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-05-26</title></rect>
+<rect x="790" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>43 contributions on 2026-05-27</title></rect>
+<rect x="790" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_34_4"><title>54 contributions on 2026-05-28</title></rect>
+<rect x="790" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>53 contributions on 2026-05-29</title></rect>
+<rect x="790" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_34_6"><title>56 contributions on 2026-05-30</title></rect>
+<rect x="812" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>60 contributions on 2026-05-31</title></rect>
+<rect x="812" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>54 contributions on 2026-06-01</title></rect>
+<rect x="812" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>78 contributions on 2026-06-02</title></rect>
+<rect x="812" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>73 contributions on 2026-06-03</title></rect>
+<rect x="812" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_35_4"><title>61 contributions on 2026-06-04</title></rect>
+<rect x="812" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>238 contributions on 2026-06-05</title></rect>
+<rect x="812" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_35_6"><title>156 contributions on 2026-06-06</title></rect>
+<rect x="834" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-06-07</title></rect>
+<rect x="834" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>72 contributions on 2026-06-08</title></rect>
+<rect x="834" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>70 contributions on 2026-06-09</title></rect>
+<rect x="834" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_36_3"><title>61 contributions on 2026-06-10</title></rect>
+<rect x="834" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_36_4"><title>53 contributions on 2026-06-11</title></rect>
+<rect x="834" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>67 contributions on 2026-06-12</title></rect>
+<rect x="834" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_36_6"><title>49 contributions on 2026-06-13</title></rect>
+<rect x="856" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-06-14</title></rect>
+<rect x="856" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_37_1"><title>53 contributions on 2026-06-15</title></rect>
+<rect x="856" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>42 contributions on 2026-06-16</title></rect>
+<rect x="856" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_37_3"><title>68 contributions on 2026-06-17</title></rect>
+<rect x="856" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>37 contributions on 2026-06-18</title></rect>
+<rect x="856" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>108 contributions on 2026-06-19</title></rect>
+<rect x="856" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_37_6"><title>66 contributions on 2026-06-20</title></rect>
+<rect x="878" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>47 contributions on 2026-06-21</title></rect>
+<rect x="878" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_38_1"><title>56 contributions on 2026-06-22</title></rect>
+<rect x="878" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>73 contributions on 2026-06-23</title></rect>
+<rect x="878" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_38_3"><title>42 contributions on 2026-06-24</title></rect>
+<rect x="878" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>35 contributions on 2026-06-25</title></rect>
+<rect x="878" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>109 contributions on 2026-06-26</title></rect>
+<rect x="878" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_38_6"><title>158 contributions on 2026-06-27</title></rect>
 <rect x="900" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>98 contributions on 2026-06-28</title></rect>
-<rect x="900" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_39_1"><title>88 contributions on 2026-06-29</title></rect>
-<rect x="900" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-06-30</title></rect>
-<rect x="900" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell c_39_3"><title>82 contributions on 2026-07-01</title></rect>
-<rect x="900" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>184 contributions on 2026-07-02</title></rect>
-<rect x="900" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-07-03</title></rect>
-<rect x="900" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_39_6"><title>186 contributions on 2026-07-04</title></rect>
-<rect x="922" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-07-05</title></rect>
-<rect x="922" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_40_1"><title>188 contributions on 2026-07-06</title></rect>
-<rect x="922" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell c_40_2"><title>122 contributions on 2026-07-07</title></rect>
-<rect x="922" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell c_40_3"><title>90 contributions on 2026-07-08</title></rect>
-<rect x="922" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>191 contributions on 2026-07-09</title></rect>
-<rect x="922" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_40_5"><title>183 contributions on 2026-07-10</title></rect>
-<rect x="922" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_40_6"><title>117 contributions on 2026-07-11</title></rect>
-<rect x="944" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>93 contributions on 2026-07-12</title></rect>
-<rect x="944" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>75 contributions on 2026-07-13</title></rect>
-<rect x="944" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_41_2"><title>72 contributions on 2026-07-14</title></rect>
-<rect x="944" y="118" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>123 contributions on 2026-07-15</title></rect>
-<rect x="944" y="140" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>122 contributions on 2026-07-16</title></rect>
-<rect x="944" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>242 contributions on 2026-07-17</title></rect>
-<rect x="944" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_41_6"><title>134 contributions on 2026-07-18</title></rect>
-<rect x="966" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>192 contributions on 2026-07-19</title></rect>
-<rect x="966" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_42_1"><title>184 contributions on 2026-07-20</title></rect>
-<rect x="966" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_42_2"><title>185 contributions on 2026-07-21</title></rect>
-<rect x="966" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-07-22</title></rect>
-<rect x="966" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-07-23</title></rect>
-<rect x="966" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-07-24</title></rect>
-<rect x="966" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_42_6"><title>189 contributions on 2026-07-25</title></rect>
-<rect x="988" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>73 contributions on 2026-07-26</title></rect>
-<rect x="988" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_43_1"><title>191 contributions on 2026-07-27</title></rect>
-<rect x="988" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_43_2"><title>192 contributions on 2026-07-28</title></rect>
-<rect x="988" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>193 contributions on 2026-07-29</title></rect>
-<rect x="988" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-07-30</title></rect>
-<rect x="988" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-07-31</title></rect>
-<rect x="988" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_43_6"><title>184 contributions on 2026-08-01</title></rect>
-<rect x="1010" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-08-02</title></rect>
-<rect x="1010" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_44_1"><title>186 contributions on 2026-08-03</title></rect>
-<rect x="1010" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_44_2"><title>187 contributions on 2026-08-04</title></rect>
-<rect x="1010" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_44_3"><title>188 contributions on 2026-08-05</title></rect>
-<rect x="1010" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-08-06</title></rect>
-<rect x="1010" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>159 contributions on 2026-08-07</title></rect>
-<rect x="1010" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_44_6"><title>199 contributions on 2026-08-08</title></rect>
-<rect x="1032" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>104 contributions on 2026-08-09</title></rect>
-<rect x="1032" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>75 contributions on 2026-08-10</title></rect>
-<rect x="1032" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-08-11</title></rect>
-<rect x="1032" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell c_45_3"><title>72 contributions on 2026-08-12</title></rect>
-<rect x="1032" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-08-13</title></rect>
-<rect x="1032" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_45_5"><title>188 contributions on 2026-08-14</title></rect>
-<rect x="1032" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_45_6"><title>189 contributions on 2026-08-15</title></rect>
-<rect x="1054" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>208 contributions on 2026-08-16</title></rect>
-<rect x="1054" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>125 contributions on 2026-08-17</title></rect>
-<rect x="1054" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>192 contributions on 2026-08-18</title></rect>
-<rect x="1054" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_46_3"><title>193 contributions on 2026-08-19</title></rect>
-<rect x="1054" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_46_4"><title>185 contributions on 2026-08-20</title></rect>
-<rect x="1054" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_46_5"><title>186 contributions on 2026-08-21</title></rect>
-<rect x="1054" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_46_6"><title>187 contributions on 2026-08-22</title></rect>
-<rect x="1076" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-08-23</title></rect>
-<rect x="1076" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>189 contributions on 2026-08-24</title></rect>
-<rect x="1076" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>190 contributions on 2026-08-25</title></rect>
-<rect x="1076" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>191 contributions on 2026-08-26</title></rect>
-<rect x="1076" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_47_4"><title>192 contributions on 2026-08-27</title></rect>
-<rect x="1076" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_47_5"><title>193 contributions on 2026-08-28</title></rect>
-<rect x="1076" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_47_6"><title>194 contributions on 2026-08-29</title></rect>
-<rect x="1098" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_48_0"><title>186 contributions on 2026-08-30</title></rect>
-<rect x="1098" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_48_1"><title>248 contributions on 2026-08-31</title></rect>
-<rect x="1098" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell c_48_2"><title>159 contributions on 2026-09-01</title></rect>
-<rect x="1098" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_48_3"><title>186 contributions on 2026-09-02</title></rect>
+<rect x="900" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_39_1"><title>88 contributions on 2026-06-29</title></rect>
+<rect x="900" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>53 contributions on 2026-06-30</title></rect>
+<rect x="900" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_39_3"><title>82 contributions on 2026-07-01</title></rect>
+<rect x="900" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>57 contributions on 2026-07-02</title></rect>
+<rect x="900" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>50 contributions on 2026-07-03</title></rect>
+<rect x="900" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_39_6"><title>45 contributions on 2026-07-04</title></rect>
+<rect x="922" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-07-05</title></rect>
+<rect x="922" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_40_1"><title>69 contributions on 2026-07-06</title></rect>
+<rect x="922" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_40_2"><title>122 contributions on 2026-07-07</title></rect>
+<rect x="922" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_40_3"><title>90 contributions on 2026-07-08</title></rect>
+<rect x="922" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>61 contributions on 2026-07-09</title></rect>
+<rect x="922" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell c_40_5"><title>183 contributions on 2026-07-10</title></rect>
+<rect x="922" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_40_6"><title>117 contributions on 2026-07-11</title></rect>
+<rect x="944" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>93 contributions on 2026-07-12</title></rect>
+<rect x="944" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>75 contributions on 2026-07-13</title></rect>
+<rect x="944" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_41_2"><title>72 contributions on 2026-07-14</title></rect>
+<rect x="944" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>123 contributions on 2026-07-15</title></rect>
+<rect x="944" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>122 contributions on 2026-07-16</title></rect>
+<rect x="944" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>242 contributions on 2026-07-17</title></rect>
+<rect x="944" y="184" width="20" height="20" rx="4" fill="#006D32" class="cell c_41_6"><title>134 contributions on 2026-07-18</title></rect>
+<rect x="966" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>56 contributions on 2026-07-19</title></rect>
+<rect x="966" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_42_1"><title>51 contributions on 2026-07-20</title></rect>
+<rect x="966" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_42_2"><title>52 contributions on 2026-07-21</title></rect>
+<rect x="966" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>54 contributions on 2026-07-22</title></rect>
+<rect x="966" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>47 contributions on 2026-07-23</title></rect>
+<rect x="966" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>33 contributions on 2026-07-24</title></rect>
+<rect x="966" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_42_6"><title>43 contributions on 2026-07-25</title></rect>
+<rect x="988" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>73 contributions on 2026-07-26</title></rect>
+<rect x="988" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_43_1"><title>52 contributions on 2026-07-27</title></rect>
+<rect x="988" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_43_2"><title>60 contributions on 2026-07-28</title></rect>
+<rect x="988" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>59 contributions on 2026-07-29</title></rect>
+<rect x="988" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-07-30</title></rect>
+<rect x="988" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>69 contributions on 2026-07-31</title></rect>
+<rect x="988" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_43_6"><title>62 contributions on 2026-08-01</title></rect>
+<rect x="1010" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>44 contributions on 2026-08-02</title></rect>
+<rect x="1010" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_44_1"><title>38 contributions on 2026-08-03</title></rect>
+<rect x="1010" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_44_2"><title>48 contributions on 2026-08-04</title></rect>
+<rect x="1010" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_44_3"><title>52 contributions on 2026-08-05</title></rect>
+<rect x="1010" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-08-06</title></rect>
+<rect x="1010" y="162" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>159 contributions on 2026-08-07</title></rect>
+<rect x="1010" y="184" width="20" height="20" rx="4" fill="#26A641" class="cell c_44_6"><title>199 contributions on 2026-08-08</title></rect>
+<rect x="1032" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>104 contributions on 2026-08-09</title></rect>
+<rect x="1032" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>75 contributions on 2026-08-10</title></rect>
+<rect x="1032" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>70 contributions on 2026-08-11</title></rect>
+<rect x="1032" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_45_3"><title>72 contributions on 2026-08-12</title></rect>
+<rect x="1032" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>50 contributions on 2026-08-13</title></rect>
+<rect x="1032" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_45_5"><title>62 contributions on 2026-08-14</title></rect>
+<rect x="1032" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_45_6"><title>45 contributions on 2026-08-15</title></rect>
+<rect x="1054" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>208 contributions on 2026-08-16</title></rect>
+<rect x="1054" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>125 contributions on 2026-08-17</title></rect>
+<rect x="1054" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>49 contributions on 2026-08-18</title></rect>
+<rect x="1054" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_46_3"><title>61 contributions on 2026-08-19</title></rect>
+<rect x="1054" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_46_4"><title>46 contributions on 2026-08-20</title></rect>
+<rect x="1054" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_46_5"><title>45 contributions on 2026-08-21</title></rect>
+<rect x="1054" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_46_6"><title>55 contributions on 2026-08-22</title></rect>
+<rect x="1076" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>42 contributions on 2026-08-23</title></rect>
+<rect x="1076" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>51 contributions on 2026-08-24</title></rect>
+<rect x="1076" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>38 contributions on 2026-08-25</title></rect>
+<rect x="1076" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>45 contributions on 2026-08-26</title></rect>
+<rect x="1076" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell c_47_4"><title>46 contributions on 2026-08-27</title></rect>
+<rect x="1076" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell c_47_5"><title>48 contributions on 2026-08-28</title></rect>
+<rect x="1076" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_47_6"><title>54 contributions on 2026-08-29</title></rect>
+<rect x="1098" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_48_0"><title>53 contributions on 2026-08-30</title></rect>
+<rect x="1098" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell c_48_1"><title>248 contributions on 2026-08-31</title></rect>
+<rect x="1098" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_48_2"><title>159 contributions on 2026-09-01</title></rect>
+<rect x="1098" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell c_48_3"><title>43 contributions on 2026-09-02</title></rect>
 <rect x="1098" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_48_4"><title>391 contributions on 2026-09-03</title></rect>
-<rect x="1098" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>188 contributions on 2026-09-04</title></rect>
+<rect x="1098" y="162" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>14 contributions on 2026-09-04</title></rect>
 <rect x="1098" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_48_6"><title>1000 contributions on 2026-09-05</title></rect>
 <rect x="1120" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_49_0"><title>2673 contributions on 2026-09-06</title></rect>
-<rect x="1120" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>191 contributions on 2026-09-07</title></rect>
-<rect x="1120" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>264 contributions on 2026-09-08</title></rect>
+<rect x="1120" y="74" width="20" height="20" rx="4" fill="#141414" class="cell"><title>0 contributions on 2026-09-07</title></rect>
+<rect x="1120" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell"><title>264 contributions on 2026-09-08</title></rect>
 <rect x="1120" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>374 contributions on 2026-09-09</title></rect>
-<rect x="1120" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>185 contributions on 2026-09-10</title></rect>
-<rect x="1120" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>186 contributions on 2026-09-11</title></rect>
-<rect x="1120" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_49_6"><title>187 contributions on 2026-09-12</title></rect>
-<rect x="1142" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_0"><title>188 contributions on 2026-09-13</title></rect>
-<rect x="1142" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell c_50_1"><title>111 contributions on 2026-09-14</title></rect>
-<rect x="1142" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_2"><title>190 contributions on 2026-09-15</title></rect>
-<rect x="1142" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_3"><title>191 contributions on 2026-09-16</title></rect>
-<rect x="1142" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_4"><title>192 contributions on 2026-09-17</title></rect>
-<rect x="1142" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_5"><title>193 contributions on 2026-09-18</title></rect>
-<rect x="1142" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_50_6"><title>194 contributions on 2026-09-19</title></rect>
-<rect x="1164" y="52" width="20" height="20" rx="4" fill="#26A641" class="cell c_51_0"><title>117 contributions on 2026-09-20</title></rect>
-<rect x="1164" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_51_1"><title>274 contributions on 2026-09-21</title></rect>
-<rect x="1164" y="96" width="20" height="20" rx="4" fill="#26A641" class="cell c_51_2"><title>164 contributions on 2026-09-22</title></rect>
-<rect x="1164" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell c_51_3"><title>176 contributions on 2026-09-23</title></rect>
-<rect x="1164" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>190 contributions on 2026-09-24</title></rect>
-<rect x="1164" y="162" width="20" height="20" rx="4" fill="#39D353" class="cell c_51_5"><title>269 contributions on 2026-09-25</title></rect>
-<rect x="1164" y="184" width="20" height="20" rx="4" fill="#39D353" class="cell c_51_6"><title>192 contributions on 2026-09-26</title></rect>
-<rect x="1186" y="52" width="20" height="20" rx="4" fill="#39D353" class="cell c_52_0"><title>193 contributions on 2026-09-27</title></rect>
-<rect x="1186" y="74" width="20" height="20" rx="4" fill="#39D353" class="cell c_52_1"><title>194 contributions on 2026-09-28</title></rect>
-<rect x="1186" y="96" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>195 contributions on 2026-09-29</title></rect>
-<rect x="1186" y="118" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>187 contributions on 2026-09-30</title></rect>
-<rect x="1186" y="140" width="20" height="20" rx="4" fill="#39D353" class="cell"><title>179 contributions on 2026-10-01</title></rect>
+<rect x="1120" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>20 contributions on 2026-09-10</title></rect>
+<rect x="1120" y="162" width="20" height="20" rx="4" fill="#141414" class="cell"><title>0 contributions on 2026-09-11</title></rect>
+<rect x="1120" y="184" width="20" height="20" rx="4" fill="#141414" class="cell c_49_6"><title>0 contributions on 2026-09-12</title></rect>
+<rect x="1142" y="52" width="20" height="20" rx="4" fill="#141414" class="cell c_50_0"><title>0 contributions on 2026-09-13</title></rect>
+<rect x="1142" y="74" width="20" height="20" rx="4" fill="#006D32" class="cell c_50_1"><title>111 contributions on 2026-09-14</title></rect>
+<rect x="1142" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell c_50_2"><title>32 contributions on 2026-09-15</title></rect>
+<rect x="1142" y="118" width="20" height="20" rx="4" fill="#141414" class="cell c_50_3"><title>0 contributions on 2026-09-16</title></rect>
+<rect x="1142" y="140" width="20" height="20" rx="4" fill="#141414" class="cell c_50_4"><title>0 contributions on 2026-09-17</title></rect>
+<rect x="1142" y="162" width="20" height="20" rx="4" fill="#141414" class="cell c_50_5"><title>0 contributions on 2026-09-18</title></rect>
+<rect x="1142" y="184" width="20" height="20" rx="4" fill="#141414" class="cell c_50_6"><title>0 contributions on 2026-09-19</title></rect>
+<rect x="1164" y="52" width="20" height="20" rx="4" fill="#006D32" class="cell c_51_0"><title>117 contributions on 2026-09-20</title></rect>
+<rect x="1164" y="74" width="20" height="20" rx="4" fill="#26A641" class="cell c_51_1"><title>274 contributions on 2026-09-21</title></rect>
+<rect x="1164" y="96" width="20" height="20" rx="4" fill="#006D32" class="cell c_51_2"><title>164 contributions on 2026-09-22</title></rect>
+<rect x="1164" y="118" width="20" height="20" rx="4" fill="#006D32" class="cell c_51_3"><title>176 contributions on 2026-09-23</title></rect>
+<rect x="1164" y="140" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>2 contributions on 2026-09-24</title></rect>
+<rect x="1164" y="162" width="20" height="20" rx="4" fill="#26A641" class="cell c_51_5"><title>269 contributions on 2026-09-25</title></rect>
+<rect x="1164" y="184" width="20" height="20" rx="4" fill="#0E4429" class="cell c_51_6"><title>1 contributions on 2026-09-26</title></rect>
+<rect x="1186" y="52" width="20" height="20" rx="4" fill="#0E4429" class="cell c_52_0"><title>22 contributions on 2026-09-27</title></rect>
+<rect x="1186" y="74" width="20" height="20" rx="4" fill="#0E4429" class="cell c_52_1"><title>13 contributions on 2026-09-28</title></rect>
+<rect x="1186" y="96" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>4 contributions on 2026-09-29</title></rect>
+<rect x="1186" y="118" width="20" height="20" rx="4" fill="#0E4429" class="cell"><title>10 contributions on 2026-09-30</title></rect>
+<rect x="1186" y="140" width="20" height="20" rx="4" fill="#006D32" class="cell"><title>170 contributions on 2026-10-01</title></rect>
   <rect class="wall" x="216" y="72" width="88" height="2" />
   <rect class="wall" x="502" y="72" width="66" height="2" />
   <rect class="wall" x="678" y="72" width="66" height="2" />
