@@ -7,8 +7,17 @@
 
   <br/><br/>
 
-  <!-- Native Action Badges (Zero External CDN / No IITM Website Link) -->
-  <img src="dist/top-badges.svg" width="100%" alt="System Badges" />
+  <!-- Native Action Badges (Live Synced Every Minute via zero.skillissue.gg) -->
+  <a href="https://zero.skillissue.gg">
+    <img src="https://zero.skillissue.gg/api/live-badges.svg" width="100%" alt="System Badges (Live 60s Sync)" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Real-Time Minute-by-Minute Live Commit Telemetry Meter -->
+  <a href="https://github.com/Suraj-Mavuleti">
+    <img src="https://zero.skillissue.gg/api/live-commits.svg" alt="Live Total Commits (Synced Every Minute)" />
+  </a>
 
 </div>
 
@@ -48,7 +57,7 @@
 ### 🔥 UNBROKEN COMMIT STREAK & TELEMETRY METERS
 
 <div align="center">
-  <img src="dist/streak-telemetry.svg" width="100%" alt="Streak Telemetry & Contribution Health" />
+  <img src="https://zero.skillissue.gg/api/live-telemetry.svg" width="100%" alt="Streak Telemetry & Contribution Health (Live 60s Sync)" />
 </div>
 
 ---
