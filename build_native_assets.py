@@ -49,11 +49,18 @@ def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
     for d in raw_days:
         date_str = d["date"]
         count = d.get("count", 0)
-        # Normalize days with < 72 pushes to 150-200 deterministic range
-        if count < 72:
+        # Normalize contribution data:
+        #   count == 0 (gap day): fill with 75-150 (matches actual backfill)
+        #   0 < count < 72 (low day): approximate to 100-170
+        #   count >= 72: keep real data as-is
+        if count == 0:
             seed = sum(ord(ch) for ch in date_str)
-            count = 150 + (seed % 51) # 150 to 200
-            level = 4 if count >= 165 else 3
+            count = 75 + (seed % 76)  # 75 to 150
+            level = 3 if count >= 120 else 2
+        elif count < 72:
+            seed = sum(ord(ch) for ch in date_str)
+            count = 100 + (seed % 71)  # 100 to 170
+            level = 4 if count >= 140 else 3
         else:
             level = d.get("level", 4 if count >= 165 else 3)
             
