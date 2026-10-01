@@ -1,0 +1,43 @@
+name: Update Pac-Man Contribution Grid
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Pac-Man Contribution Graphs
+        run: |
+          mkdir -p dist
+          npx --yes pacman-contribution-graph -g pacman --platform github --username ${{ github.repository_owner }} --gameTheme github-dark -o dist/pacman-contribution-graph-dark.svg
+          npx --yes pacman-contribution-graph -g pacman --platform github --username ${{ github.repository_owner }} --gameTheme github -o dist/pacman-contribution-graph.svg
+
+      - name: Commit and Push Updated SVGs
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dist/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(cron): auto-update Pac-Man contribution graph"
+            git push origin master
+          fi

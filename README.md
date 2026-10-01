@@ -1,25 +1,27 @@
 <div align="center">
 
-  <!-- Dynamic Typing Header -->
+  <!-- Futuristic Glowing Waving Banner -->
   <a href="https://zero.skillissue.gg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Suraj+Mavuleti+%F0%9F%91%8B;BS+Electronic+Systems+%40+IIT+Madras+(IITM)+%F0%9F%8E%93;Software+Developer+%26+Systems+Architect+%E2%9A%A1;Building+Software+That+Solves+Problems;Check+out+zero.skillissue.gg+%F0%9F%8C%90" alt="Typing SVG" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,35:10B981,70:58A6FF,100:0D1117&height=230&section=header&text=SURAJ%20MAVULETI&fontSize=42&fontAlignY=36&desc=DEV%20//%20ZERO%20•%20SYSTEMS%20ARCHITECT%20•%20BS%20%40%20IIT%20MADRAS&descAlignY=60&descAlign=50&fontColor=ffffff" width="100%" alt="Suraj Mavuleti Banner" />
   </a>
 
-  <p align="center">
-    <strong>Software Developer & Systems Architect • Founder of Zero</strong><br />
-    🎓 <em>Bachelor of Science (BS) in Electronic Systems — Indian Institute of Technology, Madras (IITM)</em>
-  </p>
+  <!-- Animated Typing Header -->
+  <a href="https://zero.skillissue.gg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=10B981&center=true&vCenter=true&width=750&lines=%E2%96%B6+BS+in+Electronic+Systems+%40+IIT+Madras+(IITM)+%F0%9F%8E%93;%E2%96%B6+Software+Developer+%26+Distributed+Systems+Architect+%E2%9A%A1;%E2%96%B6+Over+30%2C000%2B+Production+Commits+%26+Pushes+%F0%9F%94%A5;%E2%96%B6+Creator+of+ZeroMusic%2C+Zero+Control+%26+High+On+Therapy+AI+%F0%9F%9A%80;%E2%96%B6+Explore+my+digital+universe+at+zero.skillissue.gg+%F0%9F%8C%90" alt="Typing SVG" />
+  </a>
 
-  <!-- Action Badges -->
+  <br/>
+
+  <!-- Interactive Badges -->
   <p align="center">
     <a href="https://www.iitm.ac.in" target="_blank">
-      <img src="https://img.shields.io/badge/🎓_Education-IIT_Madras_(IITM)-0073e6?style=for-the-badge&logoColor=white" alt="IIT Madras" />
+      <img src="https://img.shields.io/badge/🎓_IIT_Madras-BS_in_Electronic_Systems-0073e6?style=for-the-badge&logoColor=white" alt="IIT Madras" />
+    </a>
+    <a href="https://zero.skillissue.gg" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_Wiki_%26_Systems-zero.skillissue.gg-10b981?style=for-the-badge&logoColor=white" alt="Official Website" />
     </a>
     <a href="https://www.linkedin.com/in/suraj-mavuleti-b95993320" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Suraj_Mavuleti-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://zero.skillissue.gg" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_Portfolio-zero.skillissue.gg-10b981?style=for-the-badge&logoColor=white" alt="Portfolio" />
     </a>
     <a href="https://twitter.com/itz_me_suraj_0" target="_blank">
       <img src="https://img.shields.io/badge/𝕏_Follow-@itz__me__suraj__0-1f2328?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" />
@@ -30,57 +32,113 @@
 
 ---
 
-### 💻 Developer Identity
+### 🕹️ PAC-MAN COMMIT MAZE (REAL-TIME CONTRIBUTION GRAPH)
+
+<div align="center">
+  <p>
+    <code>ᗧ • • • 🍒 • • • 👻 • • • 👾 • • • 🍓 • • • 👻 • • • 💊 • • • ᗣ</code>
+  </p>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating Suraj's GitHub contribution grid" src="dist/pacman-contribution-graph-dark.svg" width="100%" />
+  </picture>
+
+  <p><sub><em>🎮 Watch Pac-Man gobble up my 30,000+ GitHub contributions in real-time! Auto-updated daily via GitHub Actions.</em></sub></p>
+</div>
+
+---
+
+### 👾 PLAYER TERMINAL & CREDENTIALS
 
 ```bash
-suraj@dev-zero:~$ neofetch
-
-User: Suraj Mavuleti (aka Dev Zero)
-Education: BS in Electronic Systems @ Indian Institute of Technology, Madras (IITM)
-Role: Software Developer & Systems Architect
-Focus: Electronic Systems, High-Performance Web & Low-Latency Architecture
-Projects: Zero-IDE, ZeroMusic, Zero Control, High on Therapy AI
-Website: https://zero.skillissue.gg
-Status: ⚡ Building cutting-edge systems every day
+┌──[ DEV//ZERO ARCADE TERMINAL ]────────────────────────────────────────────────┐
+│ PLAYER:     Suraj Mavuleti (alias: Dev Zero)                                  │
+│ EDUCATION:  BS in Electronic Systems — Indian Institute of Technology, Madras │
+│ INSTITUTION: IIT Madras (IITM)                                                │
+│ HIGH SCORE: 30,328+ Public Commits & Pushes                                   │
+│ ROLE:       Software Developer & Systems Architect                            │
+│ CORE DOMAIN: Electronic Systems, High-Performance Web & Low-Latency Engine     │
+│ PORTAL:     https://zero.skillissue.gg                                        │
+│ STATUS:     ⚡ [LEVEL 99] Building high-impact autonomous architectures       │
+└───────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 🎓 Education & Academic Background
+### 📊 TELEMETRY & COMMIT ACTIVITY METERS
 
-* **Degree:** Bachelor of Science (BS) in Electronic Systems
-* **Institution:** **Indian Institute of Technology, Madras (IIT Madras / IITM)**
-* **Core Domains:** Electronic Systems, Embedded Systems, Signal Processing, Hardware-Software Integration, and Scalable Digital Architectures.
+<div align="center">
 
----
+  <!-- Streak Stats -->
+  <a href="https://zero.skillissue.gg">
+    <img src="https://streak-stats.demolab.com?user=Suraj-Mavuleti&theme=cyberpunk&hide_border=true&background=0D1117&ring=10B981&fire=10B981&currStreakNum=58A6FF&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak Stats" width="49%" />
+  </a>
+  <!-- Core GitHub Stats -->
+  <a href="https://zero.skillissue.gg">
+    <img src="https://github-readme-stats.vercel.app/api?username=Suraj-Mavuleti&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=58A6FF&text_color=E6EDF3&rank_icon=github" alt="GitHub Overall Stats" width="49%" />
+  </a>
 
-### 🚀 What I Build
+  <br/><br/>
 
-* **[Zero-IDE](https://zero.skillissue.gg/zero-ide):** A high-performance coding environment with integrated AI assistance.
-* **[ZeroMusic](https://zero.skillissue.gg/zero-music):** A free Android music player with playlist import, offline backup and synced lyrics.
-* **[Zero Control](https://zero.skillissue.gg/zero-control):** A free, lightweight remote desktop for Windows, Linux and Android.
-* **[High on Therapy AI](https://zero.skillissue.gg/highontherapy):** An AI-powered mental wellness companion.
-* **[Dev//Zero Central Wiki](https://zero.skillissue.gg):** Living archive of experimental architectures and blueprints.
+  <!-- Top Languages Card -->
+  <a href="https://zero.skillissue.gg">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj-Mavuleti&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=E6EDF3" alt="Top Languages" width="60%" />
+  </a>
 
----
-
-### 🛠️ Tech Stack & Systems
-
-* **Languages & Core:** JavaScript, TypeScript, Node.js, Python, C/C++, HTML5/CSS3
-* **Systems Architecture:** Electronic Systems, Low-Latency Networking, Edge Compute, Distributed Services
-* **Frontend & Experience:** GSAP ScrollTrigger, HTML5 Canvas, WebGL, Glassmorphic UI
+</div>
 
 ---
 
-### 🔗 Connect With Me
+### 🚀 THE ZERO ECOSYSTEM & ARSENAL
 
-* 🌐 **Website & Wiki:** [zero.skillissue.gg](https://zero.skillissue.gg)
-* 💼 **LinkedIn Profile:** [linkedin.com/in/suraj-mavuleti-b95993320](https://www.linkedin.com/in/suraj-mavuleti-b95993320)
-* 🐦 **X (Twitter):** [@itz_me_suraj_0](https://twitter.com/itz_me_suraj_0)
-* 📬 **Contact Protocol:** [zero.skillissue.gg/contact](https://zero.skillissue.gg/contact)
+| Project | Description | Stack / Architecture |
+|---|---|---|
+| **[ZeroMusic](https://zero.skillissue.gg/zero-music)** | Ad-free Android music player with offline backup, YouTube/Spotify link import & synced lyrics. | Android (Kotlin), ExoPlayer, Media3, LRCLIB |
+| **[Zero Control](https://zero.skillissue.gg/zero-control)** | Ultra-lightweight peer-to-peer remote desktop for Windows, Linux, and Android. | Rust, egui, GStreamer, WebRTC, Node.js |
+| **[Zero-Council (High On Therapy)](https://zero.skillissue.gg/highontherapy)** | Autonomous mental wellness platform with emotional avatars & speech recognition. | FastAPI, PyTorch, Web Speech API, Three.js |
+| **[High on Therapy Training](https://github.com/Suraj-Mavuleti/highontherapy-ai-training)** | From-scratch Decoder-Only Transformer pre-training engine on Google Colab with auto-resume. | PyTorch, Hugging Face, Transformers |
+| **[Zero Assist](https://github.com/Suraj-Mavuleti/zero-assist)** | High-performance modular Discord companion bot with games, leveling, voice & auto-moderation. | Python, discord.py, AsyncIO, SQLite/PostgreSQL |
+| **[Dev//Zero Systems Wiki](https://zero.skillissue.gg)** | Living central engineering documentation and project wiki for the dev//zero ecosystem. | Express, HTML5/CSS3, GSAP, Cyber-Emerald Theme |
 
 ---
 
-<p align="center">
-  <em>"Building the architecture of tomorrow with uncompromising digital craftsmanship."</em>
-</p>
+### 🛠️ WEAPONS & TECH STACK
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,rust,c,cpp,python,html,css,git,github,linux,android,arduino,arch,discord,tailwind,vscode&perline=9&theme=dark" alt="Tech Stack Icons" />
+</div>
+
+---
+
+### 🎓 EDUCATION & ACADEMIC BACKGROUND
+
+* 🎓 **Bachelor of Science (BS) in Electronic Systems**
+* 🏛️ **Indian Institute of Technology, Madras (IIT Madras / IITM)**
+* 🔬 **Core Fields of Study:** Electronic Systems Design, Embedded Microcontrollers, Digital Signal Processing, Hardware-Software Integration, Scalable Digital Networks, and Edge Computing.
+
+---
+
+### 🔗 CONNECT & TRANSMIT
+
+<div align="center">
+  <a href="https://zero.skillissue.gg" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Website-zero.skillissue.gg-10b981?style=for-the-badge&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/suraj-mavuleti-b95993320" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Suraj_Mavuleti-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/itz_me_suraj_0" target="_blank">
+    <img src="https://img.shields.io/badge/𝕏_Twitter-@itz__me__suraj__0-1f2328?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  <a href="https://zero.skillissue.gg/contact" target="_blank">
+    <img src="https://img.shields.io/badge/⚡_Contact-Transmit_Ping-f59e0b?style=for-the-badge&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:10B981,100:0D1117&height=100&section=footer" width="100%" />
+</div>
