@@ -20,7 +20,7 @@
     <text x="32" y="25" class="hud-title">ACTIVE STREAK</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">UNBROKEN</text>
 
-    <text x="20" y="58" class="hud-num">369 <tspan font-size="14" font-weight="600" fill="#9CA3AF">DAYS</tspan></text>
+    <text x="20" y="58" class="hud-num">0 <tspan font-size="14" font-weight="600" fill="#9CA3AF">DAYS</tspan></text>
 
     <!-- Progress Meter -->
     <rect x="20" y="68" width="222" height="4" class="track-bg" />
@@ -52,7 +52,7 @@
     <text x="32" y="25" class="hud-title">DAILY VELOCITY</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">LIVE SYNC</text>
 
-    <text x="20" y="58" class="hud-num">94.6 <tspan font-size="14" font-weight="600" fill="#9CA3AF">PUSHES / DAY</tspan></text>
+    <text x="20" y="58" class="hud-num">94.3 <tspan font-size="14" font-weight="600" fill="#9CA3AF">PUSHES / DAY</tspan></text>
 
     <!-- Progress Meter -->
     <rect x="20" y="68" width="222" height="4" class="track-bg" />
