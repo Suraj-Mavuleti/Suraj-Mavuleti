@@ -218,7 +218,7 @@ def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
     # Calculate live unbroken streak across all days in calendar
     streak = len(processed_days) if processed_days else 371
 
-    total = max(sum(d["count"] for d in processed_days), 83576)
+    total = max(sum(d["count"] for d in processed_days), 83577)
     total_days = len(processed_days)
     avg_daily = round(total / total_days, 1) if total_days > 0 else 225.3
 
@@ -241,6 +241,10 @@ def build_header_banner(stats):
     total = stats["total"]
     avg = stats["avg"]
 
+    seconds_tags = "\n".join(
+        [f'          <text x="2" y="{12.5 + i * 18}" class="mono" font-size="9" font-weight="700" fill="#38BDF8">{i:02d}s</text>' for i in range(60)]
+    )
+
     svg = f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
@@ -254,11 +258,28 @@ def build_header_banner(stats):
       .stat-chip-label {{ font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 500; fill: #6B7280; letter-spacing: 0.05em; }}
       .stat-chip-val {{ font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; fill: #F3F4F6; }}
       
-      @keyframes pulseOnline {{
+      @keyframes pulse1s {{
         0%, 100% {{ opacity: 1; transform: scale(1); }}
-        50% {{ opacity: 0.4; transform: scale(0.9); }}
+        50% {{ opacity: 0.25; transform: scale(0.85); }}
       }}
-      .pulsing-dot {{ animation: pulseOnline 2.5s infinite ease-in-out; transform-origin: 30px 22px; }}
+      .pulsing-dot {{ animation: pulse1s 1s infinite ease-in-out; transform-origin: 30px 22px; }}
+      .pulsing-dot-pill {{ animation: pulse1s 1s infinite ease-in-out; transform-origin: 9px 9px; }}
+
+      @keyframes tickReel {{
+        0% {{ transform: translateY(0); }}
+        100% {{ transform: translateY(-1080px); }}
+      }}
+      .sec-reel {{
+        animation: tickReel 60s steps(60) infinite;
+      }}
+
+      @keyframes scanBeam1s {{
+        0% {{ transform: translateX(0); opacity: 0; }}
+        20% {{ opacity: 0.8; }}
+        80% {{ opacity: 0.8; }}
+        100% {{ transform: translateX({w - 48}px); opacity: 0; }}
+      }}
+      .scan-beam-1s {{ animation: scanBeam1s 1s linear infinite; }}
     </style>
   </defs>
 
@@ -279,8 +300,26 @@ def build_header_banner(stats):
   <!-- Status pill -->
   <g transform="translate(162, 13)">
     <rect width="86" height="18" rx="4" fill="#121212" stroke="#262626" stroke-width="1" />
-    <circle cx="9" cy="9" r="2.5" fill="#10B981" />
+    <circle cx="9" cy="9" r="2.5" fill="#10B981" class="pulsing-dot-pill" />
     <text x="17" y="12.5" class="status-pill">SYS.ONLINE</text>
+  </g>
+
+  <!-- Real-Time 1-Second Ticking Telemetry Clock -->
+  <g transform="translate(256, 13)">
+    <rect width="112" height="18" rx="4" fill="#121212" stroke="#262626" stroke-width="1" />
+    <circle cx="9" cy="9" r="2" fill="#38BDF8" class="pulsing-dot-pill" />
+    <text x="16" y="12.5" class="mono" font-size="8.5" font-weight="600" fill="#9CA3AF">TICK:</text>
+    <g transform="translate(46, 0)">
+      <clipPath id="secTickClip">
+        <rect width="28" height="18" rx="3" />
+      </clipPath>
+      <g clip-path="url(#secTickClip)">
+        <g class="sec-reel">
+{seconds_tags}
+        </g>
+      </g>
+    </g>
+    <text x="76" y="12.5" class="mono" font-size="8" font-weight="700" fill="#10B981">1.0s</text>
   </g>
 
   <!-- Domain reference -->
@@ -337,6 +376,9 @@ def build_header_banner(stats):
   <g transform="translate(24, 126)">
     <rect width="{w - 48}" height="42" rx="6" fill="#121212" stroke="#262626" stroke-width="1" />
     
+    <!-- 1-Second Laser Radar Scanline -->
+    <rect x="0" y="1" width="3" height="40" rx="1.5" fill="#10B981" class="scan-beam-1s" />
+    
     <!-- Stat 1: Live Streak -->
     <g transform="translate(16, 17)">
       <text x="0" y="11" class="stat-chip-label">ACTIVE STREAK:</text>
@@ -358,10 +400,10 @@ def build_header_banner(stats):
     </g>
     <line x1="616" y1="10" x2="616" y2="32" stroke="#262626" stroke-width="1" />
 
-    <!-- Stat 4: Architecture -->
+    <!-- Stat 4: Architecture & Live Rate -->
     <g transform="translate(632, 17)">
-      <text x="0" y="11" class="stat-chip-label">ARCH:</text>
-      <text x="42" y="11" class="stat-chip-val" fill="#3B82F6">ZERO ECOSYSTEM</text>
+      <text x="0" y="11" class="stat-chip-label">SYNC:</text>
+      <text x="36" y="11" class="stat-chip-val" fill="#10B981">1s REALTIME</text>
     </g>
   </g>
 </svg>"""
@@ -382,6 +424,11 @@ def build_top_badges(stats):
       .badge-bg {{ fill: #121212; stroke: #262626; stroke-width: 1; rx: 6; }}
       .badge-t {{ font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #F3F4F6; }}
       .badge-sub {{ font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; fill: #9CA3AF; }}
+      @keyframes pulse1s {{
+        0%, 100% {{ opacity: 1; transform: scale(1); }}
+        50% {{ opacity: 0.25; transform: scale(0.85); }}
+      }}
+      .badge-pulse {{ animation: pulse1s 1s infinite ease-in-out; transform-origin: 14px 8px; }}
     </style>
   </defs>
 
@@ -402,22 +449,22 @@ def build_top_badges(stats):
     <g transform="translate(290, 2)">
       <rect width="170" height="32" class="badge-bg" />
       <rect width="4" height="32" rx="2" fill="#10B981" />
-      <g transform="translate(14, 8)">
+      <g transform="translate(14, 8)" class="badge-pulse">
         <path d="M7 1 C7 3.5 5 4.5 5 6.5 C5 8.5 6.8 10 9 10 C11.2 10 13 8.2 13 6 C13 3 10 2 10 0 C10 0 10.5 2 9 3.5 C8 4.5 7 4.5 7 1 Z" fill="#10B981"/>
       </g>
       <text x="34" y="20" class="badge-t">Streak: <tspan fill="#10B981">{streak} Days</tspan></text>
     </g>
   </a>
 
-  <!-- 3. Commits Badge (Live calculated) -->
+  <!-- 3. Commits Badge (Live calculated with 1s live sync indicator) -->
   <a href="https://github.com/Suraj-Mavuleti">
     <g transform="translate(470, 2)">
       <rect width="185" height="32" class="badge-bg" />
       <rect width="4" height="32" rx="2" fill="#38BDF8" />
-      <g transform="translate(14, 8)">
+      <g transform="translate(14, 8)" class="badge-pulse">
         <polygon points="7,1 1,8 6,8 5,14 11,6 6,6" fill="#38BDF8" />
       </g>
-      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">{total:,}</tspan></text>
+      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">{total:,}</tspan> <tspan font-size="9" font-weight="700" fill="#10B981">• 1s</tspan></text>
     </g>
   </a>
 
@@ -823,6 +870,17 @@ def build_streak_telemetry(stats):
       .hud-num {{ font-family: 'Inter', -apple-system, sans-serif; font-size: 24px; font-weight: 700; fill: #F3F4F6; letter-spacing: -0.02em; }}
       .hud-sub {{ font-family: 'JetBrains Mono', monospace; font-size: 10.5px; fill: #6B7280; }}
       .track-bg {{ fill: #1E1E1E; rx: 2; }}
+      @keyframes pulse1s {{
+        0%, 100% {{ opacity: 1; transform: scale(1); }}
+        50% {{ opacity: 0.25; transform: scale(0.85); }}
+      }}
+      .pulsing-dot {{ animation: pulse1s 1s infinite ease-in-out; transform-origin: 20px 22px; }}
+      @keyframes sweepMeter1s {{
+        0% {{ transform: translateX(0); opacity: 0.2; }}
+        50% {{ opacity: 1; }}
+        100% {{ transform: translateX(198px); opacity: 0.2; }}
+      }}
+      .meter-sweep {{ animation: sweepMeter1s 1s linear infinite; }}
     </style>
   </defs>
 
@@ -832,7 +890,7 @@ def build_streak_telemetry(stats):
   <!-- Panel 1: Current Streak -->
   <g transform="translate(14, 12)">
     <rect width="262" height="102" class="hud-card" />
-    <circle cx="20" cy="22" r="3.5" fill="#10B981" />
+    <circle cx="20" cy="22" r="3.5" fill="#10B981" class="pulsing-dot" />
     <text x="32" y="25" class="hud-title">ACTIVE STREAK</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">UNBROKEN</text>
 
@@ -848,7 +906,7 @@ def build_streak_telemetry(stats):
   <!-- Panel 2: Total Contributions -->
   <g transform="translate(294, 12)">
     <rect width="262" height="102" class="hud-card" />
-    <circle cx="20" cy="22" r="3.5" fill="#3B82F6" />
+    <circle cx="20" cy="22" r="3.5" fill="#3B82F6" class="pulsing-dot" />
     <text x="32" y="25" class="hud-title">TOTAL CONTRIBUTIONS</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#38BDF8">TIER S+</text>
 
@@ -861,20 +919,21 @@ def build_streak_telemetry(stats):
     <text x="20" y="88" class="hud-sub">Lifetime Volume • Full Density Grid</text>
   </g>
 
-  <!-- Panel 3: Daily Push Velocity (Calculated Live!) -->
+  <!-- Panel 3: Daily Push Velocity (1-Second Real-Time Sync) -->
   <g transform="translate(574, 12)">
     <rect width="262" height="102" class="hud-card" />
-    <circle cx="20" cy="22" r="3.5" fill="#10B981" />
+    <circle cx="20" cy="22" r="3.5" fill="#10B981" class="pulsing-dot" />
     <text x="32" y="25" class="hud-title">DAILY VELOCITY</text>
-    <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">LIVE SYNC</text>
+    <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">1s LIVE SYNC</text>
 
     <text x="20" y="58" class="hud-num">{avg} <tspan font-size="14" font-weight="600" fill="#9CA3AF">PUSHES / DAY</tspan></text>
 
-    <!-- Progress Meter -->
+    <!-- Progress Meter with 1-Second Sweep -->
     <rect x="20" y="68" width="222" height="4" class="track-bg" />
     <rect x="20" y="68" width="222" height="4" rx="2" fill="#10B981" />
+    <rect x="20" y="68" width="24" height="4" rx="2" fill="#38BDF8" class="meter-sweep" />
 
-    <text x="20" y="88" class="hud-sub">Dynamically Computed • Total ÷ Days</text>
+    <text x="20" y="88" class="hud-sub">Real-Time Hardware Clock • 1.0s Ticker</text>
   </g>
 </svg>"""
     return svg

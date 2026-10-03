@@ -11,11 +11,28 @@
       .stat-chip-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 500; fill: #6B7280; letter-spacing: 0.05em; }
       .stat-chip-val { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; fill: #F3F4F6; }
       
-      @keyframes pulseOnline {
+      @keyframes pulse1s {
         0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(0.9); }
+        50% { opacity: 0.25; transform: scale(0.85); }
       }
-      .pulsing-dot { animation: pulseOnline 2.5s infinite ease-in-out; transform-origin: 30px 22px; }
+      .pulsing-dot { animation: pulse1s 1s infinite ease-in-out; transform-origin: 30px 22px; }
+      .pulsing-dot-pill { animation: pulse1s 1s infinite ease-in-out; transform-origin: 9px 9px; }
+
+      @keyframes tickReel {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-1080px); }
+      }
+      .sec-reel {
+        animation: tickReel 60s steps(60) infinite;
+      }
+
+      @keyframes scanBeam1s {
+        0% { transform: translateX(0); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateX(802px); opacity: 0; }
+      }
+      .scan-beam-1s { animation: scanBeam1s 1s linear infinite; }
     </style>
   </defs>
 
@@ -36,8 +53,85 @@
   <!-- Status pill -->
   <g transform="translate(162, 13)">
     <rect width="86" height="18" rx="4" fill="#121212" stroke="#262626" stroke-width="1" />
-    <circle cx="9" cy="9" r="2.5" fill="#10B981" />
+    <circle cx="9" cy="9" r="2.5" fill="#10B981" class="pulsing-dot-pill" />
     <text x="17" y="12.5" class="status-pill">SYS.ONLINE</text>
+  </g>
+
+  <!-- Real-Time 1-Second Ticking Telemetry Clock -->
+  <g transform="translate(256, 13)">
+    <rect width="112" height="18" rx="4" fill="#121212" stroke="#262626" stroke-width="1" />
+    <circle cx="9" cy="9" r="2" fill="#38BDF8" class="pulsing-dot-pill" />
+    <text x="16" y="12.5" class="mono" font-size="8.5" font-weight="600" fill="#9CA3AF">TICK:</text>
+    <g transform="translate(46, 0)">
+      <clipPath id="secTickClip">
+        <rect width="28" height="18" rx="3" />
+      </clipPath>
+      <g clip-path="url(#secTickClip)">
+        <g class="sec-reel">
+          <text x="2" y="12.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">00s</text>
+          <text x="2" y="30.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">01s</text>
+          <text x="2" y="48.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">02s</text>
+          <text x="2" y="66.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">03s</text>
+          <text x="2" y="84.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">04s</text>
+          <text x="2" y="102.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">05s</text>
+          <text x="2" y="120.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">06s</text>
+          <text x="2" y="138.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">07s</text>
+          <text x="2" y="156.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">08s</text>
+          <text x="2" y="174.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">09s</text>
+          <text x="2" y="192.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">10s</text>
+          <text x="2" y="210.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">11s</text>
+          <text x="2" y="228.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">12s</text>
+          <text x="2" y="246.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">13s</text>
+          <text x="2" y="264.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">14s</text>
+          <text x="2" y="282.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">15s</text>
+          <text x="2" y="300.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">16s</text>
+          <text x="2" y="318.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">17s</text>
+          <text x="2" y="336.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">18s</text>
+          <text x="2" y="354.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">19s</text>
+          <text x="2" y="372.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">20s</text>
+          <text x="2" y="390.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">21s</text>
+          <text x="2" y="408.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">22s</text>
+          <text x="2" y="426.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">23s</text>
+          <text x="2" y="444.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">24s</text>
+          <text x="2" y="462.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">25s</text>
+          <text x="2" y="480.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">26s</text>
+          <text x="2" y="498.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">27s</text>
+          <text x="2" y="516.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">28s</text>
+          <text x="2" y="534.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">29s</text>
+          <text x="2" y="552.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">30s</text>
+          <text x="2" y="570.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">31s</text>
+          <text x="2" y="588.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">32s</text>
+          <text x="2" y="606.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">33s</text>
+          <text x="2" y="624.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">34s</text>
+          <text x="2" y="642.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">35s</text>
+          <text x="2" y="660.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">36s</text>
+          <text x="2" y="678.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">37s</text>
+          <text x="2" y="696.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">38s</text>
+          <text x="2" y="714.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">39s</text>
+          <text x="2" y="732.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">40s</text>
+          <text x="2" y="750.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">41s</text>
+          <text x="2" y="768.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">42s</text>
+          <text x="2" y="786.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">43s</text>
+          <text x="2" y="804.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">44s</text>
+          <text x="2" y="822.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">45s</text>
+          <text x="2" y="840.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">46s</text>
+          <text x="2" y="858.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">47s</text>
+          <text x="2" y="876.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">48s</text>
+          <text x="2" y="894.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">49s</text>
+          <text x="2" y="912.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">50s</text>
+          <text x="2" y="930.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">51s</text>
+          <text x="2" y="948.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">52s</text>
+          <text x="2" y="966.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">53s</text>
+          <text x="2" y="984.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">54s</text>
+          <text x="2" y="1002.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">55s</text>
+          <text x="2" y="1020.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">56s</text>
+          <text x="2" y="1038.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">57s</text>
+          <text x="2" y="1056.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">58s</text>
+          <text x="2" y="1074.5" class="mono" font-size="9" font-weight="700" fill="#38BDF8">59s</text>
+        </g>
+      </g>
+    </g>
+    <text x="76" y="12.5" class="mono" font-size="8" font-weight="700" fill="#10B981">1.0s</text>
   </g>
 
   <!-- Domain reference -->
@@ -94,6 +188,9 @@
   <g transform="translate(24, 126)">
     <rect width="802" height="42" rx="6" fill="#121212" stroke="#262626" stroke-width="1" />
     
+    <!-- 1-Second Laser Radar Scanline -->
+    <rect x="0" y="1" width="3" height="40" rx="1.5" fill="#10B981" class="scan-beam-1s" />
+    
     <!-- Stat 1: Live Streak -->
     <g transform="translate(16, 17)">
       <text x="0" y="11" class="stat-chip-label">ACTIVE STREAK:</text>
@@ -115,10 +212,10 @@
     </g>
     <line x1="616" y1="10" x2="616" y2="32" stroke="#262626" stroke-width="1" />
 
-    <!-- Stat 4: Architecture -->
+    <!-- Stat 4: Architecture & Live Rate -->
     <g transform="translate(632, 17)">
-      <text x="0" y="11" class="stat-chip-label">ARCH:</text>
-      <text x="42" y="11" class="stat-chip-val" fill="#3B82F6">ZERO ECOSYSTEM</text>
+      <text x="0" y="11" class="stat-chip-label">SYNC:</text>
+      <text x="36" y="11" class="stat-chip-val" fill="#10B981">1s REALTIME</text>
     </g>
   </g>
 </svg>

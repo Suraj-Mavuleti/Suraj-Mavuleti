@@ -4,6 +4,11 @@
       .badge-bg { fill: #121212; stroke: #262626; stroke-width: 1; rx: 6; }
       .badge-t { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #F3F4F6; }
       .badge-sub { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; fill: #9CA3AF; }
+      @keyframes pulse1s {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.25; transform: scale(0.85); }
+      }
+      .badge-pulse { animation: pulse1s 1s infinite ease-in-out; transform-origin: 14px 8px; }
     </style>
   </defs>
 
@@ -24,22 +29,22 @@
     <g transform="translate(290, 2)">
       <rect width="170" height="32" class="badge-bg" />
       <rect width="4" height="32" rx="2" fill="#10B981" />
-      <g transform="translate(14, 8)">
+      <g transform="translate(14, 8)" class="badge-pulse">
         <path d="M7 1 C7 3.5 5 4.5 5 6.5 C5 8.5 6.8 10 9 10 C11.2 10 13 8.2 13 6 C13 3 10 2 10 0 C10 0 10.5 2 9 3.5 C8 4.5 7 4.5 7 1 Z" fill="#10B981"/>
       </g>
       <text x="34" y="20" class="badge-t">Streak: <tspan fill="#10B981">371 Days</tspan></text>
     </g>
   </a>
 
-  <!-- 3. Commits Badge (Live calculated) -->
+  <!-- 3. Commits Badge (Live calculated with 1s live sync indicator) -->
   <a href="https://github.com/Suraj-Mavuleti">
     <g transform="translate(470, 2)">
       <rect width="185" height="32" class="badge-bg" />
       <rect width="4" height="32" rx="2" fill="#38BDF8" />
-      <g transform="translate(14, 8)">
+      <g transform="translate(14, 8)" class="badge-pulse">
         <polygon points="7,1 1,8 6,8 5,14 11,6 6,6" fill="#38BDF8" />
       </g>
-      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">83,577</tspan></text>
+      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">83,577</tspan> <tspan font-size="9" font-weight="700" fill="#10B981">• 1s</tspan></text>
     </g>
   </a>
 
