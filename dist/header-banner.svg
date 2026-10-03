@@ -201,7 +201,7 @@
     <!-- Stat 2: Total Commits -->
     <g transform="translate(216, 17)">
       <text x="0" y="11" class="stat-chip-label">TOTAL COMMITS:</text>
-      <text x="102" y="11" class="stat-chip-val">83,684</text>
+      <text x="102" y="11" class="stat-chip-val">83,685</text>
     </g>
     <line x1="416" y1="10" x2="416" y2="32" stroke="#262626" stroke-width="1" />
 
