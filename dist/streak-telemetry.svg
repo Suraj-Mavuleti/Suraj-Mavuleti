@@ -47,7 +47,7 @@
     <text x="32" y="25" class="hud-title">TOTAL CONTRIBUTIONS</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#38BDF8">TIER S+</text>
 
-    <text x="20" y="58" class="hud-num">83,616 <tspan font-size="14" font-weight="600" fill="#9CA3AF">COMMITS</tspan></text>
+    <text x="20" y="58" class="hud-num">83,684 <tspan font-size="14" font-weight="600" fill="#9CA3AF">COMMITS</tspan></text>
 
     <!-- Progress Meter -->
     <rect x="20" y="68" width="222" height="4" class="track-bg" />
@@ -63,7 +63,7 @@
     <text x="32" y="25" class="hud-title">DAILY VELOCITY</text>
     <text x="242" y="25" text-anchor="end" class="hud-tag" fill="#10B981">1s LIVE SYNC</text>
 
-    <text x="20" y="58" class="hud-num">225.4 <tspan font-size="14" font-weight="600" fill="#9CA3AF">PUSHES / DAY</tspan></text>
+    <text x="20" y="58" class="hud-num">225.6 <tspan font-size="14" font-weight="600" fill="#9CA3AF">PUSHES / DAY</tspan></text>
 
     <!-- Progress Meter with 1-Second Sweep -->
     <rect x="20" y="68" width="222" height="4" class="track-bg" />
