@@ -70,7 +70,7 @@
 | **[Zero Control](https://zero.skillissue.gg/zero-control)** | Ultra-lightweight peer-to-peer remote desktop for Windows, Linux, and Android. | Rust, egui, GStreamer, WebRTC, Node.js |
 | **[Zero-Council (High On Therapy)](https://zero.skillissue.gg/highontherapy)** | Autonomous mental wellness platform with emotional avatars & speech recognition. | FastAPI, PyTorch, Web Speech API, Three.js |
 | **[High on Therapy Training](https://github.com/Suraj-Mavuleti/highontherapy-ai-training)** | From-scratch Decoder-Only Transformer pre-training engine on Google Colab with auto-resume. | PyTorch, Hugging Face, Transformers |
-| **[Zero Assist](https://github.com/Suraj-Mavuleti/zero-assist)** | High-performance modular Discord companion bot with games, leveling, voice & auto-moderation. | Python, discord.py, AsyncIO, SQLite/PostgreSQL |
+| **[Zero Assist](https://zero.skillissue.gg)** | High-performance modular Discord companion bot with games, leveling, voice & auto-moderation. | Python, discord.py, AsyncIO, SQLite/PostgreSQL |
 | **[Dev//Zero Systems Wiki](https://zero.skillissue.gg)** | Living central engineering documentation and project wiki for the dev//zero ecosystem. | Express, HTML5/CSS3, GSAP, Cyber-Emerald Theme |
 
 ---
