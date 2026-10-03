@@ -27,8 +27,10 @@ jobs:
           python-version: '3.11'
 
       - name: Fetch Live GitHub Contributions & Generate Pac-Man Graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -sL https://zero.skillissue.gg/api/github-contributions -o /tmp/contributions.json
+          curl -sL https://zero.skillissue.gg/api/github-contributions -o /tmp/contributions.json || true
           python3 build_native_assets.py
 
       - name: Commit and Push Updated SVGs

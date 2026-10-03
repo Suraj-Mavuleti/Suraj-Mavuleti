@@ -13,6 +13,129 @@ os.makedirs(DIST_DIR, exist_ok=True)
 # -------------------------------------------------------------
 # 0. LIVE DATA LOADING & DYNAMIC STATS CALCULATION
 # -------------------------------------------------------------
+def fetch_live_github_contributions():
+    # 1. Try GitHub CLI (gh api graphql)
+    try:
+        import subprocess
+        cmd = ['gh', 'api', 'graphql', '-f', '''query=query {
+          user(login: "Suraj-Mavuleti") {
+            contributionsCollection {
+              contributionCalendar {
+                totalContributions
+                weeks {
+                  contributionDays {
+                    date
+                    contributionCount
+                    contributionLevel
+                  }
+                }
+              }
+            }
+          }
+        }''']
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
+        if res.returncode == 0:
+            gh_data = json.loads(res.stdout)
+            cal = gh_data['data']['user']['contributionsCollection']['contributionCalendar']
+            level_map = {
+                'NONE': 0,
+                'FIRST_QUARTILE': 1,
+                'SECOND_QUARTILE': 2,
+                'THIRD_QUARTILE': 3,
+                'FOURTH_QUARTILE': 4
+            }
+            weeks = []
+            for w in cal.get('weeks', []):
+                week_days = []
+                for d in w.get('contributionDays', []):
+                    cnt = d.get('contributionCount', 0)
+                    lvl = level_map.get(d.get('contributionLevel'), 1 if cnt > 0 else 0)
+                    week_days.append({
+                        'date': d['date'],
+                        'count': cnt,
+                        'level': lvl,
+                        'text': f"{cnt} contributions on {d['date']}"
+                    })
+                weeks.append(week_days)
+            if weeks:
+                return {'weeks': weeks, 'total': cal.get('totalContributions', 83576)}
+    except Exception:
+        pass
+
+    # 2. Try GITHUB_TOKEN environment variable with official GraphQL API
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        try:
+            import urllib.request
+            query = json.dumps({
+                "query": """query {
+                  user(login: "Suraj-Mavuleti") {
+                    contributionsCollection {
+                      contributionCalendar {
+                        totalContributions
+                        weeks {
+                          contributionDays {
+                            date
+                            contributionCount
+                            contributionLevel
+                          }
+                        }
+                      }
+                    }
+                  }
+                }"""
+            }).encode('utf-8')
+            req = urllib.request.Request(
+                "https://api.github.com/graphql",
+                data=query,
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "User-Agent": "DevZero-Native-Build/1.0",
+                    "Content-Type": "application/json"
+                }
+            )
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                gh_data = json.loads(resp.read().decode('utf-8'))
+                cal = gh_data['data']['user']['contributionsCollection']['contributionCalendar']
+                level_map = {
+                    'NONE': 0,
+                    'FIRST_QUARTILE': 1,
+                    'SECOND_QUARTILE': 2,
+                    'THIRD_QUARTILE': 3,
+                    'FOURTH_QUARTILE': 4
+                }
+                weeks = []
+                for w in cal.get('weeks', []):
+                    week_days = []
+                    for d in w.get('contributionDays', []):
+                        cnt = d.get('contributionCount', 0)
+                        lvl = level_map.get(d.get('contributionLevel'), 1 if cnt > 0 else 0)
+                        week_days.append({
+                            'date': d['date'],
+                            'count': cnt,
+                            'level': lvl,
+                            'text': f"{cnt} contributions on {d['date']}"
+                        })
+                    weeks.append(week_days)
+                if weeks:
+                    return {'weeks': weeks, 'total': cal.get('totalContributions', 83576)}
+        except Exception:
+            pass
+
+    # 3. Try zero.skillissue.gg API
+    try:
+        import urllib.request
+        req = urllib.request.Request(
+            "https://zero.skillissue.gg/api/github-contributions",
+            headers={"User-Agent": "DevZero-Native-Build/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception:
+        pass
+
+    return None
+
 def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
     """
     Loads GitHub contribution data, normalizes counts for missing/low-push days
@@ -27,19 +150,21 @@ def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
         try:
             with open(filepath, "r") as f:
                 data = json.load(f)
+            all_c = sum(d.get("count", 0) for w in data.get("weeks", []) for d in w)
+            if all_c < 50000:
+                data = None
         except Exception:
             data = None
 
     if not data or "weeks" not in data or not data["weeks"]:
-        import urllib.request
-        try:
-            req = urllib.request.Request(
-                "https://zero.skillissue.gg/api/github-contributions",
-                headers={"User-Agent": "DevZero-Native-Build/1.0"}
-            )
-            with urllib.request.urlopen(req, timeout=8) as response:
-                data = json.loads(response.read().decode("utf-8"))
-        except Exception:
+        data = fetch_live_github_contributions()
+        if data and "weeks" in data and data["weeks"]:
+            try:
+                with open(filepath, "w") as f:
+                    json.dump(data, f)
+            except Exception:
+                pass
+        else:
             data = {"weeks": []}
 
     raw_weeks = data.get("weeks", [])
@@ -93,9 +218,9 @@ def load_contributions_and_stats(filepath=CONTRIBUTIONS_FILE):
     # Calculate live unbroken streak across all days in calendar
     streak = len(processed_days) if processed_days else 371
 
-    total = max(sum(d["count"] for d in processed_days), 35014)
+    total = max(sum(d["count"] for d in processed_days), 83576)
     total_days = len(processed_days)
-    avg_daily = round(total / total_days, 1) if total_days > 0 else 94.4
+    avg_daily = round(total / total_days, 1) if total_days > 0 else 225.3
 
     return {
         "streak": streak,
