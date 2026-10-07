@@ -194,7 +194,7 @@
     <!-- Stat 1: Live Streak -->
     <g transform="translate(16, 17)">
       <text x="0" y="11" class="stat-chip-label">ACTIVE STREAK:</text>
-      <text x="96" y="11" class="stat-chip-val" fill="#10B981">367 DAYS</text>
+      <text x="96" y="11" class="stat-chip-val" fill="#10B981">368 DAYS</text>
     </g>
     <line x1="200" y1="10" x2="200" y2="32" stroke="#262626" stroke-width="1" />
 
@@ -208,7 +208,7 @@
     <!-- Stat 3: Daily Velocity (Live calculated) -->
     <g transform="translate(432, 17)">
       <text x="0" y="11" class="stat-chip-label">AVG VELOCITY:</text>
-      <text x="96" y="11" class="stat-chip-val" fill="#38BDF8">227.7 / DAY</text>
+      <text x="96" y="11" class="stat-chip-val" fill="#38BDF8">227.1 / DAY</text>
     </g>
     <line x1="616" y1="10" x2="616" y2="32" stroke="#262626" stroke-width="1" />
 
