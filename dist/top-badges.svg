@@ -32,7 +32,7 @@
       <g transform="translate(14, 8)" class="badge-pulse">
         <path d="M7 1 C7 3.5 5 4.5 5 6.5 C5 8.5 6.8 10 9 10 C11.2 10 13 8.2 13 6 C13 3 10 2 10 0 C10 0 10.5 2 9 3.5 C8 4.5 7 4.5 7 1 Z" fill="#10B981"/>
       </g>
-      <text x="34" y="20" class="badge-t">Streak: <tspan fill="#10B981">371 Days</tspan></text>
+      <text x="34" y="20" class="badge-t">Streak: <tspan fill="#10B981">365 Days</tspan></text>
     </g>
   </a>
 
@@ -44,7 +44,7 @@
       <g transform="translate(14, 8)" class="badge-pulse">
         <polygon points="7,1 1,8 6,8 5,14 11,6 6,6" fill="#38BDF8" />
       </g>
-      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">83,691</tspan> <tspan font-size="9" font-weight="700" fill="#10B981">• 1s</tspan></text>
+      <text x="32" y="20" class="badge-t">Commits: <tspan fill="#38BDF8">83,577</tspan> <tspan font-size="9" font-weight="700" fill="#10B981">• 1s</tspan></text>
     </g>
   </a>
 
